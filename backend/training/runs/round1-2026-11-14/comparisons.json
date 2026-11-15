@@ -1,0 +1,98 @@
+[
+  {
+    "evaluation": "earth_logo",
+    "model": "ridge",
+    "reference": "nearest",
+    "relative_mae_improvement": 0.2504537544757768,
+    "passes_relative_gate": true,
+    "group_delta_percentiles_mms": [
+      -0.010022457145618287,
+      -0.0010676183338170018
+    ],
+    "interpretation": "Exploratory error resampling, not a prediction interval or independent CV significance test."
+  },
+  {
+    "evaluation": "earth_logo",
+    "model": "catboost_gpu",
+    "reference": "nearest",
+    "relative_mae_improvement": -0.0675681671347077,
+    "passes_relative_gate": false,
+    "group_delta_percentiles_mms": [
+      -0.0047388561331380115,
+      0.008596168744782078
+    ],
+    "interpretation": "Exploratory error resampling, not a prediction interval or independent CV significance test."
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "ridge",
+    "reference": "median",
+    "relative_mae_improvement": 0.3211039441659225,
+    "passes_relative_gate": true,
+    "group_delta_percentiles_mms": [
+      -0.01050428765869374,
+      -0.0021946405783178765
+    ],
+    "interpretation": "Exploratory error resampling, not a prediction interval or independent CV significance test."
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "catboost_gpu",
+    "reference": "median",
+    "relative_mae_improvement": 0.23066398402242927,
+    "passes_relative_gate": true,
+    "group_delta_percentiles_mms": [
+      -0.009413191602920581,
+      0.0008849590232529998
+    ],
+    "interpretation": "Exploratory error resampling, not a prediction interval or independent CV significance test."
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "ridge",
+    "reference": "nearest",
+    "relative_mae_improvement": -0.6676579963710372,
+    "passes_relative_gate": false,
+    "group_delta_percentiles_mms": [
+      0.002837263553633913,
+      0.01863822391710458
+    ],
+    "interpretation": "Exploratory error resampling, not a prediction interval or independent CV significance test."
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "catboost_gpu",
+    "reference": "nearest",
+    "relative_mae_improvement": -0.01922453127422763,
+    "passes_relative_gate": false,
+    "group_delta_percentiles_mms": [
+      -0.005652772965689976,
+      0.005875411753396401
+    ],
+    "interpretation": "Exploratory error resampling, not a prediction interval or independent CV significance test."
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "ridge",
+    "reference": "median",
+    "relative_mae_improvement": -0.024094305947766292,
+    "passes_relative_gate": false,
+    "group_delta_percentiles_mms": [
+      -0.006159069472904385,
+      0.007248110712517244
+    ],
+    "interpretation": "Exploratory error resampling, not a prediction interval or independent CV significance test."
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "catboost_gpu",
+    "reference": "median",
+    "relative_mae_improvement": 0.28312863968065616,
+    "passes_relative_gate": true,
+    "group_delta_percentiles_mms": [
+      -0.007806838642512834,
+      0.0006839029507596323
+    ],
+    "interpretation": "Exploratory error resampling, not a prediction interval or independent CV significance test."
+  }
+]

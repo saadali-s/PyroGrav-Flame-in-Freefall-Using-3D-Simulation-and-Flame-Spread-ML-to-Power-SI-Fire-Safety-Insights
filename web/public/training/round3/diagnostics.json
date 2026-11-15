@@ -1,0 +1,23 @@
+{
+  "primary": "mixed_3p5_penalty",
+  "earth_effective_flow_cms": [
+    23.434738470511437,
+    47.616909739627616
+  ],
+  "flight_effective_flow_cms": [
+    0.48,
+    4.0
+  ],
+  "flight_outside_effective_flow_training_range": 34,
+  "flight_standardized_log_flow_range": [
+    -17.530470292468372,
+    -8.86412622746679
+  ],
+  "primary_transfer_prediction_range_mms": [
+    0.6679762088626247,
+    13.909231690323303
+  ],
+  "primary_transfer_penalty_active": 0,
+  "all_penalized_fits_with_active_violations": 63,
+  "interpretation": "This log-linear fit extrapolates into an unobserved low-flow regime and exponentiates inflated log predictions. An oxygen prior does not constrain that flow response. This diagnoses this implementation, not a refutation of the published heat-transfer mapping."
+}

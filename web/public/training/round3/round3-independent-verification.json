@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "predictions_reproduced": 1771,
+  "metrics_recomputed": 70,
+  "round2_control_predictions_reproduced": 126,
+  "maximum_prediction_difference_mms": 1.1404210908949608e-12,
+  "maximum_optimizer_gradient": 4.5075054799781356e-14,
+  "optimizer": "Independent NumPy features and SciPy trust-exact CPU optimization; no training module imported",
+  "cuda_fits": 460,
+  "prior_artifacts_unchanged": 100,
+  "raw_files_unchanged": 53,
+  "unit_limits_checked": true,
+  "group_disjoint": true,
+  "earth_transfer_uses_no_flight_training_labels": true,
+  "source_model_not_independent_of_BASS": true,
+  "not_a_blind_test": true
+}

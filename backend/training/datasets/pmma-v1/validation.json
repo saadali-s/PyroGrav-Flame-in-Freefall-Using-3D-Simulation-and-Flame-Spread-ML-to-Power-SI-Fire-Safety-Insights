@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "raw_files_unchanged": 49,
+  "rows": 98,
+  "numeric": 89,
+  "candidates": 69,
+  "review": 29,
+  "duplicate_observation_ids": 0,
+  "synthetic_labels": 0,
+  "models_trained": 0,
+  "lunar_reference_rows_excluded": 6,
+  "public_csv_hashes_match": true,
+  "extraction_engine": "pdfplumber 0.11.9",
+  "builder_sha256": "9bc21aa8e332a29276e6909bc84f9cde827fb5878e74b7ab2d3a44b945aa9753",
+  "checked": "Rendered both source tables and main p5; LUCI p20/33/36; source-row anchors, merged cells, missing values, groups, counts, conversions and raw preservation."
+}

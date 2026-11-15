@@ -1,0 +1,11 @@
+code,disposition,evidence,affected_rows
+U01,Documented inference; compare strict-unit subset in sensitivity analysis.,"Supplement p1 right says scaled mm/s; main p5 Figures 5/6 and supplement p2 Figure S1 support scaled cm/s. Adopt displayed value ×0.01 mm/s, not ×0.001. No author erratum.",26
+M01,Separate material color; withhold from black-PMMA first model.,S1 caption explicitly distinguishes B black and C clear; main p3 discusses radiation differences.,6
+M02,Withhold ambiguous sample color.,S1 prints P17; NASA report p114 says rod without color. Do not silently relabel B17.,3
+F01,Withhold pending crosswalk; optional expanded-cohort experiment later.,"Link p4 Fig4/p5 Fig6 identify B16/B19 as opposed. NASA report p114 P16/P19 (matching oxygen and flow patterns) says Concurrent. B/P crosswalk probable, not certified.",8
+O01,Withhold pending crosswalk and oxygen reconciliation.,S1 B15 at18.4% versus probable report p114 P15 initial18.0%. Keep original values; do not substitute either automatically.,1
+Y01,"Keep as missing, not zero or a class label.",Nine S2 rows contain dashes; no row-specific outcome definition adopted.,9
+D01,Withhold both duplicate-condition means.,"S2 left rows20/21: d=.64cm, O2=18%, flow2cm/s; rates4.69/3.13; unresolved source entry.",2
+G01,Keep B13a/b in one conservative specimen group.,NASA report p114 P13a/b share specimen203m; probable matching labels and oxygen. No random segment splitting.,6
+G02,One row per published mean; group related conditions; no invented replicates.,S2 caption: average of at least three tests. +/- percent lacks SD/SE definition; specimen IDs unavailable.,46
+P01,Leave pressure blank; not a first-model feature.,No numerical per-row pressure column in S1/S2. No 101.325kPa default inserted.,98

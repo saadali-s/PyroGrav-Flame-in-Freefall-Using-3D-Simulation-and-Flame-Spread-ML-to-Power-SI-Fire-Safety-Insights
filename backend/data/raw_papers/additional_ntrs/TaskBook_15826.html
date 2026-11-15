@@ -1,0 +1,901 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head><script type="text/javascript">/* <![CDATA[ */_cf_loadingtexthtml="\u003cimg alt=\' \' src=\'/cf_scripts/scripts/ajax/resources/cf/images/loading.gif\'/\u003e";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/cf_scripts/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_websocket_port=8585;
+_cf_flash_policy_port=1243;
+_cf_clientid='86EC64391F5080EAF14F9A52BE4D08BF';/* ]]> */</script><script type="text/javascript" src="/cf_scripts/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/package/cfajax.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/ext/ext-all.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/package/cflayout.js"></script>
+<link rel="stylesheet" type="text/css" href="/cf_scripts/scripts/ajax/resources/ext/css/ext-all.css" />
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/package/cfwindow.js"></script>
+<link rel="stylesheet" type="text/css" href="/cf_scripts/scripts/ajax/resources/cf/cf.css" />
+
+	<title>The NASA Task Book</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<link href="_css/tbenasa.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="./_js/jquery-4.0.0.min.js"></script>
+<script type="text/javascript" src="./_js/jquery-ui.min.js"></script>
+<link href="./_js/jquery-ui.min.css" type="text/css" rel="stylesheet">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WHCJMJP4CD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WHCJMJP4CD');
+</script>
+
+
+
+<script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=HQ" id="_fed_an_ua_tag"></script>
+
+
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFLAYOUT-TAB');
+/* ]]> */</script>
+
+	<script type="text/javascript">/* <![CDATA[ */
+		Ext.onReady(function(){var _cf_layout_init_1580487678557401=function()
+		{
+			var _cf_layout=ColdFusion.Layout.initializeTabLayout("contentLayout", false, null, null, false);
+			ColdFusion.Layout.addTab(_cf_layout,"cf_layoutareaReport2026","Report2026","&nbsp;&nbsp;FY 2026 Report&nbsp;&nbsp;",null,false,false,false,true);
+			ColdFusion.Layout.addTab(_cf_layout,"cf_layoutareaReport2025","Report2025","&nbsp;&nbsp;FY 2025 Report&nbsp;&nbsp;",null,false,false,false,true);
+			ColdFusion.Layout.selectTab('contentLayout','Report2025');
+			ColdFusion.Layout.addTab(_cf_layout,"cf_layoutareaReport2023","Report2023","&nbsp;&nbsp;FY 2023 Report&nbsp;&nbsp;",null,false,false,false,true);
+			
+		};ColdFusion.Event.registerOnLoad(_cf_layout_init_1580487678557401);});
+	/* ]]> */</script>
+	
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFWINDOW');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	Ext.onReady(function(){var _cf_window_init_1580487678557403=function()
+	{
+		_cf_bind_init_1580487678557404=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'popbibinfo-body','bindExpr':['stackbib.cfm']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1580487678557404);var _cf_window=ColdFusion.Window.create('popbibinfo','Bibliographic Listing of All Years','stackbib.cfm',{ modal:false, closable:true, divid:'cf_window1580487678557402', draggable:true, resizable:true, fixedcenter:true, width:750, height:500, shadow:true, bodystyle:'border-width:2px; background-color:fff', callfromtag:true, minwidth:0, minheight:0, initshow:false, destroyonclose:false, _cf_refreshOnShow:true});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1580487678557403);});
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	Ext.onReady(function(){var _cf_window_init_1580487678557406=function()
+	{
+		_cf_bind_init_1580487678557407=function()
+		{
+			ColdFusion.Bind.register([['tid','','change']],{'bindTo':'poptaskinfo-body','bindExpr':['taskinfo.cfm?t=',['tid','','value']]},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1580487678557407);var _cf_window=ColdFusion.Window.create('poptaskinfo','Task Brief Information','taskinfo.cfm?t={tid}',{ modal:false, closable:true, divid:'cf_window1580487678557405', draggable:true, resizable:true, fixedcenter:false, width:900, height:800, shadow:true, bodystyle:'border-width:12px; background-color:#f0f0f0; margin-top: -10px; margin-left: -10px;', callfromtag:true, minwidth:0, minheight:700, initshow:false, destroyonclose:false, x:200, y:250, _cf_refreshOnShow:true});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1580487678557406);});
+/* ]]> */</script>
+</head>
+
+
+
+<body class="homebg">
+
+	<div id="header">
+	<a href="welcome.cfm" title="NASA Task Book"><img src="_images/nasaLogo.svg" alt="nasa" width="80" border="0" align="left" />
+    <br><span class="sitehead">Task Book</span></a>
+    <span id="headerlink">
+    <a href="welcome.cfm" title="Home"><img src="_images/home-solid_white.svg" width="20" alt="" />Home</a>&nbsp;&nbsp; 
+    
+	<a href="contactus.cfm" title="Contact us">Contact Us</a> &nbsp;&nbsp; &nbsp;&nbsp;
+	</span>
+</div>
+
+
+<div id="content">
+	<!-- begin left menu -->
+	<div id="left">
+	<p>&nbsp;</p>
+	<div class="left_header_bg"> 
+	  <h2>Menu</h2>
+	</div>
+
+	<div id="menus">
+	<ul>
+		<li><a href="index.cfm" title="Search">Search Task Book</a><br /><span class="description">(FY2004 - present)</span></li>
+			<ul>
+				<li><a href="maps_metrics.cfm" title="Map Metrics">Maps/Metrics</a></li>
+			</ul>
+		<li><a href="archives.cfm" title="Archives">Search Task Book Archives </a><span class="description">(FY1995 - 2003)</span></li>
+		<li><a href="index.cfm?action=bib_search" title="Bib Search">Search Bibliography</a><br /><span class="description">(FY2004 - present)</span></li>
+        <li><a href="spaceline.cfm" title="Spaceline">SPACELINE Current Awareness Lists</a></li>
+	    <li><a href="highlights.cfm" title="Highlights">Space Life & Physical Sciences Research Highlights</a></li>
+		<li><a href="../exploration/taskbook/" title="PI Submission site" target="internal">PI Submission Site</a></li>
+	    <li>Related Links
+			<ul>
+            	<li class="description"><a title="Biological and Physical Sciences Data (BPS Data)" href="https://science.nasa.gov/biological-physical/data/" target="new">Biological and Physical Sciences Data (BPS Data)</a></li>
+            	<li class="description"><a title="Biological and Physical Sciences Research in Space" href="https://science.nasa.gov/biological-physical/resources/decadal-surveys/" target="new">NASA Biological and Physical Sciences (BPS) Decadal Survey</a></li>
+			    <li class="description"><a title="Provides support documentation for the Human Research Program, including annual reports of accomplishments and publications" href="https://humanresearchroadmap.nasa.gov/Documents/IRP_Rev-Current.pdf" target="new">NASA Human Research Program Integrated Research Plan (IRP)</a></li>
+			    <li class="description"><a title="Web-based tool for communicating the Integrated Research Plan for NASA's Human Research Program (HRP) content, Evidence Reports, external reviews of HRP research, and general HRP organizational information" href="http://humanresearchroadmap.nasa.gov/" target="new">Human Research Roadmap</a></li>
+				<li class="description"><a title="Technology Portfolio System, TechPort, is a NASA resource for locating information about NASA-funded technology development activities" href="http://techport.nasa.gov/home" target="new">TechPort</a></li>
+				<li class="description"><a title="Database that includes each ISS experiment's objectives, descriptions, and results, as well as imagery and additional information that may be found beyond this database" href="https://www.nasa.gov/mission/station/research-explorer/" target="new">Space Station Research Explorer</a></li>
+				<li class="description"><a title="An active archive that provides information and data from 1961 (Mercury Project) through current flight and flight analog studies (International Space Station, Shuttle, bed rest studies, etc.) involving human, plant and animal subjects" href="https://nlsp.nasa.gov/explore/lsdahome" target="new">NASA Life Sciences Portal</a></li>
+				<li class="description"><a title="NASA Solicitation and Proposal Integrated Review and Evaluation System facilitates the search for NASA research opportunities in response to various research announcements in a wide range of science and technology disciplines" href="https://nspires.nasaprs.com/external/" target="new">NSPIRES</a></li>
+				<li class="description"><a title="Founded in 2016 and works in partnership with NASAï¿½s Human Research Program to lead a national effort in translating cutting-edge emerging terrestrial research into applied spaceflight human risk mitigation strategies for exploration missions" href="https://www.bcm.edu/centers/space-medicine/translational-research-institute" target="new">Translational Research Institute for Space Health</a></li>
+			    <li class="description"><a title="NASA  has teamed with the U.S. Department of Energy's (DOE) Office of Science to establish the NASA Space Radiation Laboratory (NSRL) at DOE's Brookhaven National Laboratory to study the effects of cosmic radiation" href="https://www.bnl.gov/nsrl/" target="new">NASA Space Radiation Laboratory(NSRL)</a></li>
+			    
+			</ul>
+			
+		</li>
+	</ul>
+	</div>
+	<p>&nbsp;</p>
+						
+</div>
+	<!-- end left menu -->
+    
+	<div id="mainpage">
+    		
+			<div><h0>The NASA Task Book</h0></div>
+			<div id="guide" align="right">
+			
+                    <a href="index.cfm?st=advanced"><span class="white">Advanced Search</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+            <br />
+            </div>
+			<div class="boxpage">
+           
+				
+<form name="data">
+<input type="hidden" name="tid" value="0" />
+
+<div  id="contentLayout">
+	
+	
+    <div class="smallr"><a href="index.cfm?action=sort&sort=asc&col=pi" title="List Search Results">Back to Search Results</a>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <br />
+    <div  id="cf_layoutareaReport2026" class="x-hidden" style="overflow&#x3a;auto&#x3b;&#x3b;width&#x3a;100&#x25;&#x3b;" align="left">
+		
+		
+<div id="bgdata">
+	<div class="datarow">
+    	<div class="titlerow">
+        	<span class="title">Project Title:&nbsp; Predicting Material Flammability in Partial Gravity Using Microgravity and Ground Data <a href="" title="Expand/Reduce" onclick="toggleAll('2026');return false;"><img id="imgall2026" width="20" src="_images/_minus.gif" alt="" /><span id="objAll2026">Reduce</span></a></span>
+    		<div id="pidetail">
+            	<table width="85%"><tr>
+                	<td width="5%" align="right"><span class="bold">Images: </span></td><td><a href="" onclick="document.forms['data'].tid.value='99BEAE9E7F5F1420D1506AD0FE9C1A6D'; ColdFusion.Window.show('poptaskinfo'); return false;" onkeypress="document.forms['data'].tid.value='99BEAE9E7F5F1420D1506AD0FE9C1A6D'; ColdFusion.Window.show('poptaskinfo'); return false;"><img class="imgborder" width="100" alt="icon" src="/get/tbimg/icon/i/100/99BEAE9E7F5F1420D1506AD0FE9C1A6D" title="Click to show task info" /></a>&nbsp;</td>
+                    <td><span class="bold">Fiscal Year: </span>FY 2026&nbsp;<br/>
+                    	<span class="bold">Division: </span> Physical Sciences&nbsp;<br/>
+                        <span class="bold">Research Discipline/Element: </span><br/>
+                        <b>Physical Sciences</b>: FOUNDATIONS--Fire Safety&nbsp; 
+                        </td>
+                    <td><span class="bold">Start Date: </span>11/01/2023&nbsp;&nbsp;<br/>
+                    	<span class="bold">End Date: </span>11/02/2026&nbsp;&nbsp;<br/>
+                        <span class="bold">Task Last Updated: </span>10/08/2025&nbsp;</td>
+                    <td><a title="download in pdf" href="tbpdf.cfm?id=99BEAE9E7F5F1420D1506AD0FE9C1A6D" download>Download Task Book report in PDF <img src="_images/pdf.gif" alt="pdf" border="0" width="25" /></a><br/>
+						<br/>Open Science: <a href="/oscm/33522B22431A479E06DB896B0DCDF26ABB2B4B9466C337ACDD3CE109DC602B4C.pdf" download="110072551 Han and Liao 14th_USNCM final.pdf" title="Click to downlad">110072551 Han and Liao 14th_USNCM final.pdf</a> 855 KB <br/>Open Science: <a href="/oscm/57DB383EBD048D7384DA74CD562085EAF3E5E856CB0E8F1859FF180742E60B71.pdf" download="14th_USNCM_robinneupane_opposed_flame spread NSF.pdf" title="Click to downlad">14th_USNCM_robinneupane_opposed_flame spread NSF.pdf</a> 936 KB <br/>Open Science: <a href="/oscm/1EF89E48F7D9F5AF3B0E6E72379F4F1625712DB888AEBB115BBCBFA117FA0324.pdf" download="0311_Poster_Nicharee.pdf" title="Click to downlad">0311_Poster_Nicharee.pdf</a> 1,207 KB <br/>Open Science: <a href="/oscm/584935338F49F55589FFDEFBA49EF63E6ADF616ED119D8970B5BF77D8F08D1CA.pdf" download="2024 CSSCI Abstract Neupane.pdf" title="Click to downlad">2024 CSSCI Abstract Neupane.pdf</a> 1,358 KB <br/>Open Science: <a href="/oscm/32B6D05D7CE01D8031ACC724BED080022BC2BC1367F84C2D276121B2101B2D85.pdf" download="2024,11.IMECE Rising Start Poster.pdf" title="Click to downlad">2024,11.IMECE Rising Start Poster.pdf</a> 1,271 KB <br/>Open Science: <a href="/oscm/935DE1FA831377F1AABF375938D9B666FE01B85B3B74B22D9FD6D8AEB2EFC7AB.pdf" download="Robin et al osf poster.pdf" title="Click to downlad">Robin et al osf poster.pdf</a> 2,565 KB <br/>Open Science: <a href="/oscm/82CE8AA331CD33695EEE1420AA4CB116FA10EA10FEFA7FEE3B0E1900D318246B.pdf" download="AAS_Glenn_2024_jiaxuan_han_final_07.10.2024.pdf" title="Click to downlad">AAS_Glenn_2024_jiaxuan_han_final_07.10.2024.pdf</a> 470 KB <br/>Open Science: <a href="/oscm/B4BDB12B86BC1CD6DFB2F0947C62DFA57F13A6CBB1DDE200D7B6EB3B55D5A23D.pptx" download="2024.12.06 ASGSR - Han et al.pptx" title="Click to downlad">2024.12.06 ASGSR - Han et al.pptx</a> 7,056 KB </td>
+                </tr></table>
+            </div>
+    	</div>
+    </div>
+    
+    <div class="datarow">
+    	<div class="titlerow">
+        	
+            <a title="toggle" href="" onclick="toggleAll('2026'); return false;" onkeypress="return false;"><span class="title">Principal Investigator/Affiliation:&nbsp;&nbsp; Liao,&nbsp;Ya-Ting&nbsp;&nbsp;Ph.D.&nbsp;/ Case Western Reserve University&nbsp;<img id="imgpidetail2026" width="15" src="_images/_minus.gif" alt="" /></a></span>
+			<div id="pidetail2026">
+            	<table width="85%"><tr>
+                	<td align="right" class="title" width="5%">Address:&nbsp;</td>
+                    <td> 10900 Euclid Ave&nbsp;<br /> Glennan 619&nbsp;<br/>Cleveland&nbsp;, OH&nbsp;44106-1712&nbsp;</td>
+                    <td>
+						<span class="bold">Email: </span><a href="mailto:yating.liao@case.edu">yating.liao@case.edu</a>&nbsp;<br/>
+                        <span class="bold">Phone: </span>216-368-0048&nbsp;&nbsp;<br/>
+                        <span class="bold">Congressional District: </span>11&nbsp;<br/>
+                        <span class="bold">Web: </span> &nbsp;<br/>
+                        
+					</td>
+                    <td>
+                    	<span class="bold">Organization Type: </span> UNIVERSITY&nbsp;<br/>
+                        <span class="bold">Organization Name: </span> Case Western Reserve University&nbsp;<br/>
+                        <span class="bold">Joint Agency: </span> &nbsp;<br/>
+                        <span class="bold">Comments: </span> &nbsp;
+                    </td>
+                </tr>
+                </table>
+            </div>
+    	<table width="100%">
+            <tr height="1" bgcolor="#baa"><td colspan="5"></td></tr>
+            <tr><td width="5%"><span class="bold">Key Personnel Changes / Previous PI:</span></td>
+            <td colspan="3"> Dr. Ankit Sharma, the former Postdoctoral researcher in the Principal Investigator's lab at Case Western Reserve University (CWRU), left CWRU in January 2024. A new postdoctoral researcher joined the PI's team in October 2024. She replaced Dr. Sharma on this project. <br/></td></tr>
+            <tr height="1" bgcolor="#baa"><td colspan="5"></td></tr>
+            </table>
+            
+    	</div>
+    </div>
+    
+    <div class="datarow">
+    	<div class="titlerow">
+        	
+            <a title="toggle" href="" onclick="toggleAll('2026'); return false;" onkeypress="return false;"><span class="title">Project Information:&nbsp;<span>Grant/Contract No. </span> 80NSSC24K0310&nbsp;<img id="imggrantdetail2026" width="15" src="_images/_minus.gif" alt="" /></a></span>
+    		<div id="grantdetail2026">
+            	<table width="100%">
+                	<tr>
+                    <td width="18%">
+                    	<span class="bold">Responsible Center: </span>NASA GRC&nbsp;<br/>
+                        <span class="bold">Grant Monitor: </span>Johnston, Michael &nbsp;<br/>
+                        <span class="bold">Center Contact: </span>&nbsp;<br/><a href="mailto:michael.johnston@nasa.gov">michael.johnston@nasa.gov</a>&nbsp;<br/>
+						<span class="bold">Unique ID: </span>15826&nbsp;
+                    </td>
+                    <td>
+						<span class="bold">Solicitation / Funding Source: </span> 2022 Physical Sciences NNH22ZDA001N-PSI E.8 Physical Sciences Informatics&nbsp;<br/>
+                        <span class="bold">Grant/Contract No.: </span> 80NSSC24K0310&nbsp;<br/>
+                        <span class="bold">Project Type: </span> Ground,Physical Sciences Informatics (PSI)&nbsp;<br/>
+                        <span class="bold">Flight Program: </span> &nbsp;
+                        </td>
+                    <td>
+                    	<span class="bold">No. of Post Docs: </span>1&nbsp;<br/>
+                        <span class="bold">No. of PhD Candidates: </span>2&nbsp;<br/>
+                        <span class="bold">No. of Master's Candidates: </span>1&nbsp;<br/>
+                        <span class="bold">No. of Bachelor's Candidates: </span>4&nbsp;
+                    </td>
+                    <td>
+                    	<span class="bold">No. of PhD Degrees: </span>0&nbsp;<br/>
+                        <span class="bold">No. of Master's Degrees: </span>0&nbsp;<br/>
+                        <span class="bold">No. of Bachelor's Degrees: </span>1&nbsp;
+                    </td>
+                	</tr>
+                	<tr height="5"><td></td></tr>
+                
+                	<tr>
+                	<td class="title">Program--Element: </td>
+                    <td colspan="3"> FOUNDATIONS--Fire Safety&nbsp;</td>
+                    </tr> 
+                	<tr height="2" bgcolor="#baa"><td colspan="4"></td></tr>
+					<tr>
+                	<td class="title">Flight Assignment/Project Notes: </td>
+                    <td colspan="3"> NOTE: End date changed to 11/2/2026 per F. Hernandez/NASA (Ed., 4/8/26).    <P>
+NOTE: Start and end dates have changed per NSSC grant documents. The new period of performance is 11/1/2023 - 11/2/2025 (Ed., 5/20/24). <P></td>
+                    </tr> 
+                	<tr height="2" bgcolor="#baa"><td colspan="4"></td></tr>
+                    <tr>
+                	<td class="title">Task Description: </td>
+                    <td colspan="3"> As NASA and commercial space companies expand their exploration into deeper space, spacecraft fire safety has become more important than ever. While knowledge of fire dynamics in microgravity has accumulated over the past few decades, there is a  knowledge gap about how fires behave and how materials burn in partial gravity environments (e.g., on the Moon or Mars surfaces).  Previous research has shown that material flammability and fire risk can be greater in partial gravity than both normal and  microgravity. To ensure safety and success of future space missions, there is an urgent need to advance the understanding of fire dynamics in partial gravity.       <P>
+In this project, it is hypothesized that burning behaviors and flammability boundaries of solid materials in partial gravity can be predicted using data collected in normal and microgravity. The overall goal of this project is to leverage the rich dataset collected in previous microgravity experiments to advance understanding of fire behaviors in partial gravity. The microgravity data will be complemented by existing and new ground data to lead to new science. Ultimately, we want to answer the following questions. “What  can we learn from the microgravity data obtained in different experiments and different ambient conditions regarding material  flammability in partial gravities?” “How do we predict burning behaviors in partial gravity using data collected in normal and microgravity?”      <P>
+The project consists of three major components. The first component is analysis of previous microgravity data. Tools will be developed to analyze data available on the NASA’s Physical Sciences Informatics (PSI) system for microgravity combustion experiments (Burning and Suppression of Solids/BASS, BASS-II; Spacecraft Fire Safety Experiments: SAFFIRE-I, SAFFIRE-II, and SAFFIRE-III). Flame characteristics including spread rate, length, appearance,  color, and flammability boundaries will be extracted, documented, and compared. Other microgravity datasets (e.g., International Space Station/ISS Confined Combustion project) will also be considered. This will result in a comprehensive inter-project meta-analysis of the current knowledge on microgravity combustion. The second component of the project is ground experiments. Burning experiments will be performed in a combustion chamber in the Principal Investigator (PI) lab with different environmental conditions. The experimental setup and sample selections will resemble the PSI microgravity experiments, enabling direct comparisons of ground and space data. This will allow us to correlate the gravity-induced buoyancy flows (in normal gravity) to the imposed flows in microgravity, in terms of their effects on the burning  process. The third component will be numerical simulations. Both microgravity and ground experiments will be simulated. After  the model is validated against the experimental data, the detailed profiles obtained in the numerical simulations will be used to  understand underlying physics of the experimental observations. The model will then be able to simulate solid burning in different  partial gravities, leading to a more complete understanding of the role of buoyancy flow on fire behavior.      <P>
+Through these efforts, we will identify invariant dimensionless parameters for flame spread and develop correlations between burning  characteristics and the identified dimensionless parameters. These dimensionless parameters will incorporate various variables, including sample dimensions (e.g., width, thickness); gravity; and ambient conditions (pressure, flow speed, oxygen percentage). All  generated outcomes will be made available for future investigators to test theories or train models. <P></td>
+                    </tr> 
+                	<tr height="2" bgcolor="#baa"><td colspan="4"></td></tr>    
+                    <tr>
+                	<td class="title">Research Impact/Earth Benefits: </td>
+                    <td colspan="3"> The expected outcomes of the proposed project include 1) a comprehensive summary/comparison of flame characteristics (e.g., flame length, flame color and appearance, spread rate, flammability limits) across various microgravity investigations (e.g., BASS, SAFFIRE, Confined Combustion), 2) newly generated ground test results that can be directly compared to existing microgravity data, 3) numerically simulated detailed flame profiles in different pressures, gravities, flow speeds, and oxygen percentages, 4) identification of invariant dimensionless parameters for flame spread, and 5) correlations between burning characteristics and the identified dimensionless parameters which incorporating sample dimensions (e.g., width, thickness), gravity, and ambient conditions (pressure, flow speed, oxygen percentage).     <P>
+All generated outcomes will be made available for future investigators to test theories or train models. This directly contributes to the advancement of fire science. The developed understanding of burning behaviors in partial gravity will help improve the test methods and design of future space vehicles. The ultimate goal of this project is to reduce tragic loss of life and property both on earth and in space.   <P></td>
+                    </tr>
+                </table>
+            </div>
+    	</div>
+    </div>
+    
+    <div class="datarow">
+    	<div class="titlerow">
+        	
+            <a title="toggle" href="" onclick="toggleAll('2026'); return false;" onkeypress="return false;"><span class="title">Task Progress & Bibliography Information FY2026&nbsp;<img id="imgtaskdetail2026" width="15" src="_images/_minus.gif" alt="" /></a></span>
+    		<div id="taskdetail2026">
+            	<table width="100%">
+                	<tr>
+                    <td width="18%" class="title">
+                    	Task Progress:
+                    </td>
+                    <td>
+						The effort of this project focuses on the analysis of previous microgravity data on NASA’s Physical Sciences Informatics (PSI) system. Leveraging the synergy of the Principal Investigator (PI)’s two other concurrent projects (from NASA and National Science Foundation/NSF), this project also involves the ground experiments in the PI’s lab and numerical modeling.     <P>
+  1) Analysis of the Micro- and Partial Gravity Data    <P>
+The major component of this project is the analysis of data available on the PSI system for microgravity combustion experiments. Undergraduate student, Nathan Kralik, was recruited to support this project. He joined the PI’s lab in June 2024 as a summer student researcher. Mr. Kralik continued working on the project and became a BS/MS student in Fall 2024.     <P>
+In this reporting period, we continued the efforts on literature review, categorization of the PSI data, and development of a MATLAB code to process the PSI data. We have focused on the BASS and BASS II experiments. In these experiments, various materials (e.g., (e.g., polymethyl methacrylate/PMMA, and a cotton-based fabric called SIBAL) were burned under controlled, concurrent air flow in microgravity, and images and videos were taken during the burning process. We successfully developed a MATLAB code to track the flame progression from the images and videos in the database. This was accomplished by creating an edge tracing program to trace the flame in each image, and then a location tracking program to track the movement of the trace over time. Note that the detected flame edge and tracked locations of the flame depend on a threshold value set in the code. An optimal value was determined for each experiment for accurately detecting the flame edge, while minimizing interference from background noise. Additionally, a subroutine was written to process the texts overlaid on each flame image and to obtain information on the real-time air flow speed in the experiments. The extracted air flow speed, and the tracked flame locations versus time, were obtained for most of the tests in BASS and BASS II.     <P>
+Collaborating with Dr. Paul Ferkul from NASA Glenn Research Center, we applied our flame analysis program on NASA’s recent partial-gravity fire experiment, Lunar-g Combustion Investigation (LUCI). In LUCI, PMMA and SIBAL fabric were burned in simulated lunar gravity in a spinning sounding rocket. By including results from PSI, LUCI, and previous experiments in literature, flame characteristics will be mapped against different gravity levels and environmental conditions. An abstract was submitted and accepted for presentation in the 2025 Meeting of the American Society for Gravitational and Space Research (ASGSR) on this effort.     <P>
+  2) Ground Experiments    <P>
+Burning experiments were performed in a combustion chamber in the PI’s lab with different environmental conditions. A Ph.D. student (Robin Neupane) updated and restored the functionality of an old combustion chamber on loan from NASA Glenn Research Center. We conducted burning experiments in reduced pressures and in different oxygen percentages. The goal was to artificially lower the buoyant flows (which occurs in a partial gravity environment) via reducing the ambient gas density and to explore the burning characteristics of solid materials near the extinction limits.     <P>
+In the first reporting period, upward flame spread experiments were performed at different pressures (ranging from 10 kPa to 100 kPa) and oxygen concentration environment (9% - 21%) for thin cellulose-based solid samples (filter paper). As pressure increased from the extinction limit, different burning behaviors were observed: no ignition, partial flame spread, steady flame spread, and accelerating flame spread. A similar trend was observed as the ambient oxygen concentration increased. In partial pressure conditions (e.g., 25-50 kPa), flames exhibited characteristics that are typically observed in micro- and partial gravity environments: blue and dim. Flame spread rate and sample burnt length were deduced and compared between different pressure and oxygen levels. Overall, the burning intensity and the flame spread rate decreased with the decrease in ambient pressure and oxygen. The decrease in flame spread rate at reduced pressure was attributed to increase in flame standoff distance and decrease in convective heat transfer to the solid, whereas the decrease in flame spread rate in reduced oxygen concentration environment was attributed to decrease in flame temperature.     <P>
+Current and previous studies from literature performed at different ambient environments were correlated using the concept of flame standoff distance (δf), which was estimated using the theoretical viscous boundary layer thickness (δv). It was found that approximating δf ~ δv for forced flow and δf ~ 1/3 δv for natural flow can predict the flame spread rate reasonably well for data obtained in micro-, partial, and normal gravities, for a wide range of environmental conditions away from extinction limits.    <P>
+In the second reporting period, three undergraduate students (under the supervision of the Ph.D. student) conducted experiments of upward flame spread over thin PMMA (0.2 mm in thickness) in different ambient pressures (ranging from 40 kPa to 100 kPa). Custom MATLAB code, similar to that developed for the PSI data, was used to analyze the recorded flame spread videos and to deduce various fire characteristics (e.g., flame spread rate). The results were documented in the students’ senior capstone project report and presented in the 2025 Spring Intersections Research Showcase event at Case Western Reserve University.     <P>
+We also conducted downward flame spread experiments for thin cellulose-based solid fuel to complement the upward flame spread data obtained in the previous reporting period. The results were analyzed and compared to previous upward/downward flame spread data for same and similar materials (both from our own experiments and from literature). We are currently conducting theoretical analysis to correlate the downward flame spread data from the current and previous studies. Flame spread rates will be eventually predicted using a proposed correlation for buoyant-flow, purely-forced flow, and mixed flow conditions.      <P>
+In this reporting period, we presented results from our experimental effort in a journal paper (Combustion and Flame) and in two conferences (the US National Meeting of the Combustion Institute in March 2025 in Boston Massachusetts, and the 2024 International Mechanical Engineering Congress and Exposition in November 2024 in Portland, Oregon).  [Ed. Note: See Cumulative Bibliography.]    <P>
+  3) Numerical Simulations    <P>
+The third component of this project is numerical simulation. For this effort, we use an in-house Computational Fluid Dynamics (CFD) combustion model that has been validated against various previous microgravity and ground experiments. A Ph.D. student (Jiaxuan Han) conducted two-dimensional transient numerical simulations to understand concurrent-flow flame spread over a thin solid sample in NASA’s Spacecraft Fire Experiment (SAFFIRE) project (data available in the PSI). The sample material, model geometry, and ambient conditions were chosen based on the SAFFIRE VI experiment. A 94 cm-long cotton-fiberglass fabric blend (SIBAL fabric), situated at the center of a flow duct was burned in a concurrent forced flow of 20 cm/s. The ambient conditions were at 30 % oxygen and 0.54 atm pressure. The model consisted of both transient gas and solid phases. In the gas phase, full Navier-Stokes Equations were solved and a one-step, second-order Arrhenius reaction was included. In the solid phase, a two-step solid decomposition was considered. Combustion product dissociation effect at elevated oxygen conditions was also considered. The simulation results demonstrated that the flame spread rate, the location of the pyrolysis region, and the solid surface temperature distribution agreed well with those observed in the SAFFIRE VI experiment. The simulation results were also compared with simulation results of SAFFIRE IV for the same sample material burning at a different condition (23% oxygen and 1 atm pressure) to investigate the effect of ambient conditions on the fire behavior in microgravity. The numerical results successfully captured the increased flame spread rate observed in SAFFIRE VI than in SAFFIRE VI, despite a lower partial pressure of oxygen. The solid and gas profiles obtained in the numerical simulations were examined in detail. They were used to help explain the effects of pressure, oxygen, and the partial pressure of oxygen on flame spread.     <P>
+In addition to simulations for SAFFIRE, the former Co-Investigator, postdoctoral researcher Dr. Ankit Sharma, used the three-dimensional version of the model to simulate upward flame spread over a thin solid sample in normal gravity. We first focused on validating the model against literature data. In these experiments, machine papers were burned in upward configuration in different oxygen (20-40%) and ambient pressure at 200 kPa in normal gravity. We found that, without the consideration of combustion product dissociation, the model over-predicted the flame temperatures and the flame spread rates at elevated oxygen environments. After the combustion product dissociation effects were considered and accommodated, the model was able to predict the flame spread rate reasonably well. Dr. Sharma left the PI’s lab in February 2024. A new postdoctoral researcher, Dr. Nicharee Thinnakornsutibutr, was hired in October 2024 to continue this effort. Dr. Thinnakornsutibutr performed numerical simulations for upward flame spread over a thin solid material in different pressure and gravity environments. In particular, she used the model to evaluate the validity of pressure modeling, an approach adopted by many previous studies. Based on pressure modeling, fire behavior in partial gravity can be correlated to that in a reduced pressure environment if p2g are kept constant. Further analysis of the simulation results is ongoing.     <P>
+In addition to her own research, Dr. Thinnakornsutibutr helped mentor a high school student (Arianna Su) to conduct research in the PI’s lab to support this project. Arianna developed a two-dimensional numerical model using Ansys Fluent to study buoyant flow induced by a vertical hot plate. By varying gravity and ambient pressure independently in the model, we investigated how buoyant flow and boundary layer thickness vary.    <P>
+In this reporting period, we presented results from our numerical effort in a journal article (in Applications in Energy and Combustion Science, article in press), a conference paper, a conference poster (both in the US National Meeting of the Combustion Institute in March 2025 in Boston Massachusetts), and a conference oral presentation (2024 Annual Meeting of the American Society for Gravitational and Space Research in December 2024 in San Juan, Puerto Rico).  <P>
+                    </td>
+                	</tr>
+                
+                	<tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+               
+                    
+					<tr><td width="18%" class="title">
+                    	Bibliography:
+                    </td>
+                    <td>
+						Description: (Last Updated: 10/10/2025)&nbsp; 
+						<br /><br /><a style="padding-top:5px;font-weight:bold; background-color:#fee" href="#" title="Show Complete List" onclick="document.forms['data'].tid.value='99BEAE9E7F5F1420D1506AD0FE9C1A6D'; submitFormBib('data','stackbib_all.cfm','bibcontent2026'); return false;" >Show Cumulative Bibliography</a><br />&nbsp; </td>
+                	</tr>
+                  
+					<tr><td colspan="2">
+						<div id="bibcontent2026">
+						<table width="100%">
+						
+                  	
+					   
+                    <tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+                    
+                    <tr bgcolor="#F0F0FF">
+                    <td width="18%" class="title">
+                    	Articles in Peer-reviewed Journals
+                    </td>
+                    <td>
+						Neupane R, Liao Y-T.  "Correlating concurrent-flow flame spread rates in different pressure and oxygen conditions: Ground experiments and comparisons with previous micro-, partial, and normal gravities experiments."  Combustion and Flame. 2025 Feb 1;272:113880.  <a target="_blank" href="https://doi.org/10.1016/j.combustflame.2024.113880">https://doi.org/10.1016/j.combustflame.2024.113880</a>   , Feb-2025 
+                    </td>
+                	</tr> 	
+					   
+                    <tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+                    
+                    <tr bgcolor="#EEEEEE">
+                    <td width="18%" class="title">
+                    	Conference Materials (Downloadable)
+                    </td>
+                    <td>
+						Han J, Liao Y-T  "Numerical study of flame spread over thin solids in reduced pressure and enhanced oxygen environments under microgravity condition"  14th U.S. National Combustion Meeting, Boston, Massachusetts, March 16-19, 2025. , Mar-2025  <a href="/oscm/33522B22431A479E06DB896B0DCDF26ABB2B4B9466C337ACDD3CE109DC602B4C.pdf" download="110072551 Han and Liao 14th_USNCM final.pdf" title="Click to downlad">110072551 Han and Liao 14th_USNCM final.pdf</a>  (855 KB)
+                    </td>
+                	</tr> 	
+					   
+                    <tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+                    
+                    <tr bgcolor="#F0F0FF">
+                    <td width="18%" class="title">
+                    	Conference Materials (Downloadable)
+                    </td>
+                    <td>
+						Neupane R, Liao Y-T.  "Experimental study of downward flame spread over a thin sample in reduced and enhanced pressure."  14th U.S. National Combustion Meeting, Boston, Massachusetts, March 16-19, 2025. , Mar-2025  <a href="/oscm/57DB383EBD048D7384DA74CD562085EAF3E5E856CB0E8F1859FF180742E60B71.pdf" download="14th_USNCM_robinneupane_opposed_flame spread NSF.pdf" title="Click to downlad">14th_USNCM_robinneupane_opposed_flame spread NSF.pdf</a>  (936 KB)
+                    </td>
+                	</tr> 	
+					   
+                    <tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+                    
+                    <tr bgcolor="#EEEEEE">
+                    <td width="18%" class="title">
+                    	Conference Materials (Downloadable)
+                    </td>
+                    <td>
+						Thinnakornsutibutr N, Liao Y-T.  "Fire scale modeling and effects of buoyant flow on upward flame spread."  14th U.S. National Combustion Meeting, Boston, Massachusetts, March 16-19, 2025. , Mar-2025  <a href="/oscm/1EF89E48F7D9F5AF3B0E6E72379F4F1625712DB888AEBB115BBCBFA117FA0324.pdf" download="0311_Poster_Nicharee.pdf" title="Click to downlad">0311_Poster_Nicharee.pdf</a>  (1,207 KB)
+                    </td>
+                	</tr> 	
+					   
+                    <tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+                    
+                    <tr bgcolor="#F0F0FF">
+                    <td width="18%" class="title">
+                    	Conference Materials (Downloadable)
+                    </td>
+                    <td>
+						Neupane R, Liao Y-T.  "Effects of ambient pressures and oxygen on upward flame spread."  2024 Spring Technical Meeting of the Central States Section of The Combustion Institute, Cleveland, Ohio, May 12-14, 2024. , May-2024  <a href="/oscm/584935338F49F55589FFDEFBA49EF63E6ADF616ED119D8970B5BF77D8F08D1CA.pdf" download="2024 CSSCI Abstract Neupane.pdf" title="Click to downlad">2024 CSSCI Abstract Neupane.pdf</a>  (1,358 KB)
+                    </td>
+                	</tr> 	
+					   
+                    <tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+                    
+                    <tr bgcolor="#EEEEEE">
+                    <td width="18%" class="title">
+                    	Conference Materials (Downloadable)
+                    </td>
+                    <td>
+						Neupane R, Liao Y-T.  "Understanding the role of buoyant flow for accurate and robust scale modeling of upward flame spread."  2024 International Mechanical Engineering Congress and Exposition, Portland, Oregon, November 17-21, 2024. , Nov-2024  <a href="/oscm/32B6D05D7CE01D8031ACC724BED080022BC2BC1367F84C2D276121B2101B2D85.pdf" download="2024,11.IMECE Rising Start Poster.pdf" title="Click to downlad">2024,11.IMECE Rising Start Poster.pdf</a>  (1,271 KB)
+                    </td>
+                	</tr> 	
+					   
+                    <tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+                    
+                    <tr bgcolor="#F0F0FF">
+                    <td width="18%" class="title">
+                    	Conference Materials (Downloadable)
+                    </td>
+                    <td>
+						Neupane R, Liao Y-T.  "Fire behavior and material flammability in reduced pressure environments."  2024 Ohio Space Forum, Cleveland OH, April 29-30, 2024. , Apr-2024  <a href="/oscm/935DE1FA831377F1AABF375938D9B666FE01B85B3B74B22D9FD6D8AEB2EFC7AB.pdf" download="Robin et al osf poster.pdf" title="Click to downlad">Robin et al osf poster.pdf</a>  (2,565 KB)
+                    </td>
+                	</tr> 	
+					   
+                    <tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+                    
+                    <tr bgcolor="#EEEEEE">
+                    <td width="18%" class="title">
+                    	Conference Materials (Downloadable)
+                    </td>
+                    <td>
+						Han J, Liao Y-T.  "Numerical investigation of flame spread over a thin solid material in microgravity in enhanced oxygen and reduced pressure condition."  American Astronautical Society Glenn Space Technology Symposium, Cleveland, OH, July 15-17, 2024. , Jul-2024  <a href="/oscm/82CE8AA331CD33695EEE1420AA4CB116FA10EA10FEFA7FEE3B0E1900D318246B.pdf" download="AAS_Glenn_2024_jiaxuan_han_final_07.10.2024.pdf" title="Click to downlad">AAS_Glenn_2024_jiaxuan_han_final_07.10.2024.pdf</a>  (470 KB)
+                    </td>
+                	</tr> 	
+					   
+                    <tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+                    
+                    <tr bgcolor="#F0F0FF">
+                    <td width="18%" class="title">
+                    	Conference Materials (Downloadable)
+                    </td>
+                    <td>
+						Han J, Liao Y-T.  "Numerical investigation of flame spread over a thin solid material in microgravity in enhanced oxygen and reduced pressure condition."  2024 Annual Meeting of the American Society for Gravitational and Space Research, San Juan, Puerto Rico, December 3-7, 2024. 
+
+
+ , Dec-2024  <a href="/oscm/B4BDB12B86BC1CD6DFB2F0947C62DFA57F13A6CBB1DDE200D7B6EB3B55D5A23D.pptx" download="2024.12.06 ASGSR - Han et al.pptx" title="Click to downlad">2024.12.06 ASGSR - Han et al.pptx</a>  (7,056 KB)
+                    </td>
+                	</tr> 
+						
+				</td></tr></table>
+				</div>
+						
+				</td></tr>
+                </table>
+            </div>
+    	</div>
+    </div>
+</div>
+    	<div class="smallr"><a href="index.cfm?action=sort&sort=asc&col=pi" title="List Search Results">Back to Search Results</a>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+	 </div><div  id="cf_layoutareaReport2025" class="x-hidden" style="overflow&#x3a;auto&#x3b;&#x3b;width&#x3a;100&#x25;&#x3b;" align="left">
+		
+		
+<div id="bgdata">
+	<div class="datarow">
+    	<div class="titlerow">
+        	<span class="title">Project Title:&nbsp; Predicting Material Flammability in Partial Gravity Using Microgravity and Ground Data <a href="" title="Expand/Reduce" onclick="toggleAll('2025');return false;"><img id="imgall2025" width="20" src="_images/_minus.gif" alt="" /><span id="objAll2025">Reduce</span></a></span>
+    		<div id="pidetail">
+            	<table width="85%"><tr>
+                	<td width="5%" align="right"><span class="bold">Images: </span></td><td><a href="" onclick="document.forms['data'].tid.value='31FF2895CF11A3D63C9B8986DB12A22A'; ColdFusion.Window.show('poptaskinfo'); return false;" onkeypress="document.forms['data'].tid.value='31FF2895CF11A3D63C9B8986DB12A22A'; ColdFusion.Window.show('poptaskinfo'); return false;"><img class="imgborder" width="100" alt="icon" src="/get/tbimg/icon/i/100/31FF2895CF11A3D63C9B8986DB12A22A" title="Click to show task info" /></a>&nbsp;</td>
+                    <td><span class="bold">Fiscal Year: </span>FY 2025&nbsp;<br/>
+                    	<span class="bold">Division: </span> Physical Sciences&nbsp;<br/>
+                        <span class="bold">Research Discipline/Element: </span><br/>
+                        <b>Physical Sciences</b>: FOUNDATIONS--Fire Safety&nbsp; 
+                        </td>
+                    <td><span class="bold">Start Date: </span>11/01/2023&nbsp;&nbsp;<br/>
+                    	<span class="bold">End Date: </span>11/02/2025&nbsp;&nbsp;<br/>
+                        <span class="bold">Task Last Updated: </span>09/04/2024&nbsp;</td>
+                    <td><a title="download in pdf" href="tbpdf.cfm?id=31FF2895CF11A3D63C9B8986DB12A22A" download>Download Task Book report in PDF <img src="_images/pdf.gif" alt="pdf" border="0" width="25" /></a><br/>
+						<br/>Open Science: <a href="/oscm/9EE7A4088D5037538537432222FFEACD5C1B29C6B59F6AA3284A211A345B5806.pdf" download="AAS_Glenn_2024_jiaxuan_han_final_07.10.2024.pdf" title="Click to downlad">AAS_Glenn_2024_jiaxuan_han_final_07.10.2024.pdf</a> 470 KB </td>
+                </tr></table>
+            </div>
+    	</div>
+    </div>
+    
+    <div class="datarow">
+    	<div class="titlerow">
+        	
+            <a title="toggle" href="" onclick="toggleAll('2025'); return false;" onkeypress="return false;"><span class="title">Principal Investigator/Affiliation:&nbsp;&nbsp; Liao,&nbsp;Ya-Ting&nbsp;&nbsp;Ph.D.&nbsp;/ Case Western Reserve University&nbsp;<img id="imgpidetail2025" width="15" src="_images/_minus.gif" alt="" /></a></span>
+			<div id="pidetail2025">
+            	<table width="85%"><tr>
+                	<td align="right" class="title" width="5%">Address:&nbsp;</td>
+                    <td> 10900 Euclid Ave&nbsp;<br /> Glennan 619&nbsp;<br/>Cleveland&nbsp;, OH&nbsp;44106-1712&nbsp;</td>
+                    <td>
+						<span class="bold">Email: </span><a href="mailto:yating.liao@case.edu">yating.liao@case.edu</a>&nbsp;<br/>
+                        <span class="bold">Phone: </span>216-368-0048&nbsp;&nbsp;<br/>
+                        <span class="bold">Congressional District: </span>11&nbsp;<br/>
+                        <span class="bold">Web: </span> &nbsp;<br/>
+                        
+					</td>
+                    <td>
+                    	<span class="bold">Organization Type: </span> UNIVERSITY&nbsp;<br/>
+                        <span class="bold">Organization Name: </span> Case Western Reserve University&nbsp;<br/>
+                        <span class="bold">Joint Agency: </span> &nbsp;<br/>
+                        <span class="bold">Comments: </span> &nbsp;
+                    </td>
+                </tr>
+                </table>
+            </div>
+    	<table width="100%">
+            <tr height="1" bgcolor="#baa"><td colspan="5"></td></tr>
+            <tr><td width="5%"><span class="bold">Key Personnel Changes / Previous PI:</span></td>
+            <td colspan="3"> Dr. Ankit Sharma, the former Postdoctoral researcher in the Principal Investigator's lab at Case Western Reserve University (CWRU), left CWRU in January 2024. A new postdoctoral researcher has been identified and will join the PI's team on October 1st 2024. She will replace Dr. Sharma on this project. <br/></td></tr>
+            <tr height="1" bgcolor="#baa"><td colspan="5"></td></tr>
+            </table>
+            
+    	</div>
+    </div>
+    
+    <div class="datarow">
+    	<div class="titlerow">
+        	
+            <a title="toggle" href="" onclick="toggleAll('2025'); return false;" onkeypress="return false;"><span class="title">Project Information:&nbsp;<span>Grant/Contract No. </span> 80NSSC24K0310&nbsp;<img id="imggrantdetail2025" width="15" src="_images/_minus.gif" alt="" /></a></span>
+    		<div id="grantdetail2025">
+            	<table width="100%">
+                	<tr>
+                    <td width="18%">
+                    	<span class="bold">Responsible Center: </span>NASA GRC&nbsp;<br/>
+                        <span class="bold">Grant Monitor: </span>Johnston, Michael &nbsp;<br/>
+                        <span class="bold">Center Contact: </span>&nbsp;<br/><a href="mailto:michael.johnston@nasa.gov">michael.johnston@nasa.gov</a>&nbsp;<br/>
+						<span class="bold">Unique ID: </span>15826&nbsp;
+                    </td>
+                    <td>
+						<span class="bold">Solicitation / Funding Source: </span> 2022 Physical Sciences NNH22ZDA001N-PSI E.8 Physical Sciences Informatics&nbsp;<br/>
+                        <span class="bold">Grant/Contract No.: </span> 80NSSC24K0310&nbsp;<br/>
+                        <span class="bold">Project Type: </span> Ground,Physical Sciences Informatics (PSI)&nbsp;<br/>
+                        <span class="bold">Flight Program: </span> &nbsp;
+                        </td>
+                    <td>
+                    	<span class="bold">No. of Post Docs: </span>0&nbsp;<br/>
+                        <span class="bold">No. of PhD Candidates: </span>2&nbsp;<br/>
+                        <span class="bold">No. of Master's Candidates: </span>0&nbsp;<br/>
+                        <span class="bold">No. of Bachelor's Candidates: </span>1&nbsp;
+                    </td>
+                    <td>
+                    	<span class="bold">No. of PhD Degrees: </span>0&nbsp;<br/>
+                        <span class="bold">No. of Master's Degrees: </span>0&nbsp;<br/>
+                        <span class="bold">No. of Bachelor's Degrees: </span>0&nbsp;
+                    </td>
+                	</tr>
+                	<tr height="5"><td></td></tr>
+                
+                	<tr>
+                	<td class="title">Program--Element: </td>
+                    <td colspan="3"> FOUNDATIONS--Fire Safety&nbsp;</td>
+                    </tr> 
+                	<tr height="2" bgcolor="#baa"><td colspan="4"></td></tr>
+					<tr>
+                	<td class="title">Flight Assignment/Project Notes: </td>
+                    <td colspan="3"> NOTE: Start and end dates have changed per NSSC grant documents. The new period of performance is 11/1/2023 - 11/2/2025 (Ed., 5/20/24). <P></td>
+                    </tr> 
+                	<tr height="2" bgcolor="#baa"><td colspan="4"></td></tr>
+                    <tr>
+                	<td class="title">Task Description: </td>
+                    <td colspan="3"> As NASA and commercial space companies expand their exploration into deeper space, spacecraft fire safety has become more important than ever. While knowledge of fire dynamics in microgravity has accumulated over the past few decades, there is a  knowledge gap about how fires behave and how materials burn in partial gravity environments (e.g., on the Moon or Mars surfaces).  Previous research has shown that material flammability and fire risk can be greater in partial gravity than both normal and  microgravity. To ensure safety and success of future space missions, there is an urgent need to advance the understanding of fire dynamics in partial gravity.       <P>
+In this project, it is hypothesized that burning behaviors and flammability boundaries of solid materials in partial gravity can be predicted using data collected in normal and microgravity. The overall goal of this project is to leverage the rich dataset collected in previous microgravity experiments to advance understanding of fire behaviors in partial gravity. The microgravity data will be complemented by existing and new ground data to lead to new science. Ultimately, we want to answer the following questions. “What  can we learn from the microgravity data obtained in different experiments and different ambient conditions regarding material  flammability in partial gravities?” “How do we predict burning behaviors in partial gravity using data collected in normal and microgravity?”      <P>
+The project consists of three major components. The first component is analysis of previous microgravity data. Tools will be developed to analyze data available on the NASA’s Physical Sciences Informatics (PSI) system for microgravity combustion experiments (Burning and Suppression of Solids/BASS, BASS-II; Spacecraft Fire Safety Experiments: SAFFIRE-I, SAFFIRE-II, and SAFFIRE-III). Flame characteristics including spread rate, length, appearance,  color, and flammability boundaries will be extracted, documented, and compared. Other microgravity datasets (e.g., International Space Station/ISS Confined Combustion project) will also be considered. This will result in a comprehensive inter-project meta-analysis of the current knowledge on microgravity combustion. The second component of the project is ground experiments. Burning experiments will be performed in a combustion chamber in the Principal Investigator (PI) lab with different environmental conditions. The experimental setup and sample selections will resemble the PSI microgravity experiments, enabling direct comparisons of ground and space data. This will allow us to correlate the gravity-induced buoyancy flows (in normal gravity) to the imposed flows in microgravity, in terms of their effects on the burning  process. The third component will be numerical simulations. Both microgravity and ground experiments will be simulated. After  the model is validated against the experimental data, the detailed profiles obtained in the numerical simulations will be used to  understand underlying physics of the experimental observations. The model will then be able to simulate solid burning in different  partial gravities, leading to a more complete understanding of the role of buoyancy flow on fire behavior.      <P>
+Through these efforts, we will identify invariant dimensionless parameters for flame spread and develop correlations between burning  characteristics and the identified dimensionless parameters. These dimensionless parameters will incorporate various variables, including sample dimensions (e.g., width, thickness); gravity; and ambient conditions (pressure, flow speed, oxygen percentage). All  generated outcomes will be made available for future investigators to test theories or train models. <P></td>
+                    </tr> 
+                	<tr height="2" bgcolor="#baa"><td colspan="4"></td></tr>    
+                    <tr>
+                	<td class="title">Research Impact/Earth Benefits: </td>
+                    <td colspan="3"> The expected outcomes of the proposed project include 1) a comprehensive summary/comparison of flame characteristics (e.g., flame length, flame color and appearance, spread rate, flammability limits) across various microgravity investigations (e.g., BASS, SAFFIRE, Confined Combustion), 2) newly generated ground test results that can be directly compared to existing microgravity data, 3) numerically simulated detailed flame profiles in different pressures, gravities, flow speeds, and oxygen percentages, 4) identification of invariant dimensionless parameters for flame spread, and 5) correlations between burning characteristics and the identified dimensionless parameters which incorporating sample dimensions (e.g., width, thickness), gravity, and ambient conditions (pressure, flow speed, oxygen percentage).     <P>
+All generated outcomes will be made available for future investigators to test theories or train models. This directly contributes to the advancement of fire science. The developed understanding of burning behaviors in partial gravity will help improve the test methods and design of future space vehicles. The ultimate goal of this project is to reduce tragic loss of life and property both on earth and in space.   <P></td>
+                    </tr>
+                </table>
+            </div>
+    	</div>
+    </div>
+    
+    <div class="datarow">
+    	<div class="titlerow">
+        	
+            <a title="toggle" href="" onclick="toggleAll('2025'); return false;" onkeypress="return false;"><span class="title">Task Progress & Bibliography Information FY2025&nbsp;<img id="imgtaskdetail2025" width="15" src="_images/_minus.gif" alt="" /></a></span>
+    		<div id="taskdetail2025">
+            	<table width="100%">
+                	<tr>
+                    <td width="18%" class="title">
+                    	Task Progress:
+                    </td>
+                    <td>
+						The effort of this project focuses on the analysis of previous microgravity data on NASA’s Physical Sciences Informatics (PSI) system. Leveraging the synergy of the Principal Investigator (PI)’s two other concurrent projects (from NASA and the National Science Foundation/NSF), this project also involves the ground experiments in the PI’s lab and numerical modeling.     <P>
+1) Analysis of the PSI data    <P>
+The major component of this project is the analysis of data available on the PSI system for microgravity combustion experiments. Undergraduate student (Nathan Kralik) was recruited to support this project. He joined the PI’s lab in June 2024 as a summer student researcher and continued working on the project as a BS/MS student researcher in Fall 2024.     <P>
+In this reporting period, we focused on conducting literature review, understanding the structure of the PSI, and developing initial MatLab code to process the PSI data. The initial focus for the PSI analysis was the Burning and Suppression of Solids II (BASS II) experiment. In this experiment, various materials (e.g., polymethyl methacrylate/PMMA, cotton-based fabric) were burned under controlled, concurrent air flow; and images and video were taken during the burning process. The main goal was to develop a MatLab code to track the flame progression from the images and videos on the database. This was accomplished by creating an edge tracing program to trace the flame in each image, and then a location tracking program to track the movement of the trace over time. Note that the detected flame edge depends on a threshold value set in the code. We are currently working to determine the optimal value for accurately detecting the flame edge while minimizing interference from background noise. Additionally, a subroutine was written to process the texts overlaid on each flame image and to obtain information on the real-time air flow speed in the experiments.     <P>
+Going forward, the goal is to continue to refine the existing MatLab code for the BASS and BASS II experiments, as well as develop new code to analyze other aspects of flame spread (e.g., flame length, flame color) from other experiments on the PSI database.       <P>
+2) Ground Experiments    <P>
+Burning experiments were performed in a combustion chamber in the PI’s lab with different environmental conditions. A Ph.D. student (Robin Neupane) updated and restored the functionality of an old combustion chamber on loan from NASA Glenn Research Center. We conducted burning experiments in reduced pressures and in different oxygen percentages. The goal was to artificially lower the buoyant flows (which occurs in a partial gravity environment) via reducing the ambient gas density and to explore the burning characteristics of solid materials near the extinction limits.     <P>
+Experiments were performed at pressures (ranging from 100 mbar to 1,000 mbar) and different oxygen concentration environment (9% - 21%). As pressure increased, different burning behaviors were observed: no ignition, partial flame spread, steady flame spread, and accelerating flame spread. Similar trend was observed as the ambient oxygen concentration increased. In partial pressure conditions (e.g., 250-500 mbar), flames exhibited characteristics that are typically observed in micro- and partial gravity environments: blue and dim. Flame spread rate and sample burnt length were deduced and compared between different pressure and oxygen levels. Overall, the burning intensity and the flame spread rate decreased with the decrease in ambient pressure and oxygen. The decrease in flame spread rate at reduced pressure was attributed to increase in flame standoff distance and decrease in convective heat transfer to the solid; whereas the decrease in flame spread rate in reduced oxygen concentration environment was attributed to decrease in flame temperature.     <P>
+Current and previous studies from literature performed at different ambient environments were correlated using the concept of flame standoff distance (df), which was estimated using the theoretical viscous boundary layer thickness (dv). It was found that approximating df ~ dv for forced flow and df ~ 1/3 dv for natural flow can predict the flame spread rate reasonably well for data obtained in micro-, partial, and normal gravities, for a wide range of environmental conditions away from extinction limits.    <P>
+In the next reporting period, the PI will hire a new Postdoctoral researcher to continue this effort. For new experiments, sample selections and sample setup used in the PSI microgravity experiments will be considered, enabling direct comparisons of ground and space data.     <P>
+3) Numerical Simulations    <P>
+The third component of this project is numerical simulation. For this effort, we use an in-house Computational Fluid Dynamics (CFD) combustion model that has been validated against various previous microgravity and ground experiments. A Ph.D. student (Jiaxuan Han) conducted two-dimensional transient numerical simulations to understand concurrent-flow flame spread over a thin solid sample in NASA’s Spacecraft Fire Safety Spacecraft Fire Safety Experiments (Saffire) project (some data available in the PSI). The sample material, model geometry, and ambient conditions were chosen based on the Saffire VI experiment. A 94 cm-long cotton-fiberglass fabric blend (SIBAL fabric), situated at the center of a flow duct was burned in a concurrent forced flow of 20 cm/s. The ambient conditions were at 30 % oxygen and 0.54 atm pressure. The model consisted of both transient gas and solid phases. In the gas phase, full Navier-Stokes Equations were solved and a one-step, second-order Arrhenius reaction was included. In the solid phase, a two-step solid decomposition was considered. Combustion product dissociation effect at elevated oxygen conditions was also considered. The simulation results demonstrated that the flame spread rate, the location of the pyrolysis region, and the solid surface temperature distribution agreed well with those observed in the Saffire VI experiment. The simulation results were also compared with simulation results of Saffire IV for the same sample material burning at a different condition (23% oxygen and 1 atm pressure) to investigate the effect of ambient conditions on the fire behavior in microgravity. The numerical results successfully captured the increased flame spread rate observed in Saffire VI despite a lower partial pressure of oxygen, compared to Saffire IV. We are in the process of further analyzing the results and understanding the effects of partial pressure of oxygen on flame spread.     <P>
+In addition to simulations for Saffire, the former Postdoctoral researcher, Dr. Ankit Sharma, used the three-dimensional version of the model to simulate upward flame spread over a thin solid sample in normal gravity. We first focused on validating the model against literature data. In these experiments, machine papers were burned in upward configuration in different oxygen (20-40 %) and ambient pressure at 0.2 atm in normal gravity. Without the consideration of combustion product dissociation, the model over-predicted the flame temperatures and the flame spread rates at elevated oxygen environments. After the combustion product dissociation effects were considered and accommodated, the model was able to predict the flame spread rate reasonably well. Dr. Sharma left the PI’s lab in February 2024. A new postdoctoral researcher (to be hired) will continue this effort, validate the model against a wider range of environmental conditions (e.g., pressure, gravity, oxygen), perform numerical simulations for both ground and microgravity experiments, and finally use the detailed profiles obtained in simulations to understand underlying physics of the experimental observations and the role of buoyancy flow on fire behavior. <P>
+                    </td>
+                	</tr>
+                
+                	<tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+               
+                    
+					<tr><td width="18%" class="title">
+                    	Bibliography:
+                    </td>
+                    <td>
+						Description: (Last Updated: 10/10/2025)&nbsp; 
+						<br /><br /><a style="padding-top:5px;font-weight:bold; background-color:#fee" href="#" title="Show Complete List" onclick="document.forms['data'].tid.value='31FF2895CF11A3D63C9B8986DB12A22A'; submitFormBib('data','stackbib_all.cfm','bibcontent2025'); return false;" >Show Cumulative Bibliography</a><br />&nbsp; </td>
+                	</tr>
+                  
+					<tr><td colspan="2">
+						<div id="bibcontent2025">
+						<table width="100%">
+						
+                  	
+					   
+                    <tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+                    
+                    <tr bgcolor="#F0F0FF">
+                    <td width="18%" class="title">
+                    	Conference Materials (Downloadable)
+                    </td>
+                    <td>
+						Han J, Liao Y-T.  "Effect of oxygen concentrations and pressure levels on the flame spread over a solid material under microgravity condition."  American Astronautical Society, Glenn Space Technology Symposium, Cleveland OH, July 15-17, 2024. , Jul-2024  <a href="/oscm/9EE7A4088D5037538537432222FFEACD5C1B29C6B59F6AA3284A211A345B5806.pdf" download="AAS_Glenn_2024_jiaxuan_han_final_07.10.2024.pdf" title="Click to downlad">AAS_Glenn_2024_jiaxuan_han_final_07.10.2024.pdf</a>  (470 KB)
+                    </td>
+                	</tr> 
+						
+				</td></tr></table>
+				</div>
+						
+				</td></tr>
+                </table>
+            </div>
+    	</div>
+    </div>
+</div>
+    	<div class="smallr"><a href="index.cfm?action=sort&sort=asc&col=pi" title="List Search Results">Back to Search Results</a>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+	 </div><div  id="cf_layoutareaReport2023" class="x-hidden" style="overflow&#x3a;auto&#x3b;&#x3b;width&#x3a;100&#x25;&#x3b;" align="left">
+		
+		
+<div id="bgdata">
+	<div class="datarow">
+    	<div class="titlerow">
+        	<span class="title">Project Title:&nbsp; Predicting Material Flammability in Partial Gravity Using Microgravity and Ground Data <a href="" title="Expand/Reduce" onclick="toggleAll('2023');return false;"><img id="imgall2023" width="20" src="_images/_minus.gif" alt="" /><span id="objAll2023">Reduce</span></a></span>
+    		<div id="pidetail">
+            	<table width="85%"><tr>
+                	<td width="5%" align="right"><span class="bold">Images: </span></td><td><a href="" onclick="document.forms['data'].tid.value='40A0F1795F0FAA0E2B9142A2785E16B2'; ColdFusion.Window.show('poptaskinfo'); return false;" onkeypress="document.forms['data'].tid.value='40A0F1795F0FAA0E2B9142A2785E16B2'; ColdFusion.Window.show('poptaskinfo'); return false;"><img class="imgborder" width="100" alt="icon" src="/get/tbimg/icon/i/100/40A0F1795F0FAA0E2B9142A2785E16B2" title="Click to show task info" /></a>&nbsp;</td>
+                    <td><span class="bold">Fiscal Year: </span>FY 2023&nbsp;<br/>
+                    	<span class="bold">Division: </span> Physical Sciences&nbsp;<br/>
+                        <span class="bold">Research Discipline/Element: </span><br/>
+                        <b>Physical Sciences</b>: FOUNDATIONS--Fire Safety&nbsp; 
+                        </td>
+                    <td><span class="bold">Start Date: </span>08/01/2023&nbsp;&nbsp;<br/>
+                    	<span class="bold">End Date: </span>07/31/2025&nbsp;&nbsp;<br/>
+                        <span class="bold">Task Last Updated: </span>01/11/2024&nbsp;</td>
+                    <td><a title="download in pdf" href="tbpdf.cfm?id=40A0F1795F0FAA0E2B9142A2785E16B2" download>Download Task Book report in PDF <img src="_images/pdf.gif" alt="pdf" border="0" width="25" /></a><br/>
+						</td>
+                </tr></table>
+            </div>
+    	</div>
+    </div>
+    
+    <div class="datarow">
+    	<div class="titlerow">
+        	
+            <a title="toggle" href="" onclick="toggleAll('2023'); return false;" onkeypress="return false;"><span class="title">Principal Investigator/Affiliation:&nbsp;&nbsp; Liao,&nbsp;Ya-Ting&nbsp;&nbsp;Ph.D.&nbsp;/ Case Western Reserve University&nbsp;<img id="imgpidetail2023" width="15" src="_images/_minus.gif" alt="" /></a></span>
+			<div id="pidetail2023">
+            	<table width="85%"><tr>
+                	<td align="right" class="title" width="5%">Address:&nbsp;</td>
+                    <td> 10900 Euclid Ave&nbsp;<br /> Glennan 619&nbsp;<br/>Cleveland&nbsp;, OH&nbsp;44106-1712&nbsp;</td>
+                    <td>
+						<span class="bold">Email: </span><a href="mailto:yating.liao@case.edu">yating.liao@case.edu</a>&nbsp;<br/>
+                        <span class="bold">Phone: </span>216-368-0048&nbsp;&nbsp;<br/>
+                        <span class="bold">Congressional District: </span>11&nbsp;<br/>
+                        <span class="bold">Web: </span> &nbsp;<br/>
+                        
+					</td>
+                    <td>
+                    	<span class="bold">Organization Type: </span> UNIVERSITY&nbsp;<br/>
+                        <span class="bold">Organization Name: </span> Case Western Reserve University&nbsp;<br/>
+                        <span class="bold">Joint Agency: </span> &nbsp;<br/>
+                        <span class="bold">Comments: </span> &nbsp;
+                    </td>
+                </tr>
+                </table>
+            </div>
+    	
+    	</div>
+    </div>
+    
+    <div class="datarow">
+    	<div class="titlerow">
+        	
+            <a title="toggle" href="" onclick="toggleAll('2023'); return false;" onkeypress="return false;"><span class="title">Project Information:&nbsp;<span>Grant/Contract No. </span> 80NSSC24K0310&nbsp;<img id="imggrantdetail2023" width="15" src="_images/_minus.gif" alt="" /></a></span>
+    		<div id="grantdetail2023">
+            	<table width="100%">
+                	<tr>
+                    <td width="18%">
+                    	<span class="bold">Responsible Center: </span>NASA GRC&nbsp;<br/>
+                        <span class="bold">Grant Monitor: </span>Johnston, Michael &nbsp;<br/>
+                        <span class="bold">Center Contact: </span>&nbsp;<br/><a href="mailto:michael.johnston@nasa.gov">michael.johnston@nasa.gov</a>&nbsp;<br/>
+						<span class="bold">Unique ID: </span>15826&nbsp;
+                    </td>
+                    <td>
+						<span class="bold">Solicitation / Funding Source: </span> 2022 Physical Sciences NNH22ZDA001N-PSI E.8 Physical Sciences Informatics&nbsp;<br/>
+                        <span class="bold">Grant/Contract No.: </span> 80NSSC24K0310&nbsp;<br/>
+                        <span class="bold">Project Type: </span> Ground,Physical Sciences Informatics (PSI)&nbsp;<br/>
+                        <span class="bold">Flight Program: </span> &nbsp;
+                        </td>
+                    <td>
+                    	<span class="bold">No. of Post Docs: </span>1&nbsp;<br/>
+                        <span class="bold">No. of PhD Candidates: </span>&nbsp;<br/>
+                        <span class="bold">No. of Master's Candidates: </span>1&nbsp;<br/>
+                        <span class="bold">No. of Bachelor's Candidates: </span>2&nbsp;
+                    </td>
+                    <td>
+                    	<span class="bold">No. of PhD Degrees: </span>&nbsp;<br/>
+                        <span class="bold">No. of Master's Degrees: </span>&nbsp;<br/>
+                        <span class="bold">No. of Bachelor's Degrees: </span>&nbsp;
+                    </td>
+                	</tr>
+                	<tr height="5"><td></td></tr>
+                
+                	<tr>
+                	<td class="title">Program--Element: </td>
+                    <td colspan="3"> FOUNDATIONS--Fire Safety&nbsp;</td>
+                    </tr> 
+                	<tr height="2" bgcolor="#baa"><td colspan="4"></td></tr>
+                    <tr>
+                	<td class="title">Task Description: </td>
+                    <td colspan="3"> As NASA and commercial space companies expand their exploration into deeper space, spacecraft fire safety has become more  important than ever. While knowledge of fire dynamics in microgravity has accumulated over the past few decades, there is a  knowledge gap about how fires behave and how materials burn in partial gravity environments (e.g., on the Moon or Mars surfaces).  Previous research has shown that material flammability and fire risk can be greater in partial gravity than both normal and  microgravity. To ensure safety and success of future space missions, there is an urgent need to advance the understanding of fire  dynamics in partial gravity.       <P>
+In this proposal, it is hypothesized that burning behaviors and flammability boundaries of solid materials in partial gravity can be  predicted using data collected in normal and microgravity. The overall goal of this project is to leverage the rich dataset collected  in previous microgravity experiments to advance understanding of fire behaviors in partial gravity. The microgravity data will be  complemented by existing and new ground data to lead to new science. Ultimately, we want to answer the following questions. “What  can we learn from the microgravity data obtained in different experiments and different ambient conditions regarding material  flammability in partial gravities?” “How do we predict burning behaviors in partial gravity using data collected in normal and  microgravity?”      <P>
+The project consists of three major components. The first component is analysis of previous microgravity data. Tools will be developed  to analyze data available on the NASA’s Physical Sciences Informatics (PSI) system for microgravity combustion experiments (Burning and Suppression of Solids/BASS, BASS-II; Spacecraft Fire Safety Experiments: Saffire-I, Saffire-II, and Saffire-III). Flame characteristics including spread rate, length, appearance,  color, and flammability boundaries will be extracted, documented, and compared. Other microgravity datasets (e.g., International Space Station/ISS Confined Combustion project) will also be considered. This will result in a comprehensive inter-project meta-analysis of the current knowledge  on microgravity combustion. The second component of the project is ground experiments. Burning experiments will be performed  in a combustion chamber in the Principal Investigator (PI) lab with different environmental conditions. The experimental setup and sample selections will  resemble the PSI microgravity experiments, enabling direct comparisons of ground and space data. This will allow us to correlate the gravity-induced buoyancy flows (in normal gravity) to the imposed flows in microgravity, in terms of their effects on the burning  process. The third component will be numerical simulations. Both microgravity and ground experiments will be simulated. After  the model is validated against the experimental data, the detailed profiles obtained in the numerical simulations will be used to  understand underlying physics of the experimental observations. The model will then be able to simulate solid burning in different  partial gravities, leading to a more complete understanding of the role of buoyancy flow on fire behavior.      <P>
+Through these efforts, we will identify invariant dimensionless parameters for flame spread and develop correlations between burning  characteristics and the identified dimensionless parameters. These dimensionless parameters will incorporate various variables, including sample dimensions (e.g., width, thickness); gravity; and ambient conditions (pressure, flow speed, oxygen percentage). All  generated outcomes will be made available for future investigators to test theories or train models. <P></td>
+                    </tr> 
+                	<tr height="2" bgcolor="#baa"><td colspan="4"></td></tr>    
+                    <tr>
+                	<td class="title">Research Impact/Earth Benefits: </td>
+                    <td colspan="3"> This directly contributes to the advancement of fire science. The developed understanding of burning behaviors in partial gravity will help improve testing and design of future space vehicles. The ultimate goal of this project is to reduce tragic loss of life and property both on Earth and in space. <P></td>
+                    </tr>
+                </table>
+            </div>
+    	</div>
+    </div>
+    
+    <div class="datarow">
+    	<div class="titlerow">
+        	
+            <a title="toggle" href="" onclick="toggleAll('2023'); return false;" onkeypress="return false;"><span class="title">Task Progress & Bibliography Information FY2023&nbsp;<img id="imgtaskdetail2023" width="15" src="_images/_minus.gif" alt="" /></a></span>
+    		<div id="taskdetail2023">
+            	<table width="100%">
+                	<tr>
+                    <td width="18%" class="title">
+                    	Task Progress:
+                    </td>
+                    <td>
+						New Project for FY2023 <P>
+                    </td>
+                	</tr>
+                
+                	<tr height="1" bgcolor="#baa"><td colspan="2"></td></tr>
+               
+                    
+					<tr><td width="18%" class="title">
+                    	Bibliography:
+                    </td>
+                    <td>
+						Description: (Last Updated: 10/10/2025)&nbsp; 
+						<br /><br /><a style="padding-top:5px;font-weight:bold; background-color:#fee" href="#" title="Show Complete List" onclick="document.forms['data'].tid.value='40A0F1795F0FAA0E2B9142A2785E16B2'; submitFormBib('data','stackbib_all.cfm','bibcontent2023'); return false;" >Show Cumulative Bibliography</a><br />&nbsp; </td>
+                	</tr>
+                  
+					<tr><td colspan="2">
+						<div id="bibcontent2023">
+						<table width="100%">
+						
+                  	
+                  <tr><td>&nbsp;</td><td>None in FY 2023</td></tr>
+                  
+						
+				</td></tr></table>
+				</div>
+						
+				</td></tr>
+                </table>
+            </div>
+    	</div>
+    </div>
+</div>
+    	<div class="smallr"><a href="index.cfm?action=sort&sort=asc&col=pi" title="List Search Results">Back to Search Results</a>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+	 </div>
+ </div>
+</form>
+
+<div  id="cf_window1580487678557402" class="x-hidden">
+	
+	
+	<div  id="popbibinfo-body" class="" style="border-width&#x3a;2px&#x3b;&#x20;background-color&#x3a;fff&#x3b;height&#x3a;100&#x25;&#x3b;">
+		
+		
+	 </div>
+ </div><div  id="cf_window1580487678557405" class="x-hidden">
+	
+	
+	<div  id="poptaskinfo-body" class="" style="border-width&#x3a;12px&#x3b;&#x20;background-color&#x3a;&#x23;f0f0f0&#x3b;&#x20;margin-top&#x3a;&#x20;-10px&#x3b;&#x20;margin-left&#x3a;&#x20;-10px&#x3b;&#x3b;height&#x3a;100&#x25;&#x3b;">
+		
+		
+	 </div>
+ </div>
+
+<script language="javascript">
+
+	document.getElementById("pidetail2026").style.display = "block";
+	document.getElementById("grantdetail2026").style.display = "block";
+	document.getElementById("taskdetail2026").style.display = "block";
+
+	document.getElementById("pidetail2025").style.display = "block";
+	document.getElementById("grantdetail2025").style.display = "block";
+	document.getElementById("taskdetail2025").style.display = "block";
+
+	document.getElementById("pidetail2023").style.display = "block";
+	document.getElementById("grantdetail2023").style.display = "block";
+	document.getElementById("taskdetail2023").style.display = "block";
+
+	var toggleobj = function(obj) {
+		theObj = document.getElementById(obj);
+		theImg = document.getElementById('img'+obj);
+		if (theObj.style.display == "block")
+			{ theObj.style.display = "none"; theImg.src = "_images/_plus.gif"; }
+		else
+			{ theObj.style.display = "block"; theImg.src = "_images/_minus.gif"; }		
+	}
+	
+	var toggleAll = function(obj) {
+		theText = document.getElementById('objAll'+obj);
+		theImg = document.getElementById('imgall'+obj);
+		theObj1 = document.getElementById('pidetail'+obj);
+		theImg1 = document.getElementById('imgpidetail'+obj);
+		theObj2 = document.getElementById('grantdetail'+obj);
+		theImg2 = document.getElementById('imggrantdetail'+obj);
+		theObj3 = document.getElementById('taskdetail'+obj);
+		theImg3 = document.getElementById('imgtaskdetail'+obj);
+		if (theText.innerHTML == "Reduce") {
+		  theObj1.style.display = "none"; theImg1.src = "_images/_plus.gif";
+		  theObj2.style.display = "none"; theImg2.src = "_images/_plus.gif";
+		  theObj3.style.display = "none"; theImg3.src = "_images/_plus.gif";
+		  theText.innerHTML = "Expand"; theImg.src = "_images/_plus.gif";
+		} else {
+		  theObj1.style.display = "block"; theImg1.src = "_images/_minus.gif";
+		  theObj2.style.display = "block"; theImg2.src = "_images/_minus.gif";
+		  theObj3.style.display = "block"; theImg3.src = "_images/_minus.gif";
+		  theText.innerHTML = "Reduce"; theImg.src = "_images/_minus.gif";
+		}
+	}
+
+	var bibData = "";
+	var bibTarget = null;
+	
+	function submitFormBib(formname,pagename,target) {
+        ColdFusion.Ajax.submitForm(formname, pagename, callbackBib, errorHandlerBib);
+		bibTarget = document.getElementById(target);
+		    }
+	
+    function callbackBib(text)
+    {
+		var value_obj = document.getElementById('hrp_risks');
+        ColdFusion.Window.hide('popbibinfo');
+		bibData = text;
+		if (bibTarget) {
+			if (text.length > 0)
+				bibTarget.innerHTML=text;
+			}
+    }
+    
+    function errorHandlerBib(code, msg)
+    {
+        var value_obj = document.getElementById('hrp_risks');
+        ColdFusion.Window.hide('popbibinfo');
+		if (value_obj) {
+			value_obj.innerHTML='Error Happened. Please try again.' + msg;
+			}
+    }
+
+</script>
+	<!-- end main area -->
+			</div>&nbsp;&nbsp;
+	</div>	
+    		
+	
+	<div id="footer"> 
+	<img src="_images/f_nress.gif" alt="NRESS Logo" width="55" height="65" border="0" align="left" />
+	Developed and operated by: NASA Research and Education Support Services<br />
+	NASA Application Owner: Diana Ly Biological & Physical Sciences Division; Baraquiel Reyna Human Research Program/Translational Research Institute for Space Health.<br />
+	<a href="privacy_statement.cfm" title="Disclaimer">Task Book Policies and Notices</a> || 
+	<a href="termsconditions.cfm" title="Terms">Terms and Conditions</a> ||
+    <a target="_blank" href="https://www.nasa.gov/about/highlights/HP_Privacy.html" title="NASA Notice">NASA Web Privacy and Important Notices</a> || 
+    <a target="_blank" href="https://www.nasa.gov/accessibility/" title="Accessibility">NASA Accessibility</a> || 
+    <a href="contactus.cfm" title="Contact Us">Contact Us</a><br><br>
+</div>
+<br>
+
+
+	
+
+
+</div>
+ 
+</body>
+</html>
+

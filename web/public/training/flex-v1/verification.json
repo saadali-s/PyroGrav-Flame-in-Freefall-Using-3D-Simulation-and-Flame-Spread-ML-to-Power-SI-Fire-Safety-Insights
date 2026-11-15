@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "predictions": 1584,
+  "max_difference": 2.7755575615628914e-15,
+  "metric_rows": 40,
+  "splits": 10,
+  "source_verification": true,
+  "cuda_models_reloaded": 10,
+  "independent_ridge_baselines": true
+}

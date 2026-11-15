@@ -1,0 +1,66 @@
+{
+  "metric": "group mean absolute error",
+  "status": "Reused development evaluation; not independent validation",
+  "formula": "100 × (1 − model group MAE / baseline group MAE)",
+  "metrics": [
+    {
+      "id": "earth",
+      "label": "PMMA · Earth",
+      "rows": 35,
+      "groups": 19,
+      "baseline": 0.022428947368421055,
+      "model": 0.013327813827982137,
+      "unit": "mm/s",
+      "modelName": "Round 2 log-geometry ridge",
+      "baselineName": "Nearest lookup",
+      "evaluation": "earth_logo",
+      "modelSource": "/training/round2/metrics.csv",
+      "baselineSource": "/training/round1/metrics.csv",
+      "reductionPct": 40.57762226172461
+    },
+    {
+      "id": "iss",
+      "label": "PMMA · ISS",
+      "rows": 34,
+      "groups": 11,
+      "baseline": 0.0215219696969697,
+      "model": 0.010490585024313702,
+      "unit": "mm/s",
+      "modelName": "Round 2 log-geometry ridge",
+      "baselineName": "Nearest lookup",
+      "evaluation": "microgravity_logo",
+      "modelSource": "/training/round2/metrics.csv",
+      "baselineSource": "/training/round1/metrics.csv",
+      "reductionPct": 51.256389763476065
+    },
+    {
+      "id": "flex",
+      "label": "FLEX · ISS",
+      "rows": 198,
+      "groups": 79,
+      "baseline": 0.07234388185654009,
+      "model": 0.053709784467109334,
+      "unit": "mm²/s",
+      "modelName": "Round 1 log ridge",
+      "baselineName": "Same-fuel nearest lookup",
+      "evaluation": "condition_group_5fold",
+      "modelSource": "/training/flex-v1/metrics.csv",
+      "baselineSource": "/training/flex-v1/metrics.csv",
+      "reductionPct": 25.757668666968524
+    }
+  ],
+  "sources": [
+    {
+      "file": "web/src/data/training-round1.json",
+      "sha256": "8c04e9014bb6d45c8d57777fd80038825d68c825f4cce18dad1a9b666c849a22"
+    },
+    {
+      "file": "web/src/data/training-round2.json",
+      "sha256": "c6439a3e85e3a0e1644a8c3738ba642a829b738cef9cb5645185bb5bffb137a4"
+    },
+    {
+      "file": "web/src/data/flex-v1.json",
+      "sha256": "a4d1605110f9dc83c9caaaef04556b5d534c69c1d1ac0235bbe52ce4ec986943"
+    }
+  ]
+}

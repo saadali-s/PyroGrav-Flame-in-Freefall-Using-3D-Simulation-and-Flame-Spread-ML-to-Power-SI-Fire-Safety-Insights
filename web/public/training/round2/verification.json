@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "gpu_fits": 37,
+  "same_splits_as_round1": true,
+  "round1_artifacts_unchanged": 48,
+  "raw_files_unchanged": 49,
+  "dataset_unchanged": true,
+  "negative_predictions": 0,
+  "heldout_records": 504,
+  "group_overlap": 0,
+  "lunar_labels_used": 0,
+  "transforms_and_smearing_training_only": true,
+  "all_models_reported": true,
+  "adaptive_validation_reuse": true
+}

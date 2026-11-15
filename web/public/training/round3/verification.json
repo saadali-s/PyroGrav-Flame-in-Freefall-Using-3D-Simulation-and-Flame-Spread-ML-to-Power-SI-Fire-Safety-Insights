@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "cuda_regression_fits": 460,
+  "baseline_fits": 184,
+  "folds": 92,
+  "prediction_records": 1771,
+  "raw_files_unchanged": 53,
+  "prior_artifacts_unchanged": 100,
+  "compatible_lunar_rows": 0,
+  "added_training_rows": 0,
+  "adaptive_reuse": true,
+  "training_only_transforms": true
+}

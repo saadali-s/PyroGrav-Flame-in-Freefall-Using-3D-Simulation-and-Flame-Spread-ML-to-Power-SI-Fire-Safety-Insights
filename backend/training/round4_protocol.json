@@ -1,0 +1,20 @@
+{
+  "run_id": "round4-2026-11-14",
+  "candidate_sha256": "c8a27c28a4a4db5aa0e0e382c837d05e5ff34a808f371a25eea5ca28e41b4613",
+  "question": "Can one curved log-flow term improve full-cohort pooled prediction over separate Round2 models?",
+  "models": ["mixed_linear_control", "mixed_quadratic", "mixed_concave"],
+  "primary_model": "mixed_concave",
+  "features": "O2-19,1/d_mm,ln(U_m/(1cm/s)),(O2-19)*ln(U_m/(1cm/s)); quadratic variants append -ln(U_m/(1cm/s))^2",
+  "flow": "U_m=100*((Uf_cm_s/100)^4+(9.80665*g_fraction*3.5*d_mm/2000)^2)^(1/4); assumed P/P0=1, kappa=3.5, not row measurements",
+  "constraint": "mixed_concave coefficient on negative squared log flow >=0; other coefficients unconstrained. No fixed peak and no planetary ranking.",
+  "fit": "weighted log-rate ridge alpha1; groups weighted equally and weights normalized to row mean1. Training-only weighted standardization. Unpenalized weighted log intercept. No tuning, clipping, smearing or new labels.",
+  "evaluations": ["pooled_logo", "pooled_strict_units_logo", "earth_to_microgravity"],
+  "splits": "Reuse the corresponding frozen Round3 splits exactly:30 pooled,25 strict,1 Earth-only transfer",
+  "primary_gate": "Full pooled ISS group MAE <=90% of separate Round2 0.010490585024313702, AND pooled Earth MAE <= separate Round2 0.013327813827982137. A 10% gain is a development screen, not a practical safety tolerance.",
+  "secondary_transfer_gate": "MAE <=80% of nearest0.01662348484848485. No transfer tuning on ISS outcomes.",
+  "strict": "Exclude U01 from both training and evaluation; 23 flight rows are9.5/12.7mm,11 excluded are6.4mm. Sensitivity cannot replace full-cohort result.",
+  "verification": "GPU float64 fits; independently solve augmented least squares on CPU, verify constraints/KKT, predictions, grouped scores, exact control reproduction and preserved hashes",
+  "reporting": "All models and failures, coverage, worst cases, descriptive paired group-bootstrap differences, fitted peak at19% O2. Peak is not lunar evidence. Reused development folds, no independent confirmation or deployment promotion.",
+  "seed": 20261114,
+  "execution": "Blackwell CUDA required, no CPU fitting fallback. CPU preprocessing and independent verification. Freeze before fit; refuse overwrite."
+}

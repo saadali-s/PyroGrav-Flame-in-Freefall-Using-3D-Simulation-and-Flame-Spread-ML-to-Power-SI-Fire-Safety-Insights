@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "rechecked_predictions": 504,
+  "checked_splits": 37,
+  "gpu_models_reloaded": 37,
+  "metrics_recomputed": 16,
+  "source_files_unchanged": 49,
+  "gpu_samples": 76,
+  "sampled_peak_gpu_utilization_pct": 84,
+  "sampled_peak_memory_mib": 1342,
+  "median_check": "Verified weighted-median defining inequalities; an exact half-weight boundary may admit multiple equally valid medians.",
+  "limits": "Checks reproducibility and internal consistency, not independent experimental replication or lunar validity."
+}

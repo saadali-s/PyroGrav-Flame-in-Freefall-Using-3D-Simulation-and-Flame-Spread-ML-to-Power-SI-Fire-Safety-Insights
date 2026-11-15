@@ -1,0 +1,17 @@
+{
+  "run_id": "flex-round1-2026-11-14",
+  "target": "Reported average burning-rate constant K in mm2/s, only source-matched positive-rate non-disrupted trials. Not extinction probability.",
+  "models": ["fuel_median", "same_fuel_nearest", "log_ridge", "log_catboost"],
+  "primary_model": "log_ridge",
+  "features": ["heptane_indicator", "ln_pressure_mmhg", "o2", "co2", "he", "ln_initial_diameter_mm"],
+  "excluded_features": "No outcome, burn duration, extinction diameter, source ID, date or test number as predictor. N2 omitted as near-redundant gas-balance component.",
+  "evaluations": ["condition_group_5fold", "date_group_5fold"],
+  "splits": "sklearn GroupKFold(n_splits=5,shuffle=False). Primary groups fuel + rounded0.1atm pressure bin + exact nominal composition, all sizes together. Secondary entire campaign date held out. No row random split.",
+  "weights": "Equal group weights, normalized to row mean1, using training groups only; scores equal-group MAE, per-fuel and gas-presence diagnostics.",
+  "ridge": "alpha1, training-only weighted standardization; log target, exponentiate, no smearing or clipping; float64 CUDA solve",
+  "catboost": {"iterations":100,"depth":2,"learning_rate":0.03,"l2_leaf_reg":5,"bootstrap_type":"No","random_seed":20261114,"task_type":"GPU","devices":"0","loss_function":"RMSE","verbose":false,"allow_writing_files":false},
+  "gate": "Primary log_ridge must improve primary overall equal-group MAE by >=10% versus stronger of fuel median/same-fuel nearest AND neither fuel MAE worsens >10% versus its stronger simple baseline. CatBoost exploratory comparator. Secondary date split reported regardless, not selected to rescue primary failure. No practical safety tolerance or causal claim.",
+  "source_qualification": "198 candidates from274 CSV rows/258 numeric rates after all9 numeric fields match original Appendix A;76 review rows retained. No pressure0 repair or mixture renormalization. Unknown support-fiber/translation/velocity metadata are material limitations.",
+  "deployment": "Show held-out prediction comparisons at recorded conditions only, no new-input prediction, no CO2/He causal effectiveness or extinction-control claims. No synthetic droplet trajectory labels.",
+  "verification": "Freeze input hashes, splits and script; CUDA Blackwell required, saved CatBoost models reloaded, independent CPU ridge/baselines and source reconciliation, all metrics/hashes verified; no overwrite"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "physics-baseline-v1-2026-11-14",
+  "candidate_sha256": "c8a27c28a4a4db5aa0e0e382c837d05e5ff34a808f371a25eea5ca28e41b4613",
+  "model": "Delichatsios2000 Eq7 cylindrical solid energy balance, surface re-radiation and finite radial heated depth. Not a CFD solver, not a machine-learning predictor.",
+  "rate_equation": "rho_s*cp_s*(Tp-Ta)*v*Lsy*(1-Lsy/(2r)) = [C*Lg_curv/r / log1p(C*Lg_curv/r)]*E_FL - epsilon*sigma*(Tp^4-Ta^4)*Lg_heat",
+  "lengths": "Vr=Ueffective+v; Lg_heat=alpha_heating/Vr; Lg_curv=alpha_curvature/Vr; Lsy=min(r,sqrt(alpha_s*Lg_heat/v)); alpha_s=ks/(rho_s*cp_s). Two effective diffusivities follow the source's distinction, not measured transport properties of our runs.",
+  "flow_extension": "Thomsen2020 Eq6 at assumed P/P0=1: Ueffective=[Uf^4+(9.80665*g_fraction*kappa*r)^2]^(1/4). Combining this with the2000 energy equation is OUR conditional extension. No per-row pressure/temperature was recovered. kappa3.5 primary;1 and5.2 sensitivity; no partial-g validation.",
+  "energy_closure": "E_FL=127*(Y_O2/0.233) W/m, Y_O2=32*x/(32*x+28*(1-x)), x=O2pct/100.127 is source CFD-derived air calibration at40cm/s, not a measured heat flux. Proportional scaling and use below air oxygen/at low flow are assumptions. No local labels enter constants.",
+  "parameters": {"rho_s":1190,"cp_s":1465,"k_s":0.19,"t_pyrolysis":640,"t_ambient":300,"alpha_heating":0.00088,"alpha_curvature":0.00017,"curvature_c":3.21,"emissivity":1,"energy_air_w_per_m":127,"reference_oxygen_mass_fraction":0.233,"kappa":3.5},
+  "scenarios": {"published_closure_primary":{},"no_surface_radiation":{"emissivity":0},"half_flame_energy":{"energy_air_w_per_m":63.5},"kappa_1":{"kappa":1},"kappa_5p2":{"kappa":5.2}},
+  "numerics": "Root search1e-10 to1m/s,1601log-spaced samples, Brent solve every sign-changing interval. Only unique roots returned; multiple/absent brackets abstain, not extinction labels. Tangential roots can be missed by bracketing; independent denser scan verifies encountered data. No output clipping or after-score parameter changes.",
+  "evaluation": "All69 unchanged candidates; separateEarth35/19groups andISS34/11groups, strict-unitISS23/6groups reported separately. Equal-group MAE and RMSE. Report coverage and nulls before metrics; full-cohort score only at100% coverage. Compare fixed outputs to Round2 same-row heldout log_geometry_ridge predictions. No newly claimed holdout validation: labels and source-informed theory are previously seen.",
+  "omissions": "No gas-phase radiative-loss closure, finite-rate chemistry, measured pressure sweep, high-O2 validation or regime-specific fitted thermal properties. No artificial minimum spread rate, no forced zero at unverified LOC, no fabricated uncertainty.",
+  "calibration": "Zero local fitted parameters. No neural networks or fitted regressors. Inherited published simulation calibration is disclosed. This is not an ab-initio/no-calibration model. No local calibration in this step.",
+  "execution": "CPU scalar root solving, not ML training. No GPU use claimed or needed.",
+  "gate": "A useful full-cohort comparator must at least beat simple same-domain baseline; no safety tolerance established. No lunar/Mars accuracy claim regardless of endpoint score. Publish all scenarios, do not select a winner by observed labels. Freeze artifacts and stop for review."
+}

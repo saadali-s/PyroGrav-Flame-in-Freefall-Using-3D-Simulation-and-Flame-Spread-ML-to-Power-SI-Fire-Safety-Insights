@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "source_files_unchanged": 49,
+  "dataset_unchanged": true,
+  "group_overlap": 0,
+  "row_overlap": 0,
+  "complete_heldout_coverage": true,
+  "gpu_fits": 37,
+  "gpu_params_verified": true,
+  "model_reload_predictions_verified": true,
+  "lunar_labels_used": 0,
+  "review_rows_used": 0,
+  "feature_preprocessing_training_only": true,
+  "hyperparameter_search": false,
+  "prediction_rows": 504
+}

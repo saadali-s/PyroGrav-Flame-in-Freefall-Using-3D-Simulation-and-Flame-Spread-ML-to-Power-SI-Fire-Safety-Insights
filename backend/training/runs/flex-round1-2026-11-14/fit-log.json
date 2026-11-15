@@ -1,0 +1,1022 @@
+[
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 0,
+    "model": "fuel_median",
+    "artifact": null
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 0,
+    "model": "same_fuel_nearest",
+    "artifact": null
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 0,
+    "model": "log_ridge",
+    "artifact": {
+      "mean": [
+        0.42857142857142866,
+        6.528251933431869,
+        0.18873015873015883,
+        0.11269841269841277,
+        0.09047619047619053,
+        1.0301229468660715
+      ],
+      "scale": [
+        0.4948716593053936,
+        0.24599893460117855,
+        0.0398207118275276,
+        0.17589865723344253,
+        0.1422208049816008,
+        0.2543610294472654
+      ],
+      "coefficients": [
+        0.006468474401783027,
+        0.05155264469834178,
+        0.1775034793053894,
+        -0.04652179064820213,
+        0.15603203626933326,
+        -0.10608359452164187
+      ],
+      "intercept": -0.7324205245800308,
+      "device": "cuda:0"
+    }
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 0,
+    "model": "log_catboost",
+    "artifact": {
+      "path": "models/condition_group_5fold-0.cbm",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.95,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 1,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 128,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 1,
+    "model": "fuel_median",
+    "artifact": null
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 1,
+    "model": "same_fuel_nearest",
+    "artifact": null
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 1,
+    "model": "log_ridge",
+    "artifact": {
+      "mean": [
+        0.41269841269841273,
+        6.52994972284381,
+        0.19063492063492068,
+        0.10714285714285718,
+        0.076984126984127,
+        1.073635007823059
+      ],
+      "scale": [
+        0.49231944188161353,
+        0.25416547673665063,
+        0.04260833124707384,
+        0.17271343888878227,
+        0.13476181128121353,
+        0.23724131081308272
+      ],
+      "coefficients": [
+        -0.004044378991789373,
+        0.06091094914933217,
+        0.1791598961224148,
+        -0.07015272377990865,
+        0.14993077424601806,
+        -0.08305914598166105
+      ],
+      "intercept": -0.7677482089138478,
+      "device": "cuda:0"
+    }
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 1,
+    "model": "log_catboost",
+    "artifact": {
+      "path": "models/condition_group_5fold-1.cbm",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.95,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 1,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 128,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 2,
+    "model": "fuel_median",
+    "artifact": null
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 2,
+    "model": "same_fuel_nearest",
+    "artifact": null
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 2,
+    "model": "log_ridge",
+    "artifact": {
+      "mean": [
+        0.4285714285714285,
+        6.5228036776046645,
+        0.19317460317460317,
+        0.130952380952381,
+        0.07063492063492066,
+        1.0869350761438998
+      ],
+      "scale": [
+        0.4948716593053935,
+        0.2735505053073973,
+        0.04230746854497206,
+        0.18264124158921968,
+        0.12867916317149997,
+        0.22707367421857097
+      ],
+      "coefficients": [
+        -0.015454467768580466,
+        0.048475199520767356,
+        0.17411796418990458,
+        -0.09211483410321501,
+        0.14807830503297512,
+        -0.08051981939824922
+      ],
+      "intercept": -0.7863178741843042,
+      "device": "cuda:0"
+    }
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 2,
+    "model": "log_catboost",
+    "artifact": {
+      "path": "models/condition_group_5fold-2.cbm",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.95,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 1,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 128,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 3,
+    "model": "fuel_median",
+    "artifact": null
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 3,
+    "model": "same_fuel_nearest",
+    "artifact": null
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 3,
+    "model": "log_ridge",
+    "artifact": {
+      "mean": [
+        0.39062499999999994,
+        6.530373454845672,
+        0.19156250000000002,
+        0.12968749999999998,
+        0.09375,
+        1.0561408157616716
+      ],
+      "scale": [
+        0.48789046862487484,
+        0.29197124791728135,
+        0.04104946520662602,
+        0.1937699082513846,
+        0.14456291882775468,
+        0.2513777135718534
+      ],
+      "coefficients": [
+        0.013079572581377166,
+        0.06773076734140228,
+        0.17085088700607534,
+        -0.07743090933223752,
+        0.16575669702819065,
+        -0.08532756819846953
+      ],
+      "intercept": -0.7390182474032901,
+      "device": "cuda:0"
+    }
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 3,
+    "model": "log_catboost",
+    "artifact": {
+      "path": "models/condition_group_5fold-3.cbm",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.95,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 1,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 128,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 4,
+    "model": "fuel_median",
+    "artifact": null
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 4,
+    "model": "same_fuel_nearest",
+    "artifact": null
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 4,
+    "model": "log_ridge",
+    "artifact": {
+      "mean": [
+        0.42857142857142916,
+        6.551495808374702,
+        0.18841269841269867,
+        0.1301587301587303,
+        0.07936507936507947,
+        1.0679116284731494
+      ],
+      "scale": [
+        0.49487165930539384,
+        0.287600927506068,
+        0.040638020715079194,
+        0.19136512149650384,
+        0.13202781111392178,
+        0.2591105104699724
+      ],
+      "coefficients": [
+        -0.00790548336566821,
+        0.07065250372762703,
+        0.1856992992410358,
+        -0.08734237103529355,
+        0.14821933083313998,
+        -0.09730982986325183
+      ],
+      "intercept": -0.7811463571587504,
+      "device": "cuda:0"
+    }
+  },
+  {
+    "evaluation": "condition_group_5fold",
+    "fold": 4,
+    "model": "log_catboost",
+    "artifact": {
+      "path": "models/condition_group_5fold-4.cbm",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.95,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 1,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 128,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 0,
+    "model": "fuel_median",
+    "artifact": null
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 0,
+    "model": "same_fuel_nearest",
+    "artifact": null
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 0,
+    "model": "log_ridge",
+    "artifact": {
+      "mean": [
+        0.413793103448276,
+        6.567638412837843,
+        0.19590517241379318,
+        0.13245689655172413,
+        0.045416666666666695,
+        1.0674113108102403
+      ],
+      "scale": [
+        0.49251230541674845,
+        0.28232370604003937,
+        0.040662433971228616,
+        0.18909607539105525,
+        0.10665283113395957,
+        0.26599744924255525
+      ],
+      "coefficients": [
+        0.024316011949156984,
+        0.048211447880381585,
+        0.15945349379825038,
+        -0.0437185674006931,
+        0.10968791406454495,
+        -0.08191899345374327
+      ],
+      "intercept": -0.7451300005268083,
+      "device": "cuda:0"
+    }
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 0,
+    "model": "log_catboost",
+    "artifact": {
+      "path": "models/date_group_5fold-0.cbm",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.95,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 1,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 128,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 1,
+    "model": "fuel_median",
+    "artifact": null
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 1,
+    "model": "same_fuel_nearest",
+    "artifact": null
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 1,
+    "model": "log_ridge",
+    "artifact": {
+      "mean": [
+        0.35672514619882995,
+        6.583757850399583,
+        0.19296783625730973,
+        0.15074561403508757,
+        0.059941520467836185,
+        1.0501318926003487
+      ],
+      "scale": [
+        0.47903268809993876,
+        0.3249935859804132,
+        0.040105039211700264,
+        0.21061077892658178,
+        0.12511046382733806,
+        0.26702111514192317
+      ],
+      "coefficients": [
+        0.0011006262988050176,
+        0.07070662512587969,
+        0.16370649015412686,
+        -0.08812364696442292,
+        0.13356896118748188,
+        -0.09074746928860375
+      ],
+      "intercept": -0.766877283331313,
+      "device": "cuda:0"
+    }
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 1,
+    "model": "log_catboost",
+    "artifact": {
+      "path": "models/date_group_5fold-1.cbm",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.95,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 1,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 128,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 2,
+    "model": "fuel_median",
+    "artifact": null
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 2,
+    "model": "same_fuel_nearest",
+    "artifact": null
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 2,
+    "model": "log_ridge",
+    "artifact": {
+      "mean": [
+        0.46198830409356667,
+        6.561298612077204,
+        0.19758187134502905,
+        0.13109649122807002,
+        0.048464912280701704,
+        1.0601835875652308
+      ],
+      "scale": [
+        0.498553017215137,
+        0.31212856293846597,
+        0.040352619993721785,
+        0.19178782452703116,
+        0.11190069844604005,
+        0.26983893450506924
+      ],
+      "coefficients": [
+        0.00013046496801604132,
+        0.07650142123780018,
+        0.17133901682647598,
+        -0.11339354867822089,
+        0.12175847690090466,
+        -0.08617447027210234
+      ],
+      "intercept": -0.7595117963934714,
+      "device": "cuda:0"
+    }
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 2,
+    "model": "log_catboost",
+    "artifact": {
+      "path": "models/date_group_5fold-2.cbm",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.95,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 1,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 128,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 3,
+    "model": "fuel_median",
+    "artifact": null
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 3,
+    "model": "same_fuel_nearest",
+    "artifact": null
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 3,
+    "model": "log_ridge",
+    "artifact": {
+      "mean": [
+        0.4540229885057468,
+        6.569479980317657,
+        0.19636206896551717,
+        0.13508620689655165,
+        0.057399425287356295,
+        1.056264349307716
+      ],
+      "scale": [
+        0.49788162690950666,
+        0.29034570483181943,
+        0.04211145513029257,
+        0.19647100202660056,
+        0.1253637979591802,
+        0.2388076537444632
+      ],
+      "coefficients": [
+        0.014790828603285192,
+        0.0856042471220398,
+        0.16743964226918606,
+        -0.0981492769135992,
+        0.13477384482929622,
+        -0.08877415544524073
+      ],
+      "intercept": -0.7519392127344904,
+      "device": "cuda:0"
+    }
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 3,
+    "model": "log_catboost",
+    "artifact": {
+      "path": "models/date_group_5fold-3.cbm",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.95,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 1,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 128,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 4,
+    "model": "fuel_median",
+    "artifact": null
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 4,
+    "model": "same_fuel_nearest",
+    "artifact": null
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 4,
+    "model": "log_ridge",
+    "artifact": {
+      "mean": [
+        0.41954022988505735,
+        6.57781694373784,
+        0.19121551724137928,
+        0.1273706896551724,
+        0.059899425287356305,
+        1.058775393322108
+      ],
+      "scale": [
+        0.4934837640622542,
+        0.2868761125150793,
+        0.0389317054628962,
+        0.19275337244567092,
+        0.1225289841371938,
+        0.24335849636197748
+      ],
+      "coefficients": [
+        -0.008333060223930648,
+        0.07175075979451,
+        0.18574551310462994,
+        -0.09163448651642177,
+        0.1424771311921753,
+        -0.06374664818019025
+      ],
+      "intercept": -0.7681588805958165,
+      "device": "cuda:0"
+    }
+  },
+  {
+    "evaluation": "date_group_5fold",
+    "fold": 4,
+    "model": "log_catboost",
+    "artifact": {
+      "path": "models/date_group_5fold-4.cbm",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.95,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 1,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 128,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  }
+]

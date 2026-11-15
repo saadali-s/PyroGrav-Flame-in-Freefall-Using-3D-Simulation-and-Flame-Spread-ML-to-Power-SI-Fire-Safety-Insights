@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "independent_cpu": true,
+  "predictions": 483,
+  "max_difference_mms": 1.4921397450962104e-13,
+  "metrics": 21,
+  "folds": 56,
+  "round3_control_predictions_reproduced": 161,
+  "preserved_files": 176,
+  "candidate_sha256": "c8a27c28a4a4db5aa0e0e382c837d05e5ff34a808f371a25eea5ca28e41b4613"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "pyrograv-nasa-guide",
+  "main": "src/cloudflare.mjs",
+  "compatibility_date": "2026-11-14",
+  "ai": { "binding": "AI" },
+  "vars": { "GUIDE_MODEL": "deepseek" }
+}

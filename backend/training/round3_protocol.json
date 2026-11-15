@@ -1,0 +1,27 @@
+{
+  "run_id": "round3-2026-11-14",
+  "seed": 20261114,
+  "candidate_sha256": "c8a27c28a4a4db5aa0e0e382c837d05e5ff34a808f371a25eea5ca28e41b4613",
+  "round1_split_sha256": "4a186b8535421d81fae6e7fc86fed8a29dd940705a87d626e47456e90cc2e823",
+  "source": "Thomsen et al. 2020, accepted manuscript, DOI 10.1007/s10694-019-00866-0, p10 Eq6; https://ira.lib.polyu.edu.hk/bitstream/10397/89518/1/43_FT_2020_Buoyancy_Rod.pdf",
+  "transform": "U_m = 100 * [(U_f_cms/100)^4 + (9.80665*g_fraction*kappa*diameter_mm/2000)^2]^(1/4), cm/s. This is the Eq6 P/P0=1 special case. Radius, not diameter, is the characteristic length. kappa=beta*DeltaT is assumed constant, not measured or fitted.",
+  "assumptions": "Pressure-normalized hypothesis: no per-row pressure or temperature is imputed into the dataset. Treating recorded flow as reference-pressure flow and g as nominal0/1 are model assumptions. This tests a conditional feature map, not a complete pressure-aware combustion solver. kappa3.5 comes from roadmap p2 illustration;1 and5.2 are declared sensitivity scenarios, not confidence bounds or source-calibrated constants. No universal lunar speed asserted.",
+  "features": ["oxygen_pct - 19", "1 / diameter_mm", "ln(U_cms / (1 cm/s))", "(oxygen_pct - 19) * ln(U_cms / (1 cm/s))"],
+  "models": {
+    "geometry_control": {"kappa": 0, "penalty": 0},
+    "mixed_3p5": {"kappa": 3.5, "penalty": 0},
+    "mixed_3p5_penalty": {"kappa": 3.5, "penalty": 1},
+    "mixed_1_penalty": {"kappa": 1, "penalty": 1},
+    "mixed_5p2_penalty": {"kappa": 5.2, "penalty": 1}
+  },
+  "fit": "Group-weighted log-target ridge, alpha1, weighted train-only feature standardization. Loss=sum(w*(ln(y)-prediction)^2)+sum(b^2)+lambda*n*mean(relu(-D*b)^2). D rows are sigma_O2*d(log_prediction)/d(O2) at min/max TRAINING ln(U). D=[sigma_O2/scale0,0,0,sigma_O2*ln(U)/scale3]. Intercept unpenalized. Enumerate four possible active sets of two convex squared-hinge constraints, solve normal equations on CUDA float64, require sign consistency and stationarity. This is a soft oxygen-direction prior over the training U interval, not a PDE residual, global monotonic guarantee, or calibrated physical bound. No flow/gravity monotonicity assumed.",
+  "gpu": "PyTorch CUDA on user's Blackwell, no CPU fallback for five regression variants; CPU NumPy used for data preparation, median/nearest baselines and independent verification. Small linear solves are not expected to benefit in speed.",
+  "evaluations": ["earth_logo", "microgravity_logo", "microgravity_strict_units_logo", "earth_to_microgravity", "pooled_logo", "pooled_strict_units_logo"],
+  "splits": "Reuse all37 Round1 splits unchanged. Add30 pooled leave-group-out folds across69 rows and25 pooled strict-unit folds across58 rows (exclude11 U01 flight rows, including from training). Groups never cross train/test. Report pooled Earth and flight scores separately. No split or model tuning based on Round3 outcomes.",
+  "baselines": "Recompute group-weighted median and raw-feature standardized nearest lookup on identical folds. Geometry control must reproduce Round2 log_geometry_ridge on original37 splits. Pooled baseline learns from both domains and cannot substitute for Earth-only transfer.",
+  "primary_metric": "Equal-group MAE mm/s; also group RMSE, row R2. Predictions are exp(log prediction), no clipping or smearing.",
+  "primary_comparison": "Earth-only mixed_3p5_penalty versus same-fold nearest baseline and geometry_control. Report transform-only and penalty incremental effects separately. All sensitivity results remain visible; no winner selection by ISS score.",
+  "gates": "Report user's exploratory gate MAE<nearest (~0.01662348), plus retained20% improvement gate MAE<=0.8*nearest (~0.01329879). Neither is task-based safety acceptance. Report paired group bootstrap2000 resamples as descriptive sensitivity, not confirmatory inference.",
+  "limits": "ISS labels and prior results have already been seen, making this reused development evaluation, not blind confirmation. Source physics itself used BASS-II, potentially overlapping these rows; constants/correlations fitted to those ISS outcomes are not imported. No new real labels; no compatible partial-g opposed-black-rod rate test accepted. No lunar accuracy, certified mode, probability of winning, or scientific impossibility inference from failure.",
+  "stop": "Finish fixed Round3, independent verification, all-results localhost review and research handoff; stop for user review. No autonomous Round4 or final deployment model. No synthetic labels, no source deletion, no pressure scenarios outside observed support."
+}

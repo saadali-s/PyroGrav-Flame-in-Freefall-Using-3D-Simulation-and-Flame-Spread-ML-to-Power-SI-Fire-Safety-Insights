@@ -1,0 +1,626 @@
+[
+  {
+    "evaluation": "earth_logo",
+    "model": "log_raw_ridge",
+    "reference_round": 1,
+    "reference": "nearest",
+    "relative_mae_improvement": 0.3647268268582121,
+    "group_delta_percentiles_mms": [
+      -0.01322281968847821,
+      -0.0027871929327559267
+    ],
+    "groups_improved": 15,
+    "groups": 19
+  },
+  {
+    "evaluation": "earth_logo",
+    "model": "log_raw_ridge",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.15245633350149623,
+    "group_delta_percentiles_mms": [
+      -0.007729200843697984,
+      0.0026224398166473984
+    ],
+    "groups_improved": 11,
+    "groups": 19
+  },
+  {
+    "evaluation": "earth_logo",
+    "model": "log_raw_ridge",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": 0.4049343239159847,
+    "group_delta_percentiles_mms": [
+      -0.017698043190858315,
+      -0.0032621334998186547
+    ],
+    "groups_improved": 14,
+    "groups": 19
+  },
+  {
+    "evaluation": "earth_logo",
+    "model": "log_geometry_ridge",
+    "reference_round": 1,
+    "reference": "nearest",
+    "relative_mae_improvement": 0.4057762226172461,
+    "group_delta_percentiles_mms": [
+      -0.015315459818331632,
+      -0.0017748457931729543
+    ],
+    "groups_improved": 17,
+    "groups": 19
+  },
+  {
+    "evaluation": "earth_logo",
+    "model": "log_geometry_ridge",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.20722199473207792,
+    "group_delta_percentiles_mms": [
+      -0.00889401336676791,
+      0.002363407449033473
+    ],
+    "groups_improved": 10,
+    "groups": 19
+  },
+  {
+    "evaluation": "earth_logo",
+    "model": "log_geometry_ridge",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": 0.44338563505727535,
+    "group_delta_percentiles_mms": [
+      -0.016461779109026766,
+      -0.005341255127400129
+    ],
+    "groups_improved": 16,
+    "groups": 19
+  },
+  {
+    "evaluation": "earth_logo",
+    "model": "log_geometry_smear",
+    "reference_round": 1,
+    "reference": "nearest",
+    "relative_mae_improvement": 0.3993494900441623,
+    "group_delta_percentiles_mms": [
+      -0.015898648002438658,
+      -0.001532162301453849
+    ],
+    "groups_improved": 17,
+    "groups": 19
+  },
+  {
+    "evaluation": "earth_logo",
+    "model": "log_geometry_smear",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.19864783054746638,
+    "group_delta_percentiles_mms": [
+      -0.009002551282342203,
+      0.0023869713534475415
+    ],
+    "groups_improved": 10,
+    "groups": 19
+  },
+  {
+    "evaluation": "earth_logo",
+    "model": "log_geometry_smear",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": 0.43736566109127306,
+    "group_delta_percentiles_mms": [
+      -0.01709343274100944,
+      -0.0052149299194186195
+    ],
+    "groups_improved": 17,
+    "groups": 19
+  },
+  {
+    "evaluation": "earth_logo",
+    "model": "log_catboost_gpu",
+    "reference_round": 1,
+    "reference": "nearest",
+    "relative_mae_improvement": -0.1268243636437547,
+    "group_delta_percentiles_mms": [
+      -0.004552748196136167,
+      0.011676413376251292
+    ],
+    "groups_improved": 13,
+    "groups": 19
+  },
+  {
+    "evaluation": "earth_logo",
+    "model": "log_catboost_gpu",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": -0.5033420157493658,
+    "group_delta_percentiles_mms": [
+      0.001821982606949944,
+      0.015190020299446768
+    ],
+    "groups_improved": 6,
+    "groups": 19
+  },
+  {
+    "evaluation": "earth_logo",
+    "model": "log_catboost_gpu",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": -0.05550577315178584,
+    "group_delta_percentiles_mms": [
+      -0.0017181232555424511,
+      0.00472144205345823
+    ],
+    "groups_improved": 10,
+    "groups": 19
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "log_raw_ridge",
+    "reference_round": 1,
+    "reference": "median",
+    "relative_mae_improvement": 0.34977797126334176,
+    "group_delta_percentiles_mms": [
+      -0.011416529184717483,
+      -0.0023248574328052184
+    ],
+    "groups_improved": 9,
+    "groups": 11
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "log_raw_ridge",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.04223625524262464,
+    "group_delta_percentiles_mms": [
+      -0.003032121607875731,
+      0.0019217961789039617
+    ],
+    "groups_improved": 6,
+    "groups": 11
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "log_raw_ridge",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": 0.15482699986371773,
+    "group_delta_percentiles_mms": [
+      -0.007379253711134009,
+      0.002900766909621004
+    ],
+    "groups_improved": 6,
+    "groups": 11
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "log_geometry_ridge",
+    "reference_round": 1,
+    "reference": "median",
+    "relative_mae_improvement": 0.4616657375852705,
+    "group_delta_percentiles_mms": [
+      -0.013385959896260112,
+      -0.004535019433377366
+    ],
+    "groups_improved": 9,
+    "groups": 11
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "log_geometry_ridge",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.20704464580613413,
+    "group_delta_percentiles_mms": [
+      -0.005332037184638309,
+      -0.000227363393020185
+    ],
+    "groups_improved": 8,
+    "groups": 11
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "log_geometry_ridge",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": 0.3002611976631754,
+    "group_delta_percentiles_mms": [
+      -0.009221341335518463,
+      -2.5603079539099515e-05
+    ],
+    "groups_improved": 8,
+    "groups": 11
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "log_geometry_smear",
+    "reference_round": 1,
+    "reference": "median",
+    "relative_mae_improvement": 0.44921554793792695,
+    "group_delta_percentiles_mms": [
+      -0.01351883313380823,
+      -0.004301645030668479
+    ],
+    "groups_improved": 9,
+    "groups": 11
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "log_geometry_smear",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.1887057711870328,
+    "group_delta_percentiles_mms": [
+      -0.0049367707836441,
+      -3.0514301648141866e-05
+    ],
+    "groups_improved": 7,
+    "groups": 11
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "log_geometry_smear",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": 0.2840781652965917,
+    "group_delta_percentiles_mms": [
+      -0.008946450116399928,
+      -6.216736297173314e-05
+    ],
+    "groups_improved": 9,
+    "groups": 11
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "log_catboost_gpu",
+    "reference_round": 1,
+    "reference": "median",
+    "relative_mae_improvement": 0.23788144123070398,
+    "group_delta_percentiles_mms": [
+      -0.009777216472736473,
+      0.0006600734080521786
+    ],
+    "groups_improved": 7,
+    "groups": 11
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "log_catboost_gpu",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": -0.12258504408745319,
+    "group_delta_percentiles_mms": [
+      -0.0027606529624809844,
+      0.006576112119518488
+    ],
+    "groups_improved": 5,
+    "groups": 11
+  },
+  {
+    "evaluation": "microgravity_logo",
+    "model": "log_catboost_gpu",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": 0.009381410798900092,
+    "group_delta_percentiles_mms": [
+      -0.0009159716673402366,
+      0.0007456708696166657
+    ],
+    "groups_improved": 6,
+    "groups": 11
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "log_raw_ridge",
+    "reference_round": 1,
+    "reference": "nearest",
+    "relative_mae_improvement": -0.3242486748684852,
+    "group_delta_percentiles_mms": [
+      -0.0006471156836233184,
+      0.010737941796246264
+    ],
+    "groups_improved": 2,
+    "groups": 11
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "log_raw_ridge",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.20592311028390664,
+    "group_delta_percentiles_mms": [
+      -0.012002671245078436,
+      0.0011009336655740342
+    ],
+    "groups_improved": 8,
+    "groups": 11
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "log_raw_ridge",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": -0.29927080268850914,
+    "group_delta_percentiles_mms": [
+      -0.0028999650897702416,
+      0.012750138909141027
+    ],
+    "groups_improved": 4,
+    "groups": 11
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "log_geometry_ridge",
+    "reference_round": 1,
+    "reference": "nearest",
+    "relative_mae_improvement": -0.5907768337124815,
+    "group_delta_percentiles_mms": [
+      0.004289778983692787,
+      0.01633407958301276
+    ],
+    "groups_improved": 2,
+    "groups": 11
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "log_geometry_ridge",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.04610127665615826,
+    "group_delta_percentiles_mms": [
+      -0.009781129084961362,
+      0.00783816708556085
+    ],
+    "groups_improved": 6,
+    "groups": 11
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "log_geometry_ridge",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": -0.5607717288002312,
+    "group_delta_percentiles_mms": [
+      0.002727343305378228,
+      0.01636850715703322
+    ],
+    "groups_improved": 2,
+    "groups": 11
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "log_geometry_smear",
+    "reference_round": 1,
+    "reference": "nearest",
+    "relative_mae_improvement": -0.598748700386893,
+    "group_delta_percentiles_mms": [
+      0.004814819590543745,
+      0.015700256866750546
+    ],
+    "groups_improved": 1,
+    "groups": 11
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "log_geometry_smear",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.04132099994968774,
+    "group_delta_percentiles_mms": [
+      -0.009773527610797663,
+      0.007684732207276622
+    ],
+    "groups_improved": 6,
+    "groups": 11
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "log_geometry_smear",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": -0.5685932307655002,
+    "group_delta_percentiles_mms": [
+      0.003074603921028191,
+      0.016317405048021916
+    ],
+    "groups_improved": 3,
+    "groups": 11
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "log_catboost_gpu",
+    "reference_round": 1,
+    "reference": "nearest",
+    "relative_mae_improvement": 0.03225942592176323,
+    "group_delta_percentiles_mms": [
+      -0.007959191427335862,
+      0.006716463780942646
+    ],
+    "groups_improved": 5,
+    "groups": 11
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "log_catboost_gpu",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.41970081624402544,
+    "group_delta_percentiles_mms": [
+      -0.02317420234974114,
+      0.00039418745033396445
+    ],
+    "groups_improved": 8,
+    "groups": 11
+  },
+  {
+    "evaluation": "earth_to_microgravity",
+    "model": "log_catboost_gpu",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": 0.05051287092906398,
+    "group_delta_percentiles_mms": [
+      -0.004415725673467242,
+      0.0024695379969627397
+    ],
+    "groups_improved": 6,
+    "groups": 11
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "log_raw_ridge",
+    "reference_round": 1,
+    "reference": "median",
+    "relative_mae_improvement": 0.07880819140409856,
+    "group_delta_percentiles_mms": [
+      -0.006889193131054143,
+      0.005436134766864835
+    ],
+    "groups_improved": 3,
+    "groups": 6
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "log_raw_ridge",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.10048146616402853,
+    "group_delta_percentiles_mms": [
+      -0.0029509171366125797,
+      0.0009434189909509022
+    ],
+    "groups_improved": 4,
+    "groups": 6
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "log_raw_ridge",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": -0.28501689366630467,
+    "group_delta_percentiles_mms": [
+      -0.00016864443893994368,
+      0.005497876135845638
+    ],
+    "groups_improved": 3,
+    "groups": 6
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "log_geometry_ridge",
+    "reference_round": 1,
+    "reference": "median",
+    "relative_mae_improvement": 0.13621342248098867,
+    "group_delta_percentiles_mms": [
+      -0.006868271463216902,
+      0.003506702318690679
+    ],
+    "groups_improved": 3,
+    "groups": 6
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "log_geometry_ridge",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.15653609974951987,
+    "group_delta_percentiles_mms": [
+      -0.005053114765284981,
+      0.00025532010900337925
+    ],
+    "groups_improved": 4,
+    "groups": 6
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "log_geometry_ridge",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": -0.2049394428788749,
+    "group_delta_percentiles_mms": [
+      0.00010892233174674612,
+      0.0032689734896606502
+    ],
+    "groups_improved": 1,
+    "groups": 6
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "log_geometry_smear",
+    "reference_round": 1,
+    "reference": "median",
+    "relative_mae_improvement": 0.11302108241925035,
+    "group_delta_percentiles_mms": [
+      -0.006455999384757989,
+      0.003741219973202582
+    ],
+    "groups_improved": 3,
+    "groups": 6
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "log_geometry_smear",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.1338894158191034,
+    "group_delta_percentiles_mms": [
+      -0.004271868689433298,
+      0.00020878889962703517
+    ],
+    "groups_improved": 5,
+    "groups": 6
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "log_geometry_smear",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": -0.23729160722173126,
+    "group_delta_percentiles_mms": [
+      0.0004961929174332578,
+      0.0034884022175337794
+    ],
+    "groups_improved": 1,
+    "groups": 6
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "log_catboost_gpu",
+    "reference_round": 1,
+    "reference": "median",
+    "relative_mae_improvement": 0.28764803682910034,
+    "group_delta_percentiles_mms": [
+      -0.007532242869741115,
+      0.0007439169812956678
+    ],
+    "groups_improved": 4,
+    "groups": 6
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "log_catboost_gpu",
+    "reference_round": 1,
+    "reference": "ridge",
+    "relative_mae_improvement": 0.30440784697885714,
+    "group_delta_percentiles_mms": [
+      -0.007897634990524744,
+      -0.0011872294788703203
+    ],
+    "groups_improved": 6,
+    "groups": 6
+  },
+  {
+    "evaluation": "microgravity_strict_units_logo",
+    "model": "log_catboost_gpu",
+    "reference_round": 1,
+    "reference": "catboost_gpu",
+    "relative_mae_improvement": 0.0063043349178167896,
+    "group_delta_percentiles_mms": [
+      -0.0008139026370751369,
+      0.000708539973791719
+    ],
+    "groups_improved": 3,
+    "groups": 6
+  }
+]

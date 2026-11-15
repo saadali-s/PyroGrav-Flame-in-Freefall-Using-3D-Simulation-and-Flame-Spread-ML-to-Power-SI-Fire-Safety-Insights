@@ -1,0 +1,4109 @@
+[
+  {
+    "fold_id": "earth_logo--ground-d0.32-o17.5",
+    "model": "median",
+    "train_rows": 34,
+    "test_rows": 1,
+    "seconds": 0.003765000030398369,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o17.5",
+    "model": "nearest",
+    "train_rows": 34,
+    "test_rows": 1,
+    "seconds": 0.10275939997518435,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o17.5",
+    "model": "ridge",
+    "train_rows": 34,
+    "test_rows": 1,
+    "seconds": 0.009807399997953326,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.46666666666668,
+        7.77222222222223,
+        12.22222222222223
+      ],
+      "scale": [
+        0.9591663046625437,
+        3.528582585363194,
+        11.428791884998928
+      ],
+      "coefficients": [
+        0.03413826355110057,
+        -0.03415725933109262,
+        -0.01035677253922907
+      ],
+      "intercept": 0.08040833333333369
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o17.5",
+    "model": "catboost_gpu",
+    "train_rows": 34,
+    "test_rows": 1,
+    "seconds": 27.381730299966875,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.32-o17.5.cbm",
+      "sha256": "ac5c702430aaea6482fb4d49e30e1c4a8a9a496c89f96dae7fa3d2ed194bcf5b",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o18.0",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.00016149994917213917,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o18.0",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.003603000019211322,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o18.0",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.00679610000224784,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.438888888888886,
+        7.772222222222221,
+        11.58333333333333
+      ],
+      "scale": [
+        1.0072729349248384,
+        3.5285825853631927,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.03721632634484312,
+        -0.03323379874082928,
+        -0.008887376843555818
+      ],
+      "intercept": 0.07913333333333326
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o18.0",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.6097073000273667,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.32-o18.0.cbm",
+      "sha256": "610ed53800f4c73466d2d41bc21997e9a273de1771410c2858fd3e27c6fc4c08",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o18.5",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0003068000078201294,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o18.5",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0034889000235125422,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o18.5",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.004470599989872426,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.411111111111108,
+        7.772222222222221,
+        11.58333333333333
+      ],
+      "scale": [
+        1.0391710846679074,
+        3.5285825853631927,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.03899028216123286,
+        -0.03245639572897107,
+        -0.009156754373069257
+      ],
+      "intercept": 0.07741944444444436
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o18.5",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.5498952000052668,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.32-o18.5.cbm",
+      "sha256": "8b6833cd93bdef1bffd0b82cb066e5b600abb868deb2004a789648664ac434ad",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o19.0",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.00013080000644549727,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o19.0",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0031287999590858817,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o19.0",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.004632800002582371,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.38333333333333,
+        7.772222222222221,
+        11.58333333333333
+      ],
+      "scale": [
+        1.0563301251660544,
+        3.5285825853631927,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.03940619244808036,
+        -0.031808510556593665,
+        -0.009073660792318378
+      ],
+      "intercept": 0.07589444444444432
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o19.0",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.541625700017903,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.32-o19.0.cbm",
+      "sha256": "52bc7a0295e2a0225edb7fa735776cf4bd3c41cf53ec22b3aedf9d936887eb7e",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o20.0",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.00014860002556815743,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o20.0",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.00523900002008304,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o20.0",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.009144099953118712,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.327777777777776,
+        7.772222222222221,
+        11.58333333333333
+      ],
+      "scale": [
+        1.0487058456103326,
+        3.5285825853631927,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.037491611111685016,
+        -0.03069227174003506,
+        -0.00878085786504634
+      ],
+      "intercept": 0.07325833333333327
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o20.0",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.5852934999857098,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.32-o20.0.cbm",
+      "sha256": "1532f9c1a0f98534cea5e707c670477af06ef1e254d005adfb699c8589345890",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o20.9",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0001297999988310039,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o20.9",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0035629000049084425,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o20.9",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.004236400010995567,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.277777777777775,
+        7.772222222222221,
+        11.58333333333333
+      ],
+      "scale": [
+        0.9925027598929187,
+        3.5285825853631927,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.03249374112009961,
+        -0.029002728018001384,
+        -0.00822013530972509
+      ],
+      "intercept": 0.07090555555555547
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.32-o20.9",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.5289830000256188,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.32-o20.9.cbm",
+      "sha256": "c6d980a633f489c22addced77405cfcb327da1ecc34b167d4ec092a053bf6d4f",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o18.5",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0001604999997653067,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o18.5",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0033623999916017056,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o18.5",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.004446100036147982,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.411111111111108,
+        7.594444444444444,
+        11.583333333333332
+      ],
+      "scale": [
+        1.0391710846679076,
+        3.670978104935192,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.038237635334816306,
+        -0.034274799344027974,
+        -0.009079546387465113
+      ],
+      "intercept": 0.08003611111111103
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o18.5",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.6066754000494257,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.64-o18.5.cbm",
+      "sha256": "0caa8ea16f11c1d89ed4cec1d76130177ff81fefc4aceedb40ee728409237932",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o19.0",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.00022549997083842754,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o19.0",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0036671000416390598,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o19.0",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.00393960002111271,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.383333333333333,
+        7.594444444444444,
+        11.583333333333332
+      ],
+      "scale": [
+        1.0563301251660544,
+        3.670978104935192,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.039191737071352435,
+        -0.03433800932143962,
+        -0.009545586303348435
+      ],
+      "intercept": 0.07902777777777781
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o19.0",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.4940440999926068,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.64-o19.0.cbm",
+      "sha256": "0a8e1f52f25fc7034c7e12b5731d627d1f59472ea2d95335148f6b663b6fe845",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o20.0",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 8.559995330870152e-05,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o20.0",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0015676000039093196,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o20.0",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0029093000339344144,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.327777777777776,
+        7.594444444444444,
+        11.583333333333332
+      ],
+      "scale": [
+        1.0487058456103324,
+        3.670978104935192,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.039908545032280814,
+        -0.03473511454054965,
+        -0.009462433189944419
+      ],
+      "intercept": 0.07754722222222218
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o20.0",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.40449440001975745,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.64-o20.0.cbm",
+      "sha256": "138ad40669dde511626c3cb9cb4587ed4d0267f82be08480696375243181c553",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o20.9",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 8.600001456215978e-05,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o20.9",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0016123999957926571,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o20.9",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.002153299981728196,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.277777777777775,
+        7.594444444444444,
+        11.583333333333332
+      ],
+      "scale": [
+        0.9925027598929188,
+        3.670978104935192,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.03913471055319403,
+        -0.03507358377511254,
+        -0.009485747699717835
+      ],
+      "intercept": 0.07567499999999992
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.64-o20.9",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.5639011000166647,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.64-o20.9.cbm",
+      "sha256": "8cff48d865f81483af1006f661f65de7580afb1a4fdbd1b359ac6bad10e538d5",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o18.5",
+    "model": "median",
+    "train_rows": 34,
+    "test_rows": 1,
+    "seconds": 0.00014210003428161144,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o18.5",
+    "model": "nearest",
+    "train_rows": 34,
+    "test_rows": 1,
+    "seconds": 0.003259100019931793,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o18.5",
+    "model": "ridge",
+    "train_rows": 34,
+    "test_rows": 1,
+    "seconds": 0.004415000032167882,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.41111111111112,
+        7.42222222222223,
+        12.22222222222223
+      ],
+      "scale": [
+        1.039171084667908,
+        3.650198709287477,
+        11.428791884998928
+      ],
+      "coefficients": [
+        0.03866399319561953,
+        -0.0339483742063863,
+        -0.009661925055031176
+      ],
+      "intercept": 0.08071388888888908
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o18.5",
+    "model": "catboost_gpu",
+    "train_rows": 34,
+    "test_rows": 1,
+    "seconds": 0.5314330999972299,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.95-o18.5.cbm",
+      "sha256": "13441abb3d3b15688a907a0a58e87db0a8db3cb09a737cb377a9d187d1c481ed",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o18.8",
+    "model": "median",
+    "train_rows": 34,
+    "test_rows": 1,
+    "seconds": 0.00014710001414641738,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o18.8",
+    "model": "nearest",
+    "train_rows": 34,
+    "test_rows": 1,
+    "seconds": 0.002584700006991625,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o18.8",
+    "model": "ridge",
+    "train_rows": 34,
+    "test_rows": 1,
+    "seconds": 0.00396920001367107,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.394444444444453,
+        7.42222222222223,
+        12.22222222222223
+      ],
+      "scale": [
+        1.0511751213772464,
+        3.650198709287477,
+        11.428791884998928
+      ],
+      "coefficients": [
+        0.03864737517320353,
+        -0.03337190667723693,
+        -0.010326143675099025
+      ],
+      "intercept": 0.08091388888888912
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o18.8",
+    "model": "catboost_gpu",
+    "train_rows": 34,
+    "test_rows": 1,
+    "seconds": 0.43336900003487244,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.95-o18.8.cbm",
+      "sha256": "e345de86b99f02ab92fdffd6ee5a8ffca2439d029c68b1a23503729003002af5",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o19.0",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 9.90999978967011e-05,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o19.0",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0016905000084079802,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o19.0",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.002425600017886609,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.383333333333333,
+        7.422222222222222,
+        11.583333333333332
+      ],
+      "scale": [
+        1.0563301251660544,
+        3.650198709287475,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.03930151721016989,
+        -0.03393017233666347,
+        -0.009549318056741541
+      ],
+      "intercept": 0.08020000000000001
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o19.0",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.4043470000033267,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.95-o19.0.cbm",
+      "sha256": "e57d6e8727cf21f0114d0f684adf61ef7aab1e71059cb63e8c3445f543a5d9ee",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o20.0",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0001509999856352806,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o20.0",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0033453000360168517,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o20.0",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.004482400021515787,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.327777777777776,
+        7.422222222222222,
+        11.583333333333332
+      ],
+      "scale": [
+        1.0487058456103326,
+        3.650198709287475,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.03931580054554434,
+        -0.03379958648334871,
+        -0.009365982985015725
+      ],
+      "intercept": 0.0784694444444444
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o20.0",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.5158388999989256,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.95-o20.0.cbm",
+      "sha256": "741421b927c544cef26a88e0a13682fc0f4dc49765704512af3f3072f05c0b76",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o20.9",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 7.98000255599618e-05,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o20.9",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0016319999704137444,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o20.9",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.002238999994006008,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.277777777777775,
+        7.422222222222222,
+        11.583333333333332
+      ],
+      "scale": [
+        0.9925027598929187,
+        3.650198709287475,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.038612465810964,
+        -0.0337616139795386,
+        -0.009675451859906509
+      ],
+      "intercept": 0.0770888888888888
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d0.95-o20.9",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.5129931000410579,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d0.95-o20.9.cbm",
+      "sha256": "0f19f50159434880437fd33e878dec389f06cb041fa2b5a63294905bd89eeba1",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o18.5",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.00014670001110062003,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o18.5",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.003660399990621954,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o18.5",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.005508699978236109,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.411111111111108,
+        7.2444444444444445,
+        11.583333333333332
+      ],
+      "scale": [
+        1.0391710846679074,
+        3.4618912978348537,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.04075145257998562,
+        -0.034921895605457026,
+        -0.01025991808706772
+      ],
+      "intercept": 0.08147777777777766
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o18.5",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.5237113999901339,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d1.27-o18.5.cbm",
+      "sha256": "8b14a48678809558ec368404167dce89077993add6be4c348d0ba554386c7167",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o19.0",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.00032589997863397,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o19.0",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.001996200007852167,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o19.0",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0022269999608397484,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.383333333333333,
+        7.2444444444444445,
+        11.583333333333332
+      ],
+      "scale": [
+        1.0563301251660544,
+        3.4618912978348537,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.040229528610624794,
+        -0.034102530651537864,
+        -0.00994086259098066
+      ],
+      "intercept": 0.08073333333333332
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o19.0",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.43690170004265383,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d1.27-o19.0.cbm",
+      "sha256": "f4e93f58364258c510072e4b81f9683b4b1aa169c55eb476c7007ddf1509b0f9",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o20.0",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0001433000434190035,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o20.0",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0034875000128522515,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o20.0",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.004296300001442432,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.327777777777776,
+        7.2444444444444445,
+        11.583333333333332
+      ],
+      "scale": [
+        1.0487058456103324,
+        3.4618912978348537,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.039024976402958156,
+        -0.032797182307696446,
+        -0.009672078341163204
+      ],
+      "intercept": 0.07937222222222216
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o20.0",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.5138915999559686,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d1.27-o20.0.cbm",
+      "sha256": "202cf53bd1cbc33f26ddf8ef98ecb9d75e3602975e15b301e829e2642ad90b9f",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o20.9",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.00022879999596625566,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o20.9",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.0035749999806284904,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o20.9",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.004340799991041422,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.277777777777775,
+        7.2444444444444445,
+        11.583333333333332
+      ],
+      "scale": [
+        0.9925027598929188,
+        3.4618912978348537,
+        11.339152917607596
+      ],
+      "coefficients": [
+        0.037276837756866736,
+        -0.032274131262795054,
+        -0.009685123829078653
+      ],
+      "intercept": 0.07787499999999989
+    }
+  },
+  {
+    "fold_id": "earth_logo--ground-d1.27-o20.9",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 2,
+    "seconds": 0.5228026999975555,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_logo--ground-d1.27-o20.9.cbm",
+      "sha256": "2ae26b47ae8cf7030c4120d4a72c0d50e08a0a3b80f86dd02a76d2648c649a3d",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B1",
+    "model": "median",
+    "train_rows": 32,
+    "test_rows": 2,
+    "seconds": 0.000824199989438057,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B1",
+    "model": "nearest",
+    "train_rows": 32,
+    "test_rows": 2,
+    "seconds": 0.003056699992157519,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B1",
+    "model": "ridge",
+    "train_rows": 32,
+    "test_rows": 2,
+    "seconds": 0.0055195000022649765,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.606666666666662,
+        9.219999999999997,
+        1.6713333333333327
+      ],
+      "scale": [
+        1.2630474610595157,
+        2.614880494401225,
+        0.4091799386849534
+      ],
+      "coefficients": [
+        0.009664989158314477,
+        -0.013976516062355856,
+        0.005240212379529786
+      ],
+      "intercept": 0.05276416666666664
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B1",
+    "model": "catboost_gpu",
+    "train_rows": 32,
+    "test_rows": 2,
+    "seconds": 0.5557360000093468,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_logo--flight-B1.cbm",
+      "sha256": "b636b3d55dd65c0394888f7a93bdcd4b2b82d0476c5b468b9aaa2eec4f90fc98",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B10",
+    "model": "median",
+    "train_rows": 31,
+    "test_rows": 3,
+    "seconds": 0.0002460999530740082,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B10",
+    "model": "nearest",
+    "train_rows": 31,
+    "test_rows": 3,
+    "seconds": 0.004211399995256215,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B10",
+    "model": "ridge",
+    "train_rows": 31,
+    "test_rows": 3,
+    "seconds": 0.005759799969382584,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.676666666666666,
+        9.219999999999999,
+        1.7921666666666665
+      ],
+      "scale": [
+        1.1893088562503669,
+        2.614880494401225,
+        0.6560388496287566
+      ],
+      "coefficients": [
+        0.008751421416702269,
+        -0.015391235716465926,
+        0.004179362239461232
+      ],
+      "intercept": 0.054367499999999985
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B10",
+    "model": "catboost_gpu",
+    "train_rows": 31,
+    "test_rows": 3,
+    "seconds": 2.8782831999706104,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_logo--flight-B10.cbm",
+      "sha256": "0c396806a679031601f4d9f0aa135bb2968f4aa977d73c4c4c31a464176d8654",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B12",
+    "model": "median",
+    "train_rows": 30,
+    "test_rows": 4,
+    "seconds": 9.049999061971903e-05,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B12",
+    "model": "nearest",
+    "train_rows": 30,
+    "test_rows": 4,
+    "seconds": 0.001975800027139485,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B12",
+    "model": "ridge",
+    "train_rows": 30,
+    "test_rows": 4,
+    "seconds": 0.0021987000363878906,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.62666666666667,
+        8.91,
+        1.9060833333333331
+      ],
+      "scale": [
+        1.2468449070442653,
+        2.7438841083398544,
+        0.5492560056314562
+      ],
+      "coefficients": [
+        0.009287815025744533,
+        -0.015493632997988371,
+        0.0028430289083843734
+      ],
+      "intercept": 0.05615666666666668
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B12",
+    "model": "catboost_gpu",
+    "train_rows": 30,
+    "test_rows": 4,
+    "seconds": 0.29941139998845756,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_logo--flight-B12.cbm",
+      "sha256": "d9e74d20c4aae020467adf9aa79d1ebd53dad17478f28ef9cdc576f541c6b1c5",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B13",
+    "model": "median",
+    "train_rows": 28,
+    "test_rows": 6,
+    "seconds": 0.00010800000745803118,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B13",
+    "model": "nearest",
+    "train_rows": 28,
+    "test_rows": 6,
+    "seconds": 0.0017500000540167093,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B13",
+    "model": "ridge",
+    "train_rows": 28,
+    "test_rows": 6,
+    "seconds": 0.0022985999821685255,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.310000000000002,
+        8.59,
+        1.826
+      ],
+      "scale": [
+        1.079305332146562,
+        2.4545671716210986,
+        0.6504644494513132
+      ],
+      "coefficients": [
+        0.007879639935546441,
+        -0.014527055351935755,
+        0.00429102330874321
+      ],
+      "intercept": 0.053990833333333356
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B13",
+    "model": "catboost_gpu",
+    "train_rows": 28,
+    "test_rows": 6,
+    "seconds": 0.3926375000155531,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_logo--flight-B13.cbm",
+      "sha256": "883d85c072fc5602fa2102a1d1a20af8b697fec4b6bdb5ffc80dc9274d9b97e2",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B14",
+    "model": "median",
+    "train_rows": 33,
+    "test_rows": 1,
+    "seconds": 0.0001750999945215881,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B14",
+    "model": "nearest",
+    "train_rows": 33,
+    "test_rows": 1,
+    "seconds": 0.0034661999670788646,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B14",
+    "model": "ridge",
+    "train_rows": 33,
+    "test_rows": 1,
+    "seconds": 0.004682800034061074,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.53666666666667,
+        9.220000000000004,
+        1.7808333333333333
+      ],
+      "scale": [
+        1.2916354834945587,
+        2.6148804944012256,
+        0.6545998565705788
+      ],
+      "coefficients": [
+        0.01061643258804917,
+        -0.015407008296934232,
+        0.00450474582407325
+      ],
+      "intercept": 0.05291416666666666
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B14",
+    "model": "catboost_gpu",
+    "train_rows": 33,
+    "test_rows": 1,
+    "seconds": 0.5213787999819033,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_logo--flight-B14.cbm",
+      "sha256": "69088a24a33d1e8fd139e2bbb095a4fd4cf1ef6b260d6712329b4c1db3ef7628",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B2",
+    "model": "median",
+    "train_rows": 32,
+    "test_rows": 2,
+    "seconds": 0.00025949999690055847,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B2",
+    "model": "nearest",
+    "train_rows": 32,
+    "test_rows": 2,
+    "seconds": 0.003164399997331202,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B2",
+    "model": "ridge",
+    "train_rows": 32,
+    "test_rows": 2,
+    "seconds": 0.004070099967066199,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.636666666666663,
+        9.219999999999997,
+        1.7538333333333327
+      ],
+      "scale": [
+        1.2373313577570435,
+        2.614880494401225,
+        0.6351983723390844
+      ],
+      "coefficients": [
+        0.0108330905927515,
+        -0.01382471989236366,
+        0.00421519974969139
+      ],
+      "intercept": 0.05173416666666665
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B2",
+    "model": "catboost_gpu",
+    "train_rows": 32,
+    "test_rows": 2,
+    "seconds": 0.5774427999858744,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_logo--flight-B2.cbm",
+      "sha256": "4d5838dd76331de1d92efbbe1b9e1c11723e7e05a9932db5c32a62fc9da19cd3",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B22",
+    "model": "median",
+    "train_rows": 30,
+    "test_rows": 4,
+    "seconds": 0.00024829996982589364,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B22",
+    "model": "nearest",
+    "train_rows": 30,
+    "test_rows": 4,
+    "seconds": 0.0027912999503314495,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B22",
+    "model": "ridge",
+    "train_rows": 30,
+    "test_rows": 4,
+    "seconds": 0.004233699990436435,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.296666666666667,
+        8.91,
+        1.8248333333333333
+      ],
+      "scale": [
+        1.0489624503394879,
+        2.743884108339854,
+        0.6515762725029886
+      ],
+      "coefficients": [
+        0.01019343651335726,
+        -0.016392396563229793,
+        0.004093885629190588
+      ],
+      "intercept": 0.05310666666666667
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B22",
+    "model": "catboost_gpu",
+    "train_rows": 30,
+    "test_rows": 4,
+    "seconds": 0.5033169999951497,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_logo--flight-B22.cbm",
+      "sha256": "7e8ce1c46021318f3ef05b1320f9dd20c51d5466a2a34fde2846b1ac634033b0",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B4",
+    "model": "median",
+    "train_rows": 31,
+    "test_rows": 3,
+    "seconds": 0.0001591000473126769,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B4",
+    "model": "nearest",
+    "train_rows": 31,
+    "test_rows": 3,
+    "seconds": 0.0035128999734297395,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B4",
+    "model": "ridge",
+    "train_rows": 31,
+    "test_rows": 3,
+    "seconds": 0.007052000029943883,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.526666666666664,
+        8.91,
+        1.7921666666666665
+      ],
+      "scale": [
+        1.2922676021457613,
+        2.743884108339854,
+        0.6560388496287565
+      ],
+      "coefficients": [
+        0.009999747339445374,
+        -0.014495200832268936,
+        0.0052339455034681945
+      ],
+      "intercept": 0.05628083333333331
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B4",
+    "model": "catboost_gpu",
+    "train_rows": 31,
+    "test_rows": 3,
+    "seconds": 0.613199999963399,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_logo--flight-B4.cbm",
+      "sha256": "1e9640ce78dc03692c2fc745bb9f9e073e0553420bec4c503adebffeefe1911f",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B5",
+    "model": "median",
+    "train_rows": 32,
+    "test_rows": 2,
+    "seconds": 0.0001414999715052545,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B5",
+    "model": "nearest",
+    "train_rows": 32,
+    "test_rows": 2,
+    "seconds": 0.0037760999985039234,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B5",
+    "model": "ridge",
+    "train_rows": 32,
+    "test_rows": 2,
+    "seconds": 0.004043399996589869,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.446666666666662,
+        8.589999999999998,
+        1.819833333333333
+      ],
+      "scale": [
+        1.2664210288139652,
+        2.454567171621098,
+        0.6534944316688721
+      ],
+      "coefficients": [
+        0.010200466799575517,
+        -0.013871394623607461,
+        0.0046073885385962705
+      ],
+      "intercept": 0.055544166666666644
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B5",
+    "model": "catboost_gpu",
+    "train_rows": 32,
+    "test_rows": 2,
+    "seconds": 0.509141200047452,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_logo--flight-B5.cbm",
+      "sha256": "d7445feffea4dd749c1c1d759b9bb1806c29f9cb1a4fc9e81cdc921c38052954",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B6",
+    "model": "median",
+    "train_rows": 31,
+    "test_rows": 3,
+    "seconds": 0.00012079998850822449,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B6",
+    "model": "nearest",
+    "train_rows": 31,
+    "test_rows": 3,
+    "seconds": 0.0037388000055216253,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B6",
+    "model": "ridge",
+    "train_rows": 31,
+    "test_rows": 3,
+    "seconds": 0.004536199965514243,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.486666666666668,
+        9.220000000000002,
+        1.792166666666667
+      ],
+      "scale": [
+        1.286269368712825,
+        2.614880494401226,
+        0.6560388496287566
+      ],
+      "coefficients": [
+        0.0077808446949879945,
+        -0.010566458514036571,
+        0.005850019728572764
+      ],
+      "intercept": 0.049940833333333344
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B6",
+    "model": "catboost_gpu",
+    "train_rows": 31,
+    "test_rows": 3,
+    "seconds": 0.4896405999897979,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_logo--flight-B6.cbm",
+      "sha256": "7739025a3a3da2adb2e70dbdf8a69affe61264da5df6022ec56805dc8c086fc6",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B9",
+    "model": "median",
+    "train_rows": 30,
+    "test_rows": 4,
+    "seconds": 0.0001365999924018979,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B9",
+    "model": "nearest",
+    "train_rows": 30,
+    "test_rows": 4,
+    "seconds": 0.003569599997717887,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B9",
+    "model": "ridge",
+    "train_rows": 30,
+    "test_rows": 4,
+    "seconds": 0.005383000010624528,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.616666666666664,
+        8.59,
+        1.8290833333333334
+      ],
+      "scale": [
+        1.2554105127628796,
+        2.454567171621098,
+        0.6489221779655521
+      ],
+      "coefficients": [
+        0.012638322738906799,
+        -0.017092278696223373,
+        0.003941178691556066
+      ],
+      "intercept": 0.05614166666666663
+    }
+  },
+  {
+    "fold_id": "microgravity_logo--flight-B9",
+    "model": "catboost_gpu",
+    "train_rows": 30,
+    "test_rows": 4,
+    "seconds": 0.5442049999837764,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_logo--flight-B9.cbm",
+      "sha256": "bbc00a7afbd939613f94ce0c9b92a80ea0891decd57db43fd8e8099c794b17ea",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B12",
+    "model": "median",
+    "train_rows": 19,
+    "test_rows": 4,
+    "seconds": 0.0001417000312358141,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B12",
+    "model": "nearest",
+    "train_rows": 19,
+    "test_rows": 4,
+    "seconds": 0.003296000009868294,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B12",
+    "model": "ridge",
+    "train_rows": 19,
+    "test_rows": 4,
+    "seconds": 0.004434600006788969,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.37333333333333,
+        11.419999999999998,
+        1.6044999999999996
+      ],
+      "scale": [
+        1.2347559362976235,
+        1.5676734353812338,
+        0.15900131026713796
+      ],
+      "coefficients": [
+        0.010981046570256746,
+        -0.0004841839058414336,
+        0.00017076125231001773
+      ],
+      "intercept": 0.04281333333333332
+    }
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B12",
+    "model": "catboost_gpu",
+    "train_rows": 19,
+    "test_rows": 4,
+    "seconds": 0.514295700006187,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_strict_units_logo--flight-B12.cbm",
+      "sha256": "6d7ff9dfc5e98a813b614f40df87076da10bf1dddfc2350894bd17b20883d68c",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B13",
+    "model": "median",
+    "train_rows": 17,
+    "test_rows": 6,
+    "seconds": 0.00014030002057552338,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B13",
+    "model": "nearest",
+    "train_rows": 17,
+    "test_rows": 6,
+    "seconds": 0.003974599996581674,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B13",
+    "model": "ridge",
+    "train_rows": 17,
+    "test_rows": 6,
+    "seconds": 0.005426999996416271,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.740000000000006,
+        10.780000000000001,
+        1.4443333333333337
+      ],
+      "scale": [
+        1.2208193969625485,
+        1.5676734353812338,
+        0.39836066851814356
+      ],
+      "coefficients": [
+        0.010690238044994652,
+        -0.0008220443867079878,
+        -0.0014574679718871843
+      ],
+      "intercept": 0.038481666666666706
+    }
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B13",
+    "model": "catboost_gpu",
+    "train_rows": 17,
+    "test_rows": 6,
+    "seconds": 0.622200799989514,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_strict_units_logo--flight-B13.cbm",
+      "sha256": "8081973ee2939c0681efba6b32b4b735633359052a24d1fb921690b8e36217e2",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B22",
+    "model": "median",
+    "train_rows": 19,
+    "test_rows": 4,
+    "seconds": 0.0001431000418961048,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B22",
+    "model": "nearest",
+    "train_rows": 19,
+    "test_rows": 4,
+    "seconds": 0.0035058000357821584,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B22",
+    "model": "ridge",
+    "train_rows": 19,
+    "test_rows": 4,
+    "seconds": 0.004018800042103976,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        18.713333333333342,
+        11.420000000000005,
+        1.4420000000000006
+      ],
+      "scale": [
+        1.1763597333393483,
+        1.5676734353812338,
+        0.39975325723084076
+      ],
+      "coefficients": [
+        0.007081162922825266,
+        0.0016142990569313006,
+        -0.0011473879694063002
+      ],
+      "intercept": 0.036713333333333396
+    }
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B22",
+    "model": "catboost_gpu",
+    "train_rows": 19,
+    "test_rows": 4,
+    "seconds": 0.5570510999532416,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_strict_units_logo--flight-B22.cbm",
+      "sha256": "7b45180e06334a204d6d1f17e254cbea1951adb29f503950061d130f03f0c164",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B4",
+    "model": "median",
+    "train_rows": 20,
+    "test_rows": 3,
+    "seconds": 0.00012550002429634333,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B4",
+    "model": "nearest",
+    "train_rows": 20,
+    "test_rows": 3,
+    "seconds": 0.0031201000092551112,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B4",
+    "model": "ridge",
+    "train_rows": 20,
+    "test_rows": 3,
+    "seconds": 0.004849200020544231,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.173333333333336,
+        11.42,
+        1.3766666666666665
+      ],
+      "scale": [
+        1.4261681371968578,
+        1.5676734353812334,
+        0.34542083833427817
+      ],
+      "coefficients": [
+        0.008136734449418287,
+        -0.0058006425669332356,
+        0.005350975676711409
+      ],
+      "intercept": 0.04306166666666667
+    }
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B4",
+    "model": "catboost_gpu",
+    "train_rows": 20,
+    "test_rows": 3,
+    "seconds": 0.5321753000025637,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_strict_units_logo--flight-B4.cbm",
+      "sha256": "0e615a507b89b110b27a4c6701dabe75cd2c633091493aea59372f39cce67532",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B5",
+    "model": "median",
+    "train_rows": 21,
+    "test_rows": 2,
+    "seconds": 0.00013770000077784061,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B5",
+    "model": "nearest",
+    "train_rows": 21,
+    "test_rows": 2,
+    "seconds": 0.004607500042766333,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B5",
+    "model": "ridge",
+    "train_rows": 21,
+    "test_rows": 2,
+    "seconds": 0.007290199981071055,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.01333333333333,
+        10.779999999999994,
+        1.4319999999999995
+      ],
+      "scale": [
+        1.4476954867036855,
+        1.5676734353812334,
+        0.3963617875964668
+      ],
+      "coefficients": [
+        0.01225030699018917,
+        -0.00011873304746366644,
+        -0.0008437812422208057
+      ],
+      "intercept": 0.04158833333333329
+    }
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B5",
+    "model": "catboost_gpu",
+    "train_rows": 21,
+    "test_rows": 2,
+    "seconds": 0.5575974000385031,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_strict_units_logo--flight-B5.cbm",
+      "sha256": "e8d9b34f330a925c47e2fdfe211ec9fec9195dd80af36c2e79f0ade14bb2e5a2",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B9",
+    "model": "median",
+    "train_rows": 19,
+    "test_rows": 4,
+    "seconds": 0.0001248999615199864,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B9",
+    "model": "nearest",
+    "train_rows": 19,
+    "test_rows": 4,
+    "seconds": 0.00298400002066046,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B9",
+    "model": "ridge",
+    "train_rows": 19,
+    "test_rows": 4,
+    "seconds": 0.005215399956796318,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.353333333333342,
+        10.780000000000005,
+        1.4505000000000008
+      ],
+      "scale": [
+        1.263786198514431,
+        1.567673435381234,
+        0.39921349760080355
+      ],
+      "coefficients": [
+        0.013040882284323582,
+        -0.0026347216551559543,
+        -0.002280941000441899
+      ],
+      "intercept": 0.04278333333333342
+    }
+  },
+  {
+    "fold_id": "microgravity_strict_units_logo--flight-B9",
+    "model": "catboost_gpu",
+    "train_rows": 19,
+    "test_rows": 4,
+    "seconds": 0.4806430999888107,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/microgravity_strict_units_logo--flight-B9.cbm",
+      "sha256": "c5fe352bc47f50fda39dd0750b3ed2384f5e105efd3d18ba0667c954c74a10fd",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  },
+  {
+    "fold_id": "earth_to_microgravity--all-flight",
+    "model": "median",
+    "train_rows": 35,
+    "test_rows": 34,
+    "seconds": 0.00014819996431469917,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_to_microgravity--all-flight",
+    "model": "nearest",
+    "train_rows": 35,
+    "test_rows": 34,
+    "seconds": 0.006216399953700602,
+    "execution": "CPU",
+    "artifact": null
+  },
+  {
+    "fold_id": "earth_to_microgravity--all-flight",
+    "model": "ridge",
+    "train_rows": 35,
+    "test_rows": 34,
+    "seconds": 0.0058803000138141215,
+    "execution": "CPU",
+    "artifact": {
+      "kind": "standardized_linear_ridge",
+      "features": [
+        "oxygen_pct",
+        "diameter_mm",
+        "opposed_flow_cms"
+      ],
+      "mean": [
+        19.363157894736833,
+        7.531578947368418,
+        11.684210526315784
+      ],
+      "scale": [
+        1.0317132028640457,
+        3.58300853173756,
+        11.355743418519882
+      ],
+      "coefficients": [
+        0.038501409406592184,
+        -0.03343794853667105,
+        -0.009491658748180073
+      ],
+      "intercept": 0.07821842105263131
+    }
+  },
+  {
+    "fold_id": "earth_to_microgravity--all-flight",
+    "model": "catboost_gpu",
+    "train_rows": 35,
+    "test_rows": 34,
+    "seconds": 0.5303203000221401,
+    "execution": "GPU:0",
+    "artifact": {
+      "path": "backend/training/runs/round1-2026-11-14/models/earth_to_microgravity--all-flight.cbm",
+      "sha256": "1def41f45d66e57c778c21c1d4b9b7bf273a9a10366fbdb67df4f925fbbbda22",
+      "params": {
+        "nan_mode": "Min",
+        "gpu_ram_part": 0.25,
+        "eval_metric": "RMSE",
+        "iterations": 100,
+        "leaf_estimation_method": "Newton",
+        "observations_to_bootstrap": "TestOnly",
+        "random_score_type": "NormalWithModelSizeDecrease",
+        "grow_policy": "SymmetricTree",
+        "penalties_coefficient": 1,
+        "boosting_type": "Plain",
+        "feature_border_type": "GreedyLogSum",
+        "bayesian_matrix_reg": 0.10000000149011612,
+        "devices": "0",
+        "eval_fraction": 0,
+        "pinned_memory_bytes": "104857600",
+        "force_unit_auto_pair_weights": false,
+        "l2_leaf_reg": 5,
+        "random_strength": 0,
+        "rsm": 1,
+        "boost_from_average": true,
+        "gpu_cat_features_storage": "GpuRam",
+        "fold_size_loss_normalization": false,
+        "model_size_reg": 0.5,
+        "pool_metainfo_options": {
+          "tags": {}
+        },
+        "use_best_model": false,
+        "meta_l2_frequency": 0,
+        "random_seed": 20261114,
+        "depth": 2,
+        "border_count": 32,
+        "min_fold_size": 100,
+        "data_partition": "DocParallel",
+        "classes_count": 0,
+        "auto_class_weights": "None",
+        "leaf_estimation_backtracking": "AnyImprovement",
+        "best_model_min_trees": 1,
+        "min_data_in_leaf": 1,
+        "add_ridge_penalty_to_loss_function": false,
+        "loss_function": "RMSE",
+        "learning_rate": 0.029999999329447743,
+        "meta_l2_exponent": 1,
+        "score_function": "Cosine",
+        "task_type": "GPU",
+        "leaf_estimation_iterations": 1,
+        "bootstrap_type": "No",
+        "max_leaves": 4
+      }
+    }
+  }
+]

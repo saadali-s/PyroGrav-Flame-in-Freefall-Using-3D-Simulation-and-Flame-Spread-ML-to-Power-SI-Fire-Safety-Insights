@@ -1,0 +1,559 @@
+{
+  "source": "backend/training/datasets/pmma-v1/candidate_training.csv",
+  "sha256": "c8a27c28a4a4db5aa0e0e382c837d05e5ff34a808f371a25eea5ca28e41b4613",
+  "note": "S1/S2-L/R-NN is our extraction locator, not an official NASA run ID. Source row numbers are counted table entries; sample names are copied from the printed-label field.",
+  "rows": {
+    "S1-L-01": {
+      "sample": "B13a",
+      "table": "S1",
+      "half": "left",
+      "row": 1,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-02": {
+      "sample": "B13a",
+      "table": "S1",
+      "half": "left",
+      "row": 2,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-03": {
+      "sample": "B13a",
+      "table": "S1",
+      "half": "left",
+      "row": 3,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-04": {
+      "sample": "B13a",
+      "table": "S1",
+      "half": "left",
+      "row": 4,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-05": {
+      "sample": "B13b",
+      "table": "S1",
+      "half": "left",
+      "row": 5,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-06": {
+      "sample": "B13b",
+      "table": "S1",
+      "half": "left",
+      "row": 6,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-07": {
+      "sample": "B5",
+      "table": "S1",
+      "half": "left",
+      "row": 7,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-08": {
+      "sample": "B5",
+      "table": "S1",
+      "half": "left",
+      "row": 8,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-09": {
+      "sample": "B9",
+      "table": "S1",
+      "half": "left",
+      "row": 9,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-10": {
+      "sample": "B9",
+      "table": "S1",
+      "half": "left",
+      "row": 10,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-11": {
+      "sample": "B9",
+      "table": "S1",
+      "half": "left",
+      "row": 11,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-12": {
+      "sample": "B9",
+      "table": "S1",
+      "half": "left",
+      "row": 12,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-16": {
+      "sample": "B22",
+      "table": "S1",
+      "half": "left",
+      "row": 16,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-17": {
+      "sample": "B22",
+      "table": "S1",
+      "half": "left",
+      "row": 17,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-18": {
+      "sample": "B22",
+      "table": "S1",
+      "half": "left",
+      "row": 18,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-19": {
+      "sample": "B22",
+      "table": "S1",
+      "half": "left",
+      "row": 19,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-20": {
+      "sample": "B4",
+      "table": "S1",
+      "half": "left",
+      "row": 20,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-21": {
+      "sample": "B4",
+      "table": "S1",
+      "half": "left",
+      "row": 21,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-22": {
+      "sample": "B4",
+      "table": "S1",
+      "half": "left",
+      "row": 22,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-23": {
+      "sample": "B12",
+      "table": "S1",
+      "half": "left",
+      "row": 23,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-24": {
+      "sample": "B12",
+      "table": "S1",
+      "half": "left",
+      "row": 24,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-25": {
+      "sample": "B12",
+      "table": "S1",
+      "half": "left",
+      "row": 25,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-L-26": {
+      "sample": "B12",
+      "table": "S1",
+      "half": "left",
+      "row": 26,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-R-01": {
+      "sample": "B6",
+      "table": "S1",
+      "half": "right",
+      "row": 1,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-R-02": {
+      "sample": "B6",
+      "table": "S1",
+      "half": "right",
+      "row": 2,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-R-03": {
+      "sample": "B6",
+      "table": "S1",
+      "half": "right",
+      "row": 3,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-R-05": {
+      "sample": "B14",
+      "table": "S1",
+      "half": "right",
+      "row": 5,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-R-10": {
+      "sample": "B1",
+      "table": "S1",
+      "half": "right",
+      "row": 10,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-R-11": {
+      "sample": "B1",
+      "table": "S1",
+      "half": "right",
+      "row": 11,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-R-18": {
+      "sample": "B2",
+      "table": "S1",
+      "half": "right",
+      "row": 18,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-R-19": {
+      "sample": "B2",
+      "table": "S1",
+      "half": "right",
+      "row": 19,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-R-21": {
+      "sample": "B10",
+      "table": "S1",
+      "half": "right",
+      "row": 21,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-R-22": {
+      "sample": "B10",
+      "table": "S1",
+      "half": "right",
+      "row": 22,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S1-R-23": {
+      "sample": "B10",
+      "table": "S1",
+      "half": "right",
+      "row": 23,
+      "page": 1,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-01": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 1,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-02": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 2,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-03": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 3,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-04": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 4,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-05": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 5,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-06": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 6,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-07": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 7,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-08": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 8,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-11": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 11,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-12": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 12,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-13": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 13,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-14": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 14,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-15": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 15,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-16": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 16,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-17": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 17,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-L-18": {
+      "sample": "",
+      "table": "S2",
+      "half": "left",
+      "row": 18,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-01": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 1,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-02": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 2,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-03": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 3,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-04": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 4,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-05": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 5,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-06": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 6,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-07": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 7,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-09": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 9,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-11": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 11,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-12": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 12,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-13": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 13,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-14": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 14,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-15": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 15,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-16": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 16,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-17": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 17,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-18": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 18,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-19": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 19,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-20": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 20,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    },
+    "S2-R-22": {
+      "sample": "",
+      "table": "S2",
+      "half": "right",
+      "row": 22,
+      "page": 2,
+      "source_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf"
+    }
+  }
+}

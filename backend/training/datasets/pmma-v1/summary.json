@@ -1,0 +1,82 @@
+{
+  "version": "pmma-v1-2026-11-14",
+  "date": "2026-11-14",
+  "status": "Candidate data review; no model trained",
+  "total_rows": 98,
+  "numeric_rates": 89,
+  "candidate_rows": 69,
+  "review_rows": 29,
+  "flight_rows": 52,
+  "ground_rows": 46,
+  "candidate_flight_rows": 34,
+  "candidate_ground_rows": 35,
+  "candidate_flight_groups": 11,
+  "candidate_ground_condition_groups": 19,
+  "strict_printed_unit_candidates": 58,
+  "unit_inference_candidates": 11,
+  "lunar_reference_rows": 6,
+  "compatible_lunar_test_rows": 0,
+  "trained_models": 0,
+  "range_all": {
+    "diameter_mm": [
+      3.2,
+      12.7
+    ],
+    "oxygen_pct": [
+      17.0,
+      20.9
+    ],
+    "opposed_flow_cms": [
+      0.48,
+      25.0
+    ],
+    "rate_mms": [
+      0.0135,
+      0.2357
+    ]
+  },
+  "ranges": {
+    "earth": {
+      "diameter_mm": [
+        3.2,
+        12.7
+      ],
+      "oxygen_pct": [
+        17.5,
+        20.9
+      ],
+      "opposed_flow_cms": [
+        2.0,
+        25.0
+      ],
+      "rate_mms": [
+        0.0135,
+        0.2357
+      ]
+    },
+    "microgravity": {
+      "diameter_mm": [
+        6.4,
+        12.7
+      ],
+      "oxygen_pct": [
+        17.0,
+        20.8
+      ],
+      "opposed_flow_cms": [
+        0.48,
+        4.0
+      ],
+      "rate_mms": [
+        0.0203,
+        0.1
+      ]
+    }
+  },
+  "limitations": [
+    "Rows are segments or means, not independent burns.",
+    "Gravity is confounded with apparatus, flow range and sampling procedure.",
+    "Current LUCI reference targets cannot directly validate this opposed-spread model.",
+    "Data compilation tests feasibility; it does not establish lunar accuracy."
+  ]
+}

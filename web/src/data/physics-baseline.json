@@ -1,0 +1,1097 @@
+{
+  "rows": {
+    "S1-L-01": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-02": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-03": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-04": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-05": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-06": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-07": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-08": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-09": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-10": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-11": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-12": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-16": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-17": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-18": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-19": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-20": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-21": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-22": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-23": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-24": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-25": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-L-26": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-R-01": {
+      "rate": 0.03745863794694457,
+      "status": "conditional_solution",
+      "roots": [
+        0.03745863794694457
+      ],
+      "terms": {
+        "heating_w_m": 35.52511295685436,
+        "incoming_w_m": 433.1567857692575,
+        "radiation_w_m": 397.6316728124031,
+        "residual_w_m": -5.684341886080802e-14,
+        "heated_depth_m": 0.0032,
+        "heating_length_m": 0.043917745054428,
+        "curvature_length_m": 0.008484109840059954
+      }
+    },
+    "S1-R-02": {
+      "rate": 0.027250272009627728,
+      "status": "conditional_solution",
+      "roots": [
+        0.027250272009627728
+      ],
+      "terms": {
+        "heating_w_m": 25.843678369143568,
+        "incoming_w_m": 451.2947233111078,
+        "radiation_w_m": 425.45104494196426,
+        "residual_w_m": 0.0,
+        "heated_depth_m": 0.0032,
+        "heating_length_m": 0.04699034760673207,
+        "curvature_length_m": 0.009077680787664149
+      }
+    },
+    "S1-R-03": {
+      "rate": 0.014154801485377632,
+      "status": "conditional_solution",
+      "roots": [
+        0.014154801485377632
+      ],
+      "terms": {
+        "heating_w_m": 13.424164604226005,
+        "incoming_w_m": 473.5984144285748,
+        "radiation_w_m": 460.1742498243488,
+        "residual_w_m": 0.0,
+        "heated_depth_m": 0.0032,
+        "heating_length_m": 0.05082546679809661,
+        "curvature_length_m": 0.009818556085995937
+      }
+    },
+    "S1-R-05": {
+      "rate": 0.024055603842333347,
+      "status": "conditional_solution",
+      "roots": [
+        0.024055603842333347
+      ],
+      "terms": {
+        "heating_w_m": 22.813911305441323,
+        "incoming_w_m": 424.72603041632,
+        "radiation_w_m": 401.91211911108144,
+        "residual_w_m": 2.027604750765022e-10,
+        "heated_depth_m": 0.0032,
+        "heating_length_m": 0.04439051310113542,
+        "curvature_length_m": 0.008575440030901162
+      }
+    },
+    "S1-R-10": {
+      "rate": 0.08118111047269584,
+      "status": "conditional_solution",
+      "roots": [
+        0.08118111047269584
+      ],
+      "terms": {
+        "heating_w_m": 76.99073638476042,
+        "incoming_w_m": 275.77550211199514,
+        "radiation_w_m": 198.7847657272347,
+        "residual_w_m": 0.0,
+        "heated_depth_m": 0.0032,
+        "heating_length_m": 0.021955440823326122,
+        "curvature_length_m": 0.004241391977233455
+      }
+    },
+    "S1-R-11": {
+      "rate": 0.020141149275477756,
+      "status": "conditional_solution",
+      "roots": [
+        0.020141149275477756
+      ],
+      "terms": {
+        "heating_w_m": 19.101511488635857,
+        "incoming_w_m": 389.3373822410182,
+        "radiation_w_m": 370.23587075238237,
+        "residual_w_m": 5.684341886080802e-14,
+        "heated_depth_m": 0.0032,
+        "heating_length_m": 0.04089192509918213,
+        "curvature_length_m": 0.00789957643961473
+      }
+    },
+    "S1-R-18": {
+      "rate": 0.03395193635033968,
+      "status": "conditional_solution",
+      "roots": [
+        0.03395193635033968
+      ],
+      "terms": {
+        "heating_w_m": 32.19941888058239,
+        "incoming_w_m": 350.468312955872,
+        "radiation_w_m": 318.2688940752897,
+        "residual_w_m": 1.1368683772161603e-13,
+        "heated_depth_m": 0.0032,
+        "heating_length_m": 0.03515226050754709,
+        "curvature_length_m": 0.0067907775980488696
+      }
+    },
+    "S1-R-19": {
+      "rate": 0.001794388174251399,
+      "status": "conditional_solution",
+      "roots": [
+        0.001794388174251399
+      ],
+      "terms": {
+        "heating_w_m": 1.7017661632281602,
+        "incoming_w_m": 400.0424371296427,
+        "radiation_w_m": 398.3406709663437,
+        "residual_w_m": -7.082689990056679e-11,
+        "heated_depth_m": 0.0032,
+        "heating_length_m": 0.04399605270016605,
+        "curvature_length_m": 0.00849923745344117
+      }
+    },
+    "S1-R-21": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-R-22": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S1-R-23": {
+      "rate": null,
+      "status": "no_bracketed_root",
+      "roots": [],
+      "terms": null
+    },
+    "S2-L-01": {
+      "rate": 0.23958899456896718,
+      "status": "conditional_solution",
+      "roots": [
+        0.23958899456896718
+      ],
+      "terms": {
+        "heating_w_m": 120.78084827378028,
+        "incoming_w_m": 137.50499379152814,
+        "radiation_w_m": 16.724145517740684,
+        "residual_w_m": -7.16227077646181e-12,
+        "heated_depth_m": 0.0009166479579828774,
+        "heating_length_m": 0.001847153557729317,
+        "curvature_length_m": 0.0003568364827431635
+      }
+    },
+    "S2-L-02": {
+      "rate": 0.23515184396900726,
+      "status": "conditional_solution",
+      "roots": [
+        0.23515184396900726
+      ],
+      "terms": {
+        "heating_w_m": 120.66248736272269,
+        "incoming_w_m": 137.72029939254526,
+        "radiation_w_m": 17.057812029822525,
+        "residual_w_m": -5.684341886080802e-14,
+        "heated_depth_m": 0.0009344401851499229,
+        "heating_length_m": 0.0018840064590768513,
+        "curvature_length_m": 0.0003639557932307554
+      }
+    },
+    "S2-L-03": {
+      "rate": 0.21885784426081623,
+      "status": "conditional_solution",
+      "roots": [
+        0.21885784426081623
+      ],
+      "terms": {
+        "heating_w_m": 115.0237826487406,
+        "incoming_w_m": 131.74865595728852,
+        "radiation_w_m": 16.724873308547924,
+        "residual_w_m": 0.0,
+        "heated_depth_m": 0.0009591011212645425,
+        "heating_length_m": 0.0018472339409917951,
+        "curvature_length_m": 0.00035685201132796044
+      }
+    },
+    "S2-L-04": {
+      "rate": 0.21478405784071145,
+      "status": "conditional_solution",
+      "roots": [
+        0.21478405784071145
+      ],
+      "terms": {
+        "heating_w_m": 114.8964011675055,
+        "incoming_w_m": 131.95495704807553,
+        "radiation_w_m": 17.058555880569994,
+        "residual_w_m": -2.842170943040401e-14,
+        "heated_depth_m": 0.0009777642377134918,
+        "heating_length_m": 0.0018840886161325375,
+        "curvature_length_m": 0.0003639716644801493
+      }
+    },
+    "S2-L-05": {
+      "rate": 0.19686813619135912,
+      "status": "conditional_solution",
+      "roots": [
+        0.19686813619135912
+      ],
+      "terms": {
+        "heating_w_m": 108.61010892154317,
+        "incoming_w_m": 125.33575427324308,
+        "radiation_w_m": 16.725645351699963,
+        "residual_w_m": 5.684341886080802e-14,
+        "heated_depth_m": 0.0010112714954067924,
+        "heating_length_m": 0.001847319211850835,
+        "curvature_length_m": 0.0003568684841075477
+      }
+    },
+    "S2-L-06": {
+      "rate": 0.1931809208197658,
+      "status": "conditional_solution",
+      "roots": [
+        0.1931809208197658
+      ],
+      "terms": {
+        "heating_w_m": 108.47267751503885,
+        "incoming_w_m": 125.53202243343972,
+        "radiation_w_m": 17.059344918396437,
+        "residual_w_m": -4.433786671143025e-12,
+        "heated_depth_m": 0.001031010523432878,
+        "heating_length_m": 0.0018841757640245928,
+        "curvature_length_m": 0.00036398849986838723
+      }
+    },
+    "S2-L-07": {
+      "rate": 0.18628849591127883,
+      "status": "conditional_solution",
+      "roots": [
+        0.18628849591127883
+      ],
+      "terms": {
+        "heating_w_m": 105.39656626864523,
+        "incoming_w_m": 122.12258308945529,
+        "radiation_w_m": 16.726016820810027,
+        "residual_w_m": -2.842170943040401e-14,
+        "heated_depth_m": 0.0010396024287351944,
+        "heating_length_m": 0.0018473602399851285,
+        "curvature_length_m": 0.0003568764099971271
+      }
+    },
+    "S2-L-08": {
+      "rate": 0.1827877443947623,
+      "status": "conditional_solution",
+      "roots": [
+        0.1827877443947623
+      ],
+      "terms": {
+        "heating_w_m": 105.25409920227911,
+        "incoming_w_m": 122.31382374939157,
+        "radiation_w_m": 17.05972454711169,
+        "residual_w_m": -7.815970093361102e-13,
+        "heated_depth_m": 0.0010599283524203463,
+        "heating_length_m": 0.0018842176933734644,
+        "curvature_length_m": 0.0003639965998562375
+      }
+    },
+    "S2-L-11": {
+      "rate": 0.2612870182596361,
+      "status": "conditional_solution",
+      "roots": [
+        0.2612870182596361
+      ],
+      "terms": {
+        "heating_w_m": 132.3487427237074,
+        "incoming_w_m": 154.74519445378093,
+        "radiation_w_m": 22.396451730063088,
+        "residual_w_m": -1.043076736095827e-11,
+        "heated_depth_m": 0.0010157684789175734,
+        "heating_length_m": 0.002473650175419408,
+        "curvature_length_m": 0.00047786423843329475
+      }
+    },
+    "S2-L-12": {
+      "rate": 0.25020329650474005,
+      "status": "conditional_solution",
+      "roots": [
+        0.25020329650474005
+      ],
+      "terms": {
+        "heating_w_m": 132.6544639523076,
+        "incoming_w_m": 156.6773438487144,
+        "radiation_w_m": 24.02287989639537,
+        "residual_w_m": -1.1425527191022411e-11,
+        "heated_depth_m": 0.0010750534575258873,
+        "heating_length_m": 0.0026532864127772433,
+        "curvature_length_m": 0.000512566693377422
+      }
+    },
+    "S2-L-13": {
+      "rate": 0.240200800475101,
+      "status": "conditional_solution",
+      "roots": [
+        0.240200800475101
+      ],
+      "terms": {
+        "heating_w_m": 125.87036498991266,
+        "incoming_w_m": 148.26814429556708,
+        "radiation_w_m": 22.397779305652122,
+        "residual_w_m": -2.3021584638627246e-12,
+        "heated_depth_m": 0.001059447143348571,
+        "heating_length_m": 0.0024737968038955737,
+        "curvature_length_m": 0.00047789256438891765
+      }
+    },
+    "S2-L-14": {
+      "rate": 0.23003076202087314,
+      "status": "conditional_solution",
+      "roots": [
+        0.23003076202087314
+      ],
+      "terms": {
+        "heating_w_m": 126.09520177118212,
+        "incoming_w_m": 150.11954288019527,
+        "radiation_w_m": 24.0243411090106,
+        "residual_w_m": -2.5579538487363607e-12,
+        "heated_depth_m": 0.0011212354559776367,
+        "heating_length_m": 0.002653447801236699,
+        "curvature_length_m": 0.0005125978706934533
+      }
+    },
+    "S2-L-15": {
+      "rate": 0.21775557641147633,
+      "status": "conditional_solution",
+      "roots": [
+        0.21775557641147633
+      ],
+      "terms": {
+        "heating_w_m": 118.65298406630544,
+        "incoming_w_m": 141.05217668270487,
+        "radiation_w_m": 22.39919261639944,
+        "residual_w_m": 0.0,
+        "heated_depth_m": 0.001112744812688177,
+        "heating_length_m": 0.0024739529016748183,
+        "curvature_length_m": 0.00047792271964172624
+      }
+    },
+    "S2-L-16": {
+      "rate": 0.20855711300265126,
+      "status": "conditional_solution",
+      "roots": [
+        0.20855711300265126
+      ],
+      "terms": {
+        "heating_w_m": 118.78769727619851,
+        "incoming_w_m": 142.81359404036778,
+        "radiation_w_m": 24.025896764169246,
+        "residual_w_m": 0.0,
+        "heated_depth_m": 0.0011775824893373596,
+        "heating_length_m": 0.0026536196207151796,
+        "curvature_length_m": 0.0005126310630927052
+      }
+    },
+    "S2-L-17": {
+      "rate": 0.20692394428985583,
+      "status": "conditional_solution",
+      "roots": [
+        0.20692394428985583
+      ],
+      "terms": {
+        "heating_w_m": 115.0366991583148,
+        "incoming_w_m": 137.43657387503524,
+        "radiation_w_m": 22.399874716708137,
+        "residual_w_m": -1.2306600183364935e-11,
+        "heated_depth_m": 0.0011415145711939096,
+        "heating_length_m": 0.0024740282384990886,
+        "curvature_length_m": 0.00047793727334641484
+      }
+    },
+    "S2-L-18": {
+      "rate": 0.19819393176575376,
+      "status": "conditional_solution",
+      "roots": [
+        0.19819393176575376
+      ],
+      "terms": {
+        "heating_w_m": 115.12625109001992,
+        "incoming_w_m": 139.1528986853301,
+        "radiation_w_m": 24.02664759529745,
+        "residual_w_m": -1.2704504115390591e-11,
+        "heated_depth_m": 0.0012079958758230336,
+        "heating_length_m": 0.0026537025487421003,
+        "curvature_length_m": 0.0005126470832797239
+      }
+    },
+    "S2-R-01": {
+      "rate": 0.23746183448115252,
+      "status": "conditional_solution",
+      "roots": [
+        0.23746183448115252
+      ],
+      "terms": {
+        "heating_w_m": 124.02779746697016,
+        "incoming_w_m": 143.0845442937454,
+        "radiation_w_m": 19.056746826775274,
+        "residual_w_m": 2.842170943040401e-14,
+        "heated_depth_m": 0.000982859663065737,
+        "heating_length_m": 0.0021047854231168034,
+        "curvature_length_m": 0.00040660627492029156
+      }
+    },
+    "S2-R-02": {
+      "rate": 0.2307677296432861,
+      "status": "conditional_solution",
+      "roots": [
+        0.2307677296432861
+      ],
+      "terms": {
+        "heating_w_m": 123.92209205392815,
+        "incoming_w_m": 143.64330636759667,
+        "radiation_w_m": 19.721214313668472,
+        "residual_w_m": -2.842170943040401e-14,
+        "heated_depth_m": 0.001014246053708934,
+        "heating_length_m": 0.002178174732071826,
+        "curvature_length_m": 0.0004207837550593301
+      }
+    },
+    "S2-R-03": {
+      "rate": 0.21733326676181308,
+      "status": "conditional_solution",
+      "roots": [
+        0.21733326676181308
+      ],
+      "terms": {
+        "heating_w_m": 118.03723845295927,
+        "incoming_w_m": 137.09490278317574,
+        "radiation_w_m": 19.057664330215935,
+        "residual_w_m": -5.400124791776761e-13,
+        "heated_depth_m": 0.0010273910346357863,
+        "heating_length_m": 0.0021048867598184515,
+        "curvature_length_m": 0.00040662585132856453
+      }
+    },
+    "S2-R-04": {
+      "rate": 0.21118633702861822,
+      "status": "conditional_solution",
+      "roots": [
+        0.21118633702861822
+      ],
+      "terms": {
+        "heating_w_m": 117.90813062504186,
+        "incoming_w_m": 137.6303008295979,
+        "radiation_w_m": 19.722170204555578,
+        "residual_w_m": -4.547473508864641e-13,
+        "heated_depth_m": 0.001060250488994453,
+        "heating_length_m": 0.002178280308601942,
+        "curvature_length_m": 0.0004208041505253752
+      }
+    },
+    "S2-R-05": {
+      "rate": 0.19595989631919689,
+      "status": "conditional_solution",
+      "roots": [
+        0.19595989631919689
+      ],
+      "terms": {
+        "heating_w_m": 111.36340738002514,
+        "incoming_w_m": 130.42204605119193,
+        "radiation_w_m": 19.058638671161372,
+        "residual_w_m": -5.4285465012071654e-12,
+        "heated_depth_m": 0.0010819977973464644,
+        "heating_length_m": 0.002104994374126273,
+        "curvature_length_m": 0.00040664664045621186
+      }
+    },
+    "S2-R-06": {
+      "rate": 0.1903950847556299,
+      "status": "conditional_solution",
+      "roots": [
+        0.1903950847556299
+      ],
+      "terms": {
+        "heating_w_m": 111.20822572730073,
+        "incoming_w_m": 130.93141098504017,
+        "radiation_w_m": 19.723185257733903,
+        "residual_w_m": -5.5422333389287814e-12,
+        "heated_depth_m": 0.0011166696169554252,
+        "heating_length_m": 0.002178392419506959,
+        "curvature_length_m": 0.0004208258083138444
+      }
+    },
+    "S2-R-07": {
+      "rate": 0.1863595484856921,
+      "status": "conditional_solution",
+      "roots": [
+        0.1863595484856921
+      ],
+      "terms": {
+        "heating_w_m": 109.86599968624,
+        "incoming_w_m": 129.58938197566843,
+        "radiation_w_m": 19.723382289428418,
+        "residual_w_m": 0.0,
+        "heated_depth_m": 0.0011287010016083393,
+        "heating_length_m": 0.0021784141813240353,
+        "curvature_length_m": 0.0004208300123012341
+      }
+    },
+    "S2-R-09": {
+      "rate": 0.1803832601630274,
+      "status": "conditional_solution",
+      "roots": [
+        0.1803832601630274
+      ],
+      "terms": {
+        "heating_w_m": 107.85125475418145,
+        "incoming_w_m": 127.57492883813734,
+        "radiation_w_m": 19.72367408395593,
+        "residual_w_m": 4.263256414560601e-14,
+        "heated_depth_m": 0.0011472546636448694,
+        "heating_length_m": 0.002178446409535578,
+        "curvature_length_m": 0.00042083623820573666
+      }
+    },
+    "S2-R-11": {
+      "rate": 0.43540528823492525,
+      "status": "conditional_solution",
+      "roots": [
+        0.43540528823492525
+      ],
+      "terms": {
+        "heating_w_m": 163.86444861381403,
+        "incoming_w_m": 191.4453358705381,
+        "radiation_w_m": 27.58088725672405,
+        "residual_w_m": 0.0,
+        "heated_depth_m": 0.000873215237941467,
+        "heating_length_m": 0.003046262301864465,
+        "curvature_length_m": 0.000588482490132908
+      }
+    },
+    "S2-R-12": {
+      "rate": 0.4230964551226371,
+      "status": "conditional_solution",
+      "roots": [
+        0.4230964551226371
+      ],
+      "terms": {
+        "heating_w_m": 170.75678599461511,
+        "incoming_w_m": 204.6943072610904,
+        "radiation_w_m": 33.93752126647529,
+        "residual_w_m": 0.0,
+        "heated_depth_m": 0.0009826172979492628,
+        "heating_length_m": 0.0037483417661838708,
+        "curvature_length_m": 0.0007241114775582478
+      }
+    },
+    "S2-R-13": {
+      "rate": 0.40497793591716974,
+      "status": "conditional_solution",
+      "roots": [
+        0.40497793591716974
+      ],
+      "terms": {
+        "heating_w_m": 155.85239096375003,
+        "incoming_w_m": 183.43618359929505,
+        "radiation_w_m": 27.583792635545073,
+        "residual_w_m": 5.684341886080802e-14,
+        "heated_depth_m": 0.0009054726717614263,
+        "heating_length_m": 0.003046583196036314,
+        "curvature_length_m": 0.0005885444810524699
+      }
+    },
+    "S2-R-14": {
+      "rate": 0.3941765870177356,
+      "status": "conditional_solution",
+      "roots": [
+        0.3941765870177356
+      ],
+      "terms": {
+        "heating_w_m": 162.1910786244515,
+        "incoming_w_m": 196.13278095129564,
+        "radiation_w_m": 33.94170232684411,
+        "residual_w_m": -2.842170943040401e-14,
+        "heated_depth_m": 0.0010180882769933654,
+        "heating_length_m": 0.0037488035572228904,
+        "curvature_length_m": 0.0007242006871907857
+      }
+    },
+    "S2-R-15": {
+      "rate": 0.3723798043391902,
+      "status": "conditional_solution",
+      "roots": [
+        0.3723798043391902
+      ],
+      "terms": {
+        "heating_w_m": 146.92585709118433,
+        "incoming_w_m": 174.5127630633007,
+        "radiation_w_m": 27.586905972116387,
+        "residual_w_m": 2.842170943040401e-14,
+        "heated_depth_m": 0.0009443271509886679,
+        "heating_length_m": 0.0030469270587896017,
+        "curvature_length_m": 0.0005886109090843549
+      }
+    },
+    "S2-R-16": {
+      "rate": 0.3631653541130778,
+      "status": "conditional_solution",
+      "roots": [
+        0.3631653541130778
+      ],
+      "terms": {
+        "heating_w_m": 152.6474798284398,
+        "incoming_w_m": 186.5936667174195,
+        "radiation_w_m": 33.94618688893888,
+        "residual_w_m": -4.0813574742060155e-11,
+        "heated_depth_m": 0.001060736059301419,
+        "heating_length_m": 0.0037492988695136996,
+        "curvature_length_m": 0.000724296372519692
+      }
+    },
+    "S2-R-17": {
+      "rate": 0.3565616014640832,
+      "status": "conditional_solution",
+      "roots": [
+        0.3565616014640832
+      ],
+      "terms": {
+        "heating_w_m": 142.45299740743823,
+        "incoming_w_m": 170.04141437553147,
+        "radiation_w_m": 27.588416968093238,
+        "residual_w_m": 0.0,
+        "heated_depth_m": 0.0009650729517068743,
+        "heating_length_m": 0.003047093945737063,
+        "curvature_length_m": 0.0005886431486082964
+      }
+    },
+    "S2-R-18": {
+      "rate": 0.34810560626115183,
+      "status": "conditional_solution",
+      "roots": [
+        0.34810560626115183
+      ],
+      "terms": {
+        "heating_w_m": 147.86533953145582,
+        "incoming_w_m": 181.81370465152366,
+        "radiation_w_m": 33.94836512003486,
+        "residual_w_m": -3.299760464869905e-11,
+        "heated_depth_m": 0.0010834726734276824,
+        "heating_length_m": 0.00374953945145041,
+        "curvature_length_m": 0.0007243428485756475
+      }
+    },
+    "S2-R-19": {
+      "rate": 0.3410657732909933,
+      "status": "conditional_solution",
+      "roots": [
+        0.3410657732909933
+      ],
+      "terms": {
+        "heating_w_m": 137.9737307143164,
+        "incoming_w_m": 165.56362804481876,
+        "radiation_w_m": 27.58989733050232,
+        "residual_w_m": -5.684341886080802e-14,
+        "heated_depth_m": 0.0009867792567552242,
+        "heating_length_m": 0.0030472574492588283,
+        "curvature_length_m": 0.0005886747345159101
+      }
+    },
+    "S2-R-20": {
+      "rate": 0.3333447779584262,
+      "status": "conditional_solution",
+      "roots": [
+        0.3333447779584262
+      ],
+      "terms": {
+        "heating_w_m": 143.07629419295586,
+        "incoming_w_m": 177.02679457990115,
+        "radiation_w_m": 33.95050038691339,
+        "residual_w_m": -3.1889157980913296e-11,
+        "heated_depth_m": 0.001107236262616702,
+        "heating_length_m": 0.003749775288062044,
+        "curvature_length_m": 0.0007243884079210768
+      }
+    },
+    "S2-R-22": {
+      "rate": 0.31888413209657945,
+      "status": "conditional_solution",
+      "roots": [
+        0.31888413209657945
+      ],
+      "terms": {
+        "heating_w_m": 138.28033549944604,
+        "incoming_w_m": 172.23292799006774,
+        "radiation_w_m": 33.95259249058624,
+        "residual_w_m": -3.54418716597138e-11,
+        "heated_depth_m": 0.0011320980828514145,
+        "heating_length_m": 0.003750006357370688,
+        "curvature_length_m": 0.0007244330463102466
+      }
+    }
+  },
+  "metrics": [
+    {
+      "scenario": "published_closure_primary",
+      "environment": "earth",
+      "rows": 35,
+      "predicted_rows": 35,
+      "coverage": 1.0,
+      "groups": 19,
+      "group_mae_mms": 0.18249993933911687,
+      "group_rmse_mms": 0.18984908108088314,
+      "paired_available_mae_mms": 0.18249993933911687,
+      "ml_same_rows_mae_mms": 0.013327813827982137
+    },
+    {
+      "scenario": "published_closure_primary",
+      "environment": "microgravity",
+      "rows": 34,
+      "predicted_rows": 8,
+      "coverage": 0.23529411764705882,
+      "groups": 4,
+      "group_mae_mms": null,
+      "group_rmse_mms": null,
+      "paired_available_mae_mms": 0.047259161003332543,
+      "ml_same_rows_mae_mms": 0.014210983972731966
+    },
+    {
+      "scenario": "published_closure_primary",
+      "environment": "microgravity_strict",
+      "rows": 23,
+      "predicted_rows": 0,
+      "coverage": 0.0,
+      "groups": 0,
+      "group_mae_mms": null,
+      "group_rmse_mms": null,
+      "paired_available_mae_mms": null,
+      "ml_same_rows_mae_mms": null
+    },
+    {
+      "scenario": "no_surface_radiation",
+      "environment": "earth",
+      "rows": 35,
+      "predicted_rows": 35,
+      "coverage": 1.0,
+      "groups": 19,
+      "group_mae_mms": 0.2638866446835542,
+      "group_rmse_mms": 0.27306886733540636,
+      "paired_available_mae_mms": 0.2638866446835542,
+      "ml_same_rows_mae_mms": 0.013327813827982137
+    },
+    {
+      "scenario": "no_surface_radiation",
+      "environment": "microgravity",
+      "rows": 34,
+      "predicted_rows": 34,
+      "coverage": 1.0,
+      "groups": 11,
+      "group_mae_mms": 0.2745915000204768,
+      "group_rmse_mms": 0.2929572709221433,
+      "paired_available_mae_mms": 0.2745915000204768,
+      "ml_same_rows_mae_mms": 0.010490585024313702
+    },
+    {
+      "scenario": "no_surface_radiation",
+      "environment": "microgravity_strict",
+      "rows": 23,
+      "predicted_rows": 23,
+      "coverage": 1.0,
+      "groups": 6,
+      "group_mae_mms": 0.21480405162058705,
+      "group_rmse_mms": 0.23503167954613924,
+      "paired_available_mae_mms": 0.21480405162058705,
+      "ml_same_rows_mae_mms": 0.008528751424040774
+    },
+    {
+      "scenario": "half_flame_energy",
+      "environment": "earth",
+      "rows": 35,
+      "predicted_rows": 35,
+      "coverage": 1.0,
+      "groups": 19,
+      "group_mae_mms": 0.0290246128149402,
+      "group_rmse_mms": 0.03711513840623312,
+      "paired_available_mae_mms": 0.0290246128149402,
+      "ml_same_rows_mae_mms": 0.013327813827982137
+    },
+    {
+      "scenario": "half_flame_energy",
+      "environment": "microgravity",
+      "rows": 34,
+      "predicted_rows": 0,
+      "coverage": 0.0,
+      "groups": 0,
+      "group_mae_mms": null,
+      "group_rmse_mms": null,
+      "paired_available_mae_mms": null,
+      "ml_same_rows_mae_mms": null
+    },
+    {
+      "scenario": "half_flame_energy",
+      "environment": "microgravity_strict",
+      "rows": 23,
+      "predicted_rows": 0,
+      "coverage": 0.0,
+      "groups": 0,
+      "group_mae_mms": null,
+      "group_rmse_mms": null,
+      "paired_available_mae_mms": null,
+      "ml_same_rows_mae_mms": null
+    },
+    {
+      "scenario": "kappa_1",
+      "environment": "earth",
+      "rows": 35,
+      "predicted_rows": 35,
+      "coverage": 1.0,
+      "groups": 19,
+      "group_mae_mms": 0.13677467825548112,
+      "group_rmse_mms": 0.16115632210484448,
+      "paired_available_mae_mms": 0.13677467825548112,
+      "ml_same_rows_mae_mms": 0.013327813827982137
+    },
+    {
+      "scenario": "kappa_1",
+      "environment": "microgravity",
+      "rows": 34,
+      "predicted_rows": 8,
+      "coverage": 0.23529411764705882,
+      "groups": 4,
+      "group_mae_mms": null,
+      "group_rmse_mms": null,
+      "paired_available_mae_mms": 0.047259161003332543,
+      "ml_same_rows_mae_mms": 0.014210983972731966
+    },
+    {
+      "scenario": "kappa_1",
+      "environment": "microgravity_strict",
+      "rows": 23,
+      "predicted_rows": 0,
+      "coverage": 0.0,
+      "groups": 0,
+      "group_mae_mms": null,
+      "group_rmse_mms": null,
+      "paired_available_mae_mms": null,
+      "ml_same_rows_mae_mms": null
+    },
+    {
+      "scenario": "kappa_5p2",
+      "environment": "earth",
+      "rows": 35,
+      "predicted_rows": 35,
+      "coverage": 1.0,
+      "groups": 19,
+      "group_mae_mms": 0.20915170845506265,
+      "group_rmse_mms": 0.21315902992348482,
+      "paired_available_mae_mms": 0.20915170845506265,
+      "ml_same_rows_mae_mms": 0.013327813827982137
+    },
+    {
+      "scenario": "kappa_5p2",
+      "environment": "microgravity",
+      "rows": 34,
+      "predicted_rows": 8,
+      "coverage": 0.23529411764705882,
+      "groups": 4,
+      "group_mae_mms": null,
+      "group_rmse_mms": null,
+      "paired_available_mae_mms": 0.047259161003332543,
+      "ml_same_rows_mae_mms": 0.014210983972731966
+    },
+    {
+      "scenario": "kappa_5p2",
+      "environment": "microgravity_strict",
+      "rows": 23,
+      "predicted_rows": 0,
+      "coverage": 0.0,
+      "groups": 0,
+      "group_mae_mms": null,
+      "group_rmse_mms": null,
+      "paired_available_mae_mms": null,
+      "ml_same_rows_mae_mms": null
+    }
+  ],
+  "protocol": {
+    "id": "physics-baseline-v1-2026-11-14",
+    "candidate_sha256": "c8a27c28a4a4db5aa0e0e382c837d05e5ff34a808f371a25eea5ca28e41b4613",
+    "model": "Delichatsios2000 Eq7 cylindrical solid energy balance, surface re-radiation and finite radial heated depth. Not a CFD solver, not a machine-learning predictor.",
+    "rate_equation": "rho_s*cp_s*(Tp-Ta)*v*Lsy*(1-Lsy/(2r)) = [C*Lg_curv/r / log1p(C*Lg_curv/r)]*E_FL - epsilon*sigma*(Tp^4-Ta^4)*Lg_heat",
+    "lengths": "Vr=Ueffective+v; Lg_heat=alpha_heating/Vr; Lg_curv=alpha_curvature/Vr; Lsy=min(r,sqrt(alpha_s*Lg_heat/v)); alpha_s=ks/(rho_s*cp_s). Two effective diffusivities follow the source's distinction, not measured transport properties of our runs.",
+    "flow_extension": "Thomsen2020 Eq6 at assumed P/P0=1: Ueffective=[Uf^4+(9.80665*g_fraction*kappa*r)^2]^(1/4). Combining this with the2000 energy equation is OUR conditional extension. No per-row pressure/temperature was recovered. kappa3.5 primary;1 and5.2 sensitivity; no partial-g validation.",
+    "energy_closure": "E_FL=127*(Y_O2/0.233) W/m, Y_O2=32*x/(32*x+28*(1-x)), x=O2pct/100.127 is source CFD-derived air calibration at40cm/s, not a measured heat flux. Proportional scaling and use below air oxygen/at low flow are assumptions. No local labels enter constants.",
+    "parameters": {
+      "rho_s": 1190,
+      "cp_s": 1465,
+      "k_s": 0.19,
+      "t_pyrolysis": 640,
+      "t_ambient": 300,
+      "alpha_heating": 0.00088,
+      "alpha_curvature": 0.00017,
+      "curvature_c": 3.21,
+      "emissivity": 1,
+      "energy_air_w_per_m": 127,
+      "reference_oxygen_mass_fraction": 0.233,
+      "kappa": 3.5
+    },
+    "scenarios": {
+      "published_closure_primary": {},
+      "no_surface_radiation": {
+        "emissivity": 0
+      },
+      "half_flame_energy": {
+        "energy_air_w_per_m": 63.5
+      },
+      "kappa_1": {
+        "kappa": 1
+      },
+      "kappa_5p2": {
+        "kappa": 5.2
+      }
+    },
+    "numerics": "Root search1e-10 to1m/s,1601log-spaced samples, Brent solve every sign-changing interval. Only unique roots returned; multiple/absent brackets abstain, not extinction labels. Tangential roots can be missed by bracketing; independent denser scan verifies encountered data. No output clipping or after-score parameter changes.",
+    "evaluation": "All69 unchanged candidates; separateEarth35/19groups andISS34/11groups, strict-unitISS23/6groups reported separately. Equal-group MAE and RMSE. Report coverage and nulls before metrics; full-cohort score only at100% coverage. Compare fixed outputs to Round2 same-row heldout log_geometry_ridge predictions. No newly claimed holdout validation: labels and source-informed theory are previously seen.",
+    "omissions": "No gas-phase radiative-loss closure, finite-rate chemistry, measured pressure sweep, high-O2 validation or regime-specific fitted thermal properties. No artificial minimum spread rate, no forced zero at unverified LOC, no fabricated uncertainty.",
+    "calibration": "Zero local fitted parameters. No neural networks or fitted regressors. Inherited published simulation calibration is disclosed. This is not an ab-initio/no-calibration model. No local calibration in this step.",
+    "execution": "CPU scalar root solving, not ML training. No GPU use claimed or needed.",
+    "gate": "A useful full-cohort comparator must at least beat simple same-domain baseline; no safety tolerance established. No lunar/Mars accuracy claim regardless of endpoint score. Publish all scenarios, do not select a winner by observed labels. Freeze artifacts and stop for review."
+  },
+  "verification": {
+    "passed": true,
+    "records_checked": 345,
+    "independent_grid_points": 20001,
+    "maximum_rate_difference_mms": 2.8005375796169574e-13,
+    "local_fitted_parameters": 0,
+    "method": "Independent annular energy formulation, NumPy dense scan and bisection",
+    "statuses": {
+      "published_closure_primary:microgravity:no_bracketed_root": 26,
+      "published_closure_primary:microgravity:conditional_solution": 8,
+      "published_closure_primary:earth:conditional_solution": 35,
+      "no_surface_radiation:microgravity:conditional_solution": 34,
+      "no_surface_radiation:earth:conditional_solution": 35,
+      "half_flame_energy:microgravity:no_bracketed_root": 34,
+      "half_flame_energy:earth:conditional_solution": 35,
+      "kappa_1:microgravity:no_bracketed_root": 26,
+      "kappa_1:microgravity:conditional_solution": 8,
+      "kappa_1:earth:conditional_solution": 35,
+      "kappa_5p2:microgravity:no_bracketed_root": 26,
+      "kappa_5p2:microgravity:conditional_solution": 8,
+      "kappa_5p2:earth:conditional_solution": 35
+    }
+  }
+}

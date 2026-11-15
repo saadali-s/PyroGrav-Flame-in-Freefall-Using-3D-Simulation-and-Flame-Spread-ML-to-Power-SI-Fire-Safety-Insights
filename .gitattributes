@@ -1,0 +1,2 @@
+# Preserve exact bytes for source data and reproducibility manifests.
+* -text

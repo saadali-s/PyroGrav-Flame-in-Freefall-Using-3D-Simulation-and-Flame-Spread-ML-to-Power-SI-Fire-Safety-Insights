@@ -1,0 +1,8 @@
+{
+  "gpu": "NVIDIA RTX PRO 500 Blackwell Generation Laptop GPU",
+  "torch": "2.12.0.dev20260408+cu128",
+  "cuda": "12.8",
+  "started_utc": "2026-11-14T14:20:35.252222+00:00",
+  "protocol_sha256": "203cdb8d7da2259803134da006d70c432b46ae3556ffc45afb2162cd002cf1eb",
+  "data_sha256": "407c3e6276b3f62d6f444375a4c46201095f3594527a275deef87ad800f1d7e4"
+}

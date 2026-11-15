@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "pdf_rows": 276,
+  "csv_rows_verified": 274,
+  "accepted_rows_verified": 198,
+  "unique_accepted_source_ids": 198,
+  "normalized_dates": 72,
+  "pdf_sha256": "b4f6ca983e2792c33a0b92220a791a818f426bb635b94f7fd33dc8c9c471e79d",
+  "definition_page": 25,
+  "table_pages": [
+    26,
+    34
+  ]
+}

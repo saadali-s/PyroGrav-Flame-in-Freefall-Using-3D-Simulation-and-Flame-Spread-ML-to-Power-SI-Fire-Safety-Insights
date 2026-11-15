@@ -1,0 +1,12 @@
+{
+  "candidate_training.csv": "c8a27c28a4a4db5aa0e0e382c837d05e5ff34a808f371a25eea5ca28e41b4613",
+  "groups.csv": "507661cfb4cc2e2986dbbf09a46120b5d97c8a5dacfa986391d0b5a9433016ef",
+  "luci_reference_only.csv": "d4229f469a10e8b984ab348f70681b49df75897cc7de3709f45774342d9d7be9",
+  "observations.csv": "d76a8c1b536a9cdf6e5dd64d9647db217f2f2fae7997ca29e6cc9fef98c5251b",
+  "raw_data_manifest.json": "8c2ffd619a8d10e59312abe7b53a8814632ddfe48b1c68ed0491dec70c9e5f37",
+  "review_decisions.csv": "e15e84774360cedfc2e363ceceeb40bc8f8bed60e4b75713c1e564012781231d",
+  "review_queue.csv": "655e1dd2ef04218a7287030445a8f654e412c33d2973f2b2c324fc24957a805f",
+  "sources.csv": "0b66b7f2d5d67317c78ef540905170b8358849a5e6914db00c34b768c15a3184",
+  "source_tables.json": "4797a392ad596b27b06e5f5f8d49b924b7196f830c02433b31b327dec104dce0",
+  "summary.json": "5d532982f7179a02dc1709c21e935d0000636d6bf0729c857beab07e0e13f57a"
+}

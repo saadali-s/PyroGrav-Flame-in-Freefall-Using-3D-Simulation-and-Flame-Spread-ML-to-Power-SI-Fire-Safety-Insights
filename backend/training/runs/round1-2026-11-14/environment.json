@@ -1,0 +1,16 @@
+{
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "catboost": "1.2.10"
+  },
+  "gpu": "0, NVIDIA RTX PRO 500 Blackwell Generation Laptop GPU, GPU-34be99d4-6b21-8b09-d063-bcbec675eaa2, 596.08, 6113 MiB",
+  "cuda_devices": 1,
+  "cuda_visible_devices": null,
+  "protocol_sha256": "b7441ebf55d98188d14d1cc994f70d672fc7cc9020dcdaf7cf9422d15614dbbb",
+  "data_sha256": "c8a27c28a4a4db5aa0e0e382c837d05e5ff34a808f371a25eea5ca28e41b4613",
+  "script_sha256": "53e8e611c58fe3d93a94f621e6fad9af076c37c46bbbd1fede70544cb3cec271",
+  "started_utc": "2026-11-14T10:10:30.475799+00:00"
+}

@@ -1,0 +1,36 @@
+{
+  "run_id": "round1-2026-11-14",
+  "dataset": "pmma-v1-2026-11-14",
+  "candidate_sha256": "c8a27c28a4a4db5aa0e0e382c837d05e5ff34a808f371a25eea5ca28e41b4613",
+  "features": ["oxygen_pct", "diameter_mm", "opposed_flow_cms"],
+  "target": "rate_mms",
+  "seed": 20261114,
+  "models": {
+    "median": {"description": "Training-group-weighted median, CPU"},
+    "nearest": {"description": "Nearest Euclidean condition after training-only weighted standardization; average exact-distance ties, CPU"},
+    "ridge": {"alpha": 1.0, "description": "Linear ridge on training-only weighted-standardized features, CPU"},
+    "catboost_gpu": {
+      "task_type": "GPU", "devices": "0", "iterations": 100, "depth": 2,
+      "learning_rate": 0.03, "l2_leaf_reg": 5.0, "loss_function": "RMSE",
+      "bootstrap_type": "No", "boosting_type": "Plain", "border_count": 32,
+      "random_seed": 20261114, "random_strength": 0, "thread_count": 4,
+      "gpu_ram_part": 0.25, "allow_writing_files": false, "verbose": false
+    }
+  },
+  "evaluations": [
+    "earth_logo: leave one ground condition group out, 35 rows / 19 groups",
+    "microgravity_logo: leave one provisional specimen group out, 34 rows / 11 groups",
+    "earth_to_microgravity: train on all 35 Earth rows, test all 34 flight rows; no tuning on flight results",
+    "microgravity_strict_units_logo: secondary sensitivity, exclude U01 from both fitting and testing"
+  ],
+  "training_weights": "Each group has equal total weight, normalized to mean row weight 1 within each training fold.",
+  "prediction_constraint": "Clip negative rate predictions to zero for all methods; record unclipped predictions and clipping count.",
+  "primary_metric": "Mean across groups of within-group MAE, mm/s",
+  "additional_metrics": ["group-weighted RMSE", "row MAE", "row RMSE", "row R2", "per-group errors", "feature bounding-box exceedances"],
+  "development_gate": "At least 20% lower group MAE than the better of median and nearest-condition baselines, reported separately by evaluation. This is a provisional relative criterion, not demonstrated practical utility.",
+  "absolute_error_gate": "Not established with a domain user; do not certify practical accuracy in this exploratory round.",
+  "error_resampling": "2000 paired group bootstrap resamples of recorded errors; descriptive 2.5/97.5 percentiles. Overlapping CV training sets and small groups limit inference. Not prediction intervals.",
+  "selection_policy": "No hyperparameter search, early stopping, or outcome-driven model changes during this round. Report every predefined model including failures. No winning model certified from this comparison alone.",
+  "excluded": ["LUCI reference values", "review queue", "simulation labels", "seed fixtures", "post-burn duration", "source summaries", "ChemBERTa", "fitted gravity correction"],
+  "limits": ["Ground groups are condition blocks, not verified specimen IDs", "Flight groups are provisional", "Gravity is confounded with apparatus and sampling", "Earth flow has only two settings", "No compatible lunar validation cohort", "GPU floating-point training may not be bitwise deterministic"]
+}

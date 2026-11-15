@@ -1,0 +1,55 @@
+.finder {margin-bottom:24px;background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:clamp(14px,2vw,24px)}
+.heading {display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;padding-bottom:16px;border-bottom:1px solid var(--border)}
+.heading h2,.detail h3 {font-size:20px;font-weight:550}
+.finder p,.finder dd {color:var(--muted);font-size:12px;line-height:1.6;margin:5px 0}
+.finder label {font-size:11px;color:var(--muted);display:flex;align-items:center;flex-wrap:wrap;gap:9px}
+.finder select {max-width:100%;background:var(--bg);color:var(--text);border:1px solid var(--border);padding:8px;border-radius:6px}
+.body {display:grid;grid-template-columns:minmax(0,1.55fr) minmax(300px,1fr);gap:clamp(20px,3vw,48px)}
+.library {min-width:0;border-left:1px solid var(--border);padding-left:clamp(16px,2vw,28px)}
+.views {display:flex;gap:16px;border-bottom:1px solid var(--border);margin:6px 0 12px}
+.views button {padding:8px 0;font-size:12px;color:var(--muted);border-bottom:2px solid transparent}
+.views button[aria-pressed=true]{color:var(--text);border-color:var(--accent)}
+.analytics {min-width:0}
+.analytics h2 {font-size:clamp(18px,1.6vw,25px);line-height:1.2;letter-spacing:-.03em;font-weight:600;margin:6px 0}
+.analytics .ids {color:var(--accent);font-size:11px}
+.grade {display:flex;align-items:center;flex-wrap:wrap;column-gap:clamp(14px,2vw,32px);row-gap:6px;margin:16px 0}
+.grade>div>span {display:flex;align-items:center;gap:7px;color:var(--muted);font-size:11px}
+.grade strong {display:block;font-size:clamp(20px,2vw,29px);font-weight:500;line-height:1.2;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.grade small {display:inline;font-size:10px;letter-spacing:0}
+.grade i {width:8px;height:8px;background:currentColor}
+.grade [data-series=iss],.points[data-series=iss] {color:var(--accent);border-radius:50%}
+.grade [data-series=earth],.points[data-series=earth] {color:var(--amber)}
+.grade [data-series=earth]{transform:rotate(45deg)}
+.grade p {font-size:11px}
+.plot {background:var(--bg);border:1px solid var(--border);border-radius:9px;padding:10px 12px}
+.plotTools,.inspector {display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.plotTools b {font-size:11px;font-weight:500;color:var(--muted)}
+.plot svg {width:100%;max-height:290px;display:block}
+.plot text {font:12px var(--font-geist-sans),sans-serif;fill:var(--muted)}
+.gridline line {stroke:var(--border);stroke-width:1}
+.parity {stroke:var(--muted);stroke-dasharray:4 4}
+.points>g {cursor:pointer}
+.inspector {margin:10px 0}
+.inspector dl {display:flex;flex-wrap:wrap;gap:12px}
+.inspector dt {font-size:10px;color:var(--muted)}
+.inspector dd {font-size:12px;font-variant-numeric:tabular-nums;color:var(--text);margin:0}
+.analytics a {color:var(--accent);text-decoration:underline}
+.ranks {padding:0;margin:0;list-style:none}
+.ranks button {display:flex;width:100%;padding:9px;gap:10px;text-align:left;border:1px solid transparent;border-radius:6px;align-items:center}
+.ranks button[aria-pressed=true] {background:var(--accentbg);border-color:var(--accent)}
+.ranks button>span:first-child {font-variant-numeric:tabular-nums;color:var(--muted)}
+.finder small {display:block;color:var(--muted);font-size:10px}
+.method,.detail details {margin-top:12px}
+.finder summary {cursor:pointer;font-size:11px;color:var(--accent)}
+.details {display:grid;gap:16px}.details[data-paired=true]{grid-template-columns:repeat(2,minmax(0,1fr))}
+.detail {min-width:0;margin-top:12px;border-top:1px solid var(--border);padding-top:10px}
+.detail .ids {color:var(--accent);font-size:10px}
+.detail dl {margin:12px 0}.detail dt {font-size:11px;font-weight:600;color:var(--text)}
+.detail dd {margin:2px 0 8px}.detail .limit strong {color:var(--amber)}
+.detail a {color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.detail ul {margin:8px 0;list-style:none}.detail li {font-size:11px;padding:4px 0}
+.action {display:inline-block;margin-top:12px}
+@media(max-width:1000px){.details[data-paired=true]{grid-template-columns:1fr}}
+@container (max-width:760px){.body{grid-template-columns:1fr}.library{border-left:0;border-top:1px solid var(--border);padding:16px 0 0}}
+.finder {container-type:inline-size}
+@media(max-width:750px){.ranks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.ranks button{height:100%;padding:6px}.finder label{min-width:0}}

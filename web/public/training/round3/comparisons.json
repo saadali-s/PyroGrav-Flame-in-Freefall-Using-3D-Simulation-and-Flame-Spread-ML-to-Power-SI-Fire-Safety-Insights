@@ -1,0 +1,197 @@
+[
+  {
+    "model": "geometry_control",
+    "reference": "nearest",
+    "relative_mae_improvement": -0.5907768337124808,
+    "groups_improved": 2,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      0.004188536388980366,
+      0.016144233590437
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  },
+  {
+    "model": "geometry_control",
+    "reference": "geometry_control",
+    "relative_mae_improvement": 0.0,
+    "groups_improved": 0,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      0.0,
+      0.0
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  },
+  {
+    "model": "geometry_control",
+    "reference": "mixed_3p5",
+    "relative_mae_improvement": 0.9924944625966063,
+    "groups_improved": 11,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      -4.96231904511106,
+      -2.293269240512422
+    ],
+    "exploratory_gate": true,
+    "twenty_percent_gate": true
+  },
+  {
+    "model": "mixed_3p5",
+    "reference": "nearest",
+    "relative_mae_improvement": -210.9470929547584,
+    "groups_improved": 0,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      2.3064164867883616,
+      5.048803823522229
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  },
+  {
+    "model": "mixed_3p5",
+    "reference": "geometry_control",
+    "relative_mae_improvement": -132.2349632349914,
+    "groups_improved": 0,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      2.262504254090825,
+      4.921989882068996
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  },
+  {
+    "model": "mixed_3p5",
+    "reference": "mixed_3p5",
+    "relative_mae_improvement": 0.0,
+    "groups_improved": 0,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      0.0,
+      0.0
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  },
+  {
+    "model": "mixed_3p5_penalty",
+    "reference": "nearest",
+    "relative_mae_improvement": -210.9470929547584,
+    "groups_improved": 0,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      2.251127804715886,
+      4.920802982490058
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  },
+  {
+    "model": "mixed_3p5_penalty",
+    "reference": "geometry_control",
+    "relative_mae_improvement": -132.2349632349914,
+    "groups_improved": 0,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      2.3009518911792535,
+      4.861357044464741
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  },
+  {
+    "model": "mixed_3p5_penalty",
+    "reference": "mixed_3p5",
+    "relative_mae_improvement": 0.0,
+    "groups_improved": 0,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      0.0,
+      0.0
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  },
+  {
+    "model": "mixed_1_penalty",
+    "reference": "nearest",
+    "relative_mae_improvement": -5.5943113342790385,
+    "groups_improved": 1,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      0.0561813151933553,
+      0.13366313582140554
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  },
+  {
+    "model": "mixed_1_penalty",
+    "reference": "geometry_control",
+    "relative_mae_improvement": -3.145340310802454,
+    "groups_improved": 2,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      0.03794082950276926,
+      0.1285724753151038
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  },
+  {
+    "model": "mixed_1_penalty",
+    "reference": "mixed_3p5",
+    "relative_mae_improvement": 0.9688869932474768,
+    "groups_improved": 11,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      -4.826464517995881,
+      -2.2330427963587476
+    ],
+    "exploratory_gate": true,
+    "twenty_percent_gate": true
+  },
+  {
+    "model": "mixed_5p2_penalty",
+    "reference": "nearest",
+    "relative_mae_improvement": -377.30355416533547,
+    "groups_improved": 0,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      4.104637135671167,
+      9.080561176571432
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  },
+  {
+    "model": "mixed_5p2_penalty",
+    "reference": "geometry_control",
+    "relative_mae_improvement": -236.81057540451368,
+    "groups_improved": 0,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      3.960335773137255,
+      9.04763812669765
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  },
+  {
+    "model": "mixed_5p2_penalty",
+    "reference": "mixed_3p5",
+    "relative_mae_improvement": -0.7848961686211333,
+    "groups_improved": 0,
+    "groups": 11,
+    "group_delta_percentiles_mms": [
+      1.7172893373974785,
+      4.088678598812896
+    ],
+    "exploratory_gate": false,
+    "twenty_percent_gate": false
+  }
+]

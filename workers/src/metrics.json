@@ -1,0 +1,66 @@
+{
+  "pmma": [
+    {
+      "evaluation": "earth_logo",
+      "model": "log_geometry_ridge",
+      "rows": 35,
+      "groups": 19,
+      "group_mean_absolute_error": 0.013327813827982137,
+      "units": "mm/s",
+      "project_artifact": "/training/round2/metrics.csv",
+      "sha256": "65ac38ec733931036b8e8071b37a4e522644b4e567c4790905eec4afaad66952"
+    },
+    {
+      "evaluation": "microgravity_logo",
+      "model": "log_geometry_ridge",
+      "rows": 34,
+      "groups": 11,
+      "group_mean_absolute_error": 0.010490585024313702,
+      "units": "mm/s",
+      "project_artifact": "/training/round2/metrics.csv",
+      "sha256": "65ac38ec733931036b8e8071b37a4e522644b4e567c4790905eec4afaad66952"
+    },
+    {
+      "evaluation": "earth_to_microgravity",
+      "model": "log_geometry_ridge",
+      "rows": 34,
+      "groups": 11,
+      "group_mean_absolute_error": 0.026444254592540142,
+      "units": "mm/s",
+      "project_artifact": "/training/round2/metrics.csv",
+      "sha256": "65ac38ec733931036b8e8071b37a4e522644b4e567c4790905eec4afaad66952"
+    },
+    {
+      "evaluation": "earth_to_microgravity",
+      "model": "nearest",
+      "rows": 34,
+      "groups": 11,
+      "group_mean_absolute_error": 0.016623484848484853,
+      "units": "mm/s",
+      "project_artifact": "/training/round1/metrics.csv",
+      "sha256": "3b5241b0122ba5eee48abba3c24af9daa52724ef9456b3674222d5d0a8b47c1f"
+    }
+  ],
+  "flex": [
+    {
+      "evaluation": "condition_group_5fold",
+      "model": "same_fuel_nearest",
+      "rows": 198,
+      "groups": 79,
+      "group_mean_absolute_error": 0.07234388185654009,
+      "units": "mm²/s",
+      "project_artifact": "/training/flex-v1/metrics.csv",
+      "sha256": "0397d0b3d25b3d9023685a63462e950743cf3f18fd9ac4d637cd75d8e339880b"
+    },
+    {
+      "evaluation": "condition_group_5fold",
+      "model": "log_ridge",
+      "rows": 198,
+      "groups": 79,
+      "group_mean_absolute_error": 0.053709784467109334,
+      "units": "mm²/s",
+      "project_artifact": "/training/flex-v1/metrics.csv",
+      "sha256": "0397d0b3d25b3d9023685a63462e950743cf3f18fd9ac4d637cd75d8e339880b"
+    }
+  ]
+}

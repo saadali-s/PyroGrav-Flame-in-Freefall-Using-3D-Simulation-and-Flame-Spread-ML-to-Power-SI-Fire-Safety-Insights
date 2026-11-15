@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "predictions_reconstructed": 504,
+  "splits_checked": 37,
+  "gpu_models_reloaded": 37,
+  "metrics_recomputed": 16,
+  "comparisons_checked": 48,
+  "gates_checked": 4,
+  "raw_files_unchanged": 49,
+  "round1_artifacts_unchanged": 48,
+  "gpu_samples": 62,
+  "sampled_peak_gpu_utilization_pct": 59,
+  "sampled_peak_memory_mib": 1342,
+  "gpu_fit_check_save_seconds": 38.245758300006855,
+  "limits": "Numerical reproduction is not independent experimental validation; Round 2 reuses development folds."
+}

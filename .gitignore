@@ -1,0 +1,28 @@
+# Dependencies and generated output
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.next*/
+dist/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+.wrangler/
+.vercel/
+*.log
+
+# Local credentials
+.env*
+!.env.example
+.dev.vars*
+*.pem
+*.key
+
+# Local scratch and exports
+/tmp/
+/outputs/
+/docs/
+.DS_Store
+Thumbs.db

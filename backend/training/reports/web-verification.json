@@ -1,0 +1,150 @@
+{
+  "passed": true,
+  "checked_route": "/training",
+  "page_status": 200,
+  "nonempty_server_chart_titles": 103,
+  "checked_downloads": [
+    {
+      "name": "candidate_training.csv",
+      "sha256": "c8a27c28a4a4db5aa0e0e382c837d05e5ff34a808f371a25eea5ca28e41b4613",
+      "bytes": 61286
+    },
+    {
+      "name": "groups.csv",
+      "sha256": "507661cfb4cc2e2986dbbf09a46120b5d97c8a5dacfa986391d0b5a9433016ef",
+      "bytes": 6048
+    },
+    {
+      "name": "luci_reference_only.csv",
+      "sha256": "d4229f469a10e8b984ab348f70681b49df75897cc7de3709f45774342d9d7be9",
+      "bytes": 4142
+    },
+    {
+      "name": "observations.csv",
+      "sha256": "d76a8c1b536a9cdf6e5dd64d9647db217f2f2fae7997ca29e6cc9fef98c5251b",
+      "bytes": 87852
+    },
+    {
+      "name": "review_decisions.csv",
+      "sha256": "e15e84774360cedfc2e363ceceeb40bc8f8bed60e4b75713c1e564012781231d",
+      "bytes": 1781
+    },
+    {
+      "name": "review_queue.csv",
+      "sha256": "655e1dd2ef04218a7287030445a8f654e412c33d2973f2b2c324fc24957a805f",
+      "bytes": 27240
+    },
+    {
+      "name": "sources.csv",
+      "sha256": "0b66b7f2d5d67317c78ef540905170b8358849a5e6914db00c34b768c15a3184",
+      "bytes": 1648
+    },
+    {
+      "name": "round1/heldout_predictions.csv",
+      "sha256": "48f7128d1ec6b741d72059b38122932dc6912703cc109a993af8d6021bb659ad",
+      "bytes": 101147
+    },
+    {
+      "name": "round1/metrics.csv",
+      "sha256": "3b5241b0122ba5eee48abba3c24af9daa52724ef9456b3674222d5d0a8b47c1f",
+      "bytes": 2419
+    },
+    {
+      "name": "round1/protocol.json",
+      "sha256": "b7441ebf55d98188d14d1cc994f70d672fc7cc9020dcdaf7cf9422d15614dbbb",
+      "bytes": 3140
+    },
+    {
+      "name": "round1/verification.json",
+      "sha256": "e1439c7711e84fea1327b64ce2e8b1f6878220250ebaefa862ee241f9e6f5d8e",
+      "bytes": 429
+    },
+    {
+      "name": "round1/splits.json",
+      "sha256": "4a186b8535421d81fae6e7fc86fed8a29dd940705a87d626e47456e90cc2e823",
+      "bytes": 44346
+    },
+    {
+      "name": "round2/metrics.csv",
+      "sha256": "65ac38ec733931036b8e8071b37a4e522644b4e567c4790905eec4afaad66952",
+      "bytes": 2553
+    },
+    {
+      "name": "round2/heldout_predictions.csv",
+      "sha256": "a49203a8f21a89f4880fbec98bd1d8d601798edf51cfd869e7864c1a716635ee",
+      "bytes": 127833
+    },
+    {
+      "name": "round2/protocol.json",
+      "sha256": "a1541812da229939071a8e641f49b2a198a86504ba848aa13795e0542389f720",
+      "bytes": 4542
+    },
+    {
+      "name": "round2/verification.json",
+      "sha256": "082cb531ee1e73937affb113f0bcb0312bb78cd90cfa71543f3322043467d368",
+      "bytes": 401
+    },
+    {
+      "name": "round2/splits.json",
+      "sha256": "4a186b8535421d81fae6e7fc86fed8a29dd940705a87d626e47456e90cc2e823",
+      "bytes": 44346
+    },
+    {
+      "name": "round2/comparisons.json",
+      "sha256": "1014ba79c25f22e2ce5f60f78ec6edeb8056d2f6d5ee6e45756b39a0545cbde9",
+      "bytes": 16722
+    },
+    {
+      "name": "round3/metrics.csv",
+      "sha256": "d461b3ce459ed49ca180b49264cc580853148e05ae48ad7548a2cedb71aae454",
+      "bytes": 10713
+    },
+    {
+      "name": "round3/heldout_predictions.csv",
+      "sha256": "a08937352a624719711fbaa4561f9a24567e9b51edfb4f47ad2e4a2640e1fbf5",
+      "bytes": 372188
+    },
+    {
+      "name": "round3/protocol.json",
+      "sha256": "3bc1b27df249f1ae9fccac8f1e6807083bd44d5d5aafe183d8620454193bfa98",
+      "bytes": 4622
+    },
+    {
+      "name": "round3/verification.json",
+      "sha256": "700bbde5a676f513230fca1ac4d95e5156eb7a58d44c1e4570cdf3d17e4d82f5",
+      "bytes": 319
+    },
+    {
+      "name": "round3/splits.json",
+      "sha256": "f8477558bad79595456998f49c605bb84446c6c721174d7f5d5346313fbc9e17",
+      "bytes": 159071
+    },
+    {
+      "name": "round3/comparisons.json",
+      "sha256": "98811bd79e42ea771cea644d88158d4bf7c9b5c9cadcc39dbc1b269a65634ad0",
+      "bytes": 4971
+    },
+    {
+      "name": "round3/round3-independent-verification.json",
+      "sha256": "2dd635ebc6ace7c2f9f60ab9843081a24bb78837e3d1eba1e1bc32e632d36cca",
+      "bytes": 655
+    },
+    {
+      "name": "round3/README.md",
+      "sha256": "16643962412bd02c1e95d01041c400095ddf8025fefc6cd9757b2311a64959e8",
+      "bytes": 14241
+    },
+    {
+      "name": "round3/source-audit.md",
+      "sha256": "e0745eefc0f00111953d0d4797021ecda2d1b1a9792fc301269aa107851c6b2d",
+      "bytes": 7780
+    },
+    {
+      "name": "round3/diagnostics.json",
+      "sha256": "c2ac0469e7a8fb4dcdb9f67d60f730c0604c676baf8da7959063e667c20ad653",
+      "bytes": 819
+    }
+  ],
+  "browser_interaction_verified": false,
+  "browser_limitation": "Local browser use disabled in Work settings. HTTP rendering/downloads checked; user to review filters and visual layout."
+}

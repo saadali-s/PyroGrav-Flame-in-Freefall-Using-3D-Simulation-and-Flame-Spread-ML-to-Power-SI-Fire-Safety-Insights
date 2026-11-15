@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "records_checked": 345,
+  "independent_grid_points": 20001,
+  "maximum_rate_difference_mms": 2.8005375796169574e-13,
+  "local_fitted_parameters": 0,
+  "method": "Independent annular energy formulation, NumPy dense scan and bisection",
+  "statuses": {
+    "published_closure_primary:microgravity:no_bracketed_root": 26,
+    "published_closure_primary:microgravity:conditional_solution": 8,
+    "published_closure_primary:earth:conditional_solution": 35,
+    "no_surface_radiation:microgravity:conditional_solution": 34,
+    "no_surface_radiation:earth:conditional_solution": 35,
+    "half_flame_energy:microgravity:no_bracketed_root": 34,
+    "half_flame_energy:earth:conditional_solution": 35,
+    "kappa_1:microgravity:no_bracketed_root": 26,
+    "kappa_1:microgravity:conditional_solution": 8,
+    "kappa_1:earth:conditional_solution": 35,
+    "kappa_5p2:microgravity:no_bracketed_root": 26,
+    "kappa_5p2:microgravity:conditional_solution": 8,
+    "kappa_5p2:earth:conditional_solution": 35
+  }
+}

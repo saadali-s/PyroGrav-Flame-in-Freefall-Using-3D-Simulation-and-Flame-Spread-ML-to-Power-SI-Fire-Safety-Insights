@@ -1,0 +1,245 @@
+{
+  "version": "investigation-discovery-v1",
+  "reviewed": "2026-11-14",
+  "scope": "Curated subset of local evidence, not the full PSI repository",
+  "ranking": "Direct topic matches, supporting topics, then other topics; within each tier modeled, reference, metadata; then alphabetical. Curator-defined discovery order, not scientific safety or AI confidence.",
+  "context_source": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+  "entries": [
+    {
+      "id": "pmma",
+      "name": "BASS-II / PMMA rods",
+      "ids": "PSI-25 flight + Link 2018 ground",
+      "topics": [
+        "prevention"
+      ],
+      "readiness": "modeled",
+      "objective": "Study opposed flame spread over cylindrical PMMA under different oxygen, flow and gravity conditions.",
+      "material": "Black cast PMMA; cylindrical rods",
+      "configuration": "Opposed flow; Earth ground tests and ISS microgravity",
+      "measurement": "Quasi-steady leading-edge spread rate",
+      "units": "mm/s",
+      "conditions": "Oxygen, diameter and imposed flow. Per-run pressure is unresolved.",
+      "hardware": "BASS-II flow duct / Microgravity Science Glovebox; separate ground apparatus",
+      "available": "69 modeled records: 35 Earth means + 34 ISS segments",
+      "limits": "11 ISS rates retain an inferred-unit flag. Shared specimen grouping is provisional. No validated lunar predictor.",
+      "utility": "Compare within-environment rate estimates and identify where physics or Earth-to-ISS transfer fails.",
+      "sources": [
+        {
+          "path": "backend/data/raw_papers/pmma_cylinders_2018/supplementary_info.pdf",
+          "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41598-017-18398-4/MediaObjects/41598_2017_18398_MOESM1_ESM.pdf",
+          "locator": "Tables S1/S2, PDF pp1–2",
+          "version": "2018 publisher supplement; 4 pages",
+          "sha256": "e17c9511c4b4b253cd0795b3984ffb9347ad5db6354c4ce792adcaf805f21b23"
+        },
+        {
+          "path": "backend/data/raw_papers/pmma_cylinders_2018/Link_2018_Effect_of_Gravity_PMMA_valid.pdf",
+          "url": "https://doi.org/10.1038/s41598-017-18398-4",
+          "locator": "Methods pp3–4; Figures 5–6 p5",
+          "version": "Scientific Reports 8:120 (2018)",
+          "sha256": "dce00fad61256396e348cf3b979e8f977e690fdbc46e7c3f9b84c0328d678584"
+        },
+        {
+          "path": "backend/data/raw_papers/bass_ii_summary/TM-20210011385.pdf",
+          "url": "https://ntrs.nasa.gov/citations/20210011385",
+          "locator": "Appendix A, PDF p114 / printed p106",
+          "version": "NASA/TM-20210011385; 144 PDF pages",
+          "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770"
+        }
+      ],
+      "action": "/simulation?experiment=pmma",
+      "actionLabel": "Open PMMA lab",
+      "relatedTopics": []
+    },
+    {
+      "id": "flex",
+      "name": "FLEX",
+      "ids": "PSI-69 · NASA/TP-2015-216046",
+      "topics": [
+        "suppression"
+      ],
+      "readiness": "modeled",
+      "objective": "Investigate droplet combustion and inert-gas suppressant mixtures in microgravity.",
+      "material": "Methanol and heptane; liquid droplets",
+      "configuration": "ISS microgravity; recorded O2 / N2 / CO2 / He mixtures",
+      "measurement": "Average slope magnitude of droplet diameter squared versus time",
+      "units": "mm²/s",
+      "conditions": "Initial diameter, pressure in mmHg and gas mole fractions.",
+      "hardware": "Multi-User Droplet Combustion Apparatus / Combustion Integrated Rack",
+      "available": "198 eligible / 274 source CSV records; 79 condition groups",
+      "limits": "Rate model only; no extinction probability, causal suppressant ranking or dose recommendation. Disrupted trials excluded.",
+      "utility": "Compare measured burning constants with held-out estimates and inspect the largest errors across recorded mixtures.",
+      "sources": [
+        {
+          "path": "backend/data/raw_papers/flex_2015/20150023456.pdf",
+          "url": "https://ntrs.nasa.gov/citations/20150023456",
+          "locator": "K definition PDF p25; Table IX pp26–34",
+          "version": "NASA/TP-2015-216046, November 2015",
+          "sha256": "b4f6ca983e2792c33a0b92220a791a818f426bb635b94f7fd33dc8c9c471e79d"
+        },
+        {
+          "path": "backend/data/raw_psi/PSI-69/PSI-69_Experimental table_FLEX.csv",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+          "locator": "FLEX: header and 274 data records",
+          "version": "Local downloaded copy; release version unresolved",
+          "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+        }
+      ],
+      "action": "/simulation?experiment=flex",
+      "actionLabel": "Open FLEX lab",
+      "relatedTopics": []
+    },
+    {
+      "id": "same",
+      "name": "SAME / SAME-R",
+      "ids": "PSI-102 / PSI-101",
+      "topics": [
+        "detection"
+      ],
+      "readiness": "metadata",
+      "objective": "Study smoke aerosols relevant to spacecraft detection.",
+      "material": "Smoke-producing samples; material and aging conditions in the local tables",
+      "configuration": "Microgravity smoke experiments; aging and inlet conditions vary",
+      "measurement": "Local files describe experiment settings, not paired detector-response labels",
+      "units": "No admitted detector target",
+      "conditions": "SAME: material, airflow, weight-loss setting, aging. SAME-R: material, inlet velocity, duration and aging.",
+      "hardware": "Smoke aerosol measurement instrumentation; full sensor-response files needed",
+      "available": "8 SAME design-summary rows; 109 SAME-R metadata records",
+      "limits": "Aged measurements can share a test. The SAME-R date field omits the year. No accepted smoke/dust classifier dataset.",
+      "utility": "Find relevant smoke studies and identify the response measurements required before detector modeling.",
+      "sources": [
+        {
+          "path": "backend/data/raw_psi/PSI-102/PSI-102_Experimental table_SAME.csv",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102",
+          "locator": "SAME: header and 8 data records",
+          "version": "Local downloaded copy; release version unresolved",
+          "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af"
+        },
+        {
+          "path": "backend/data/raw_psi/PSI-101/PSI-101_Experimental table_SAME-R.csv",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+          "locator": "SAME-R: header and 109 data records",
+          "version": "Local downloaded copy; release version unresolved",
+          "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef"
+        }
+      ],
+      "action": null,
+      "actionLabel": null,
+      "relatedTopics": []
+    },
+    {
+      "id": "daft",
+      "name": "DAFT",
+      "ids": "PSI-47",
+      "topics": [],
+      "relatedTopics": [
+        "detection"
+      ],
+      "readiness": "metadata",
+      "objective": "Check aerosol instrument operation in microgravity before smoke experiments.",
+      "material": "Dust/aerosol context; CSV material descriptions conflict with the final report",
+      "configuration": "ISS instrument sessions; keep session history and instrument identity explicit",
+      "measurement": "P-Trak number concentration / DustTrak optical mass context; not labeled smoke events",
+      "units": "No admitted classifier target",
+      "conditions": "Session, hardware, sampled location; disputed material assignment.",
+      "hardware": "Modified P-Trak and DustTrak",
+      "available": "2 local session-metadata records; final report also available",
+      "limits": "Do not infer a universal smoke/dust size cutoff or equate readings with independent labeled events.",
+      "utility": "Compare smoke and dust instrument context while making the unresolved sample descriptions visible.",
+      "sources": [
+        {
+          "path": "backend/data/raw_psi/PSI-47/PSI-47_Experimental table_DAFT.csv",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-47",
+          "locator": "DAFT: header and 2 data records",
+          "version": "Local downloaded copy; release version unresolved",
+          "sha256": "d9d1a436c6e7bbc410b433e04575fe7dedaff763b5237d688089929b7393b5c0"
+        },
+        {
+          "path": "backend/data/raw_psi/PSI-47/DAFT final report 6 24 08 as submitted.doc",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-47",
+          "locator": "Final-report narrative; D1/D2 and instrument discussion",
+          "version": "Submitted final report, 24 June 2008",
+          "sha256": "290c97891d80859466551f341e894be7f0c27fad76b787ed410dfce3887ad930"
+        }
+      ],
+      "action": null,
+      "actionLabel": null
+    },
+    {
+      "id": "saffire",
+      "name": "Saffire I–III",
+      "ids": "PSI-98 / PSI-99 / PSI-100",
+      "topics": [
+        "prevention"
+      ],
+      "readiness": "metadata",
+      "objective": "Investigate solid-fuel fire behavior relevant to spacecraft fire safety.",
+      "material": "SIBAL fabric and other solid specimens, depending on campaign",
+      "configuration": "Microgravity; concurrent/opposed entries must remain distinct",
+      "measurement": "Sample settings, camera references and mixed outcome/rate notes",
+      "units": "Mixed source fields; no common admitted target",
+      "conditions": "Dimensions, flow, oxygen and ignition details where recorded.",
+      "hardware": "Saffire apparatus; camera references present in local tables",
+      "available": "4 / 15 / 2 metadata records in I / II / III",
+      "limits": "Do not treat log rows as independent burns. Thickness units and experimental target differences need reconciliation.",
+      "utility": "Locate larger solid-fuel experiment configurations and plan source-controlled extraction.",
+      "sources": [
+        {
+          "path": "backend/data/raw_psi/PSI-98/PSI-98_Experimental table_SAFFIRE-1.csv",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+          "locator": "Saffire 1: header and 4 data records",
+          "version": "Local downloaded copy; release version unresolved",
+          "sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d"
+        },
+        {
+          "path": "backend/data/raw_psi/PSI-99/PSI-99_Experimental table_SAFFIRE-2.csv",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+          "locator": "Saffire 2: header and 15 data records",
+          "version": "Local downloaded copy; release version unresolved",
+          "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac"
+        },
+        {
+          "path": "backend/data/raw_psi/PSI-100/PSI-100_Experimental table_SAFFIRE-3.csv",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-100",
+          "locator": "Saffire 3: header and 2 data records",
+          "version": "Local downloaded copy; release version unresolved",
+          "sha256": "4d3c717ec20dd0247db670b2784a9fd7d746788bc54a936f80693e48eb8cd117"
+        }
+      ],
+      "action": null,
+      "actionLabel": null,
+      "relatedTopics": []
+    },
+    {
+      "id": "luci",
+      "name": "LUCI",
+      "ids": "NTRS 20250010653 · NS-29",
+      "topics": [
+        "partial-gravity",
+        "prevention"
+      ],
+      "readiness": "reference",
+      "objective": "Examine material burning at lunar-like gravity produced by vehicle rotation.",
+      "material": "4 mm PMMA rod and cotton/fiberglass fabric sheet",
+      "configuration": "Rotating suborbital vehicle; lunar-like acceleration, not the lunar surface",
+      "measurement": "Flame growth/spread reference fits from camera observations",
+      "units": "mm/s for curated reference fits; different target definitions",
+      "conditions": "Changing chamber oxygen; orientation and Coriolis effects matter.",
+      "hardware": "Rotating New Shepard payload; two orthogonal cameras",
+      "available": "6 separately curated reference values; not 6 independent tests",
+      "limits": "Upward tip/base growth is not opposed leading-edge spread. Not a compatible answer key for our PMMA model.",
+      "utility": "Identify real partial-gravity evidence and explain the target-matching gap before lunar validation.",
+      "sources": [
+        {
+          "path": "backend/data/raw_papers/luci_2025/ASGSR_2025-LUCI-Ferkul-Presentation-v2-20250010653.pdf",
+          "url": "https://ntrs.nasa.gov/api/citations/20250010653/downloads/ASGSR%202025-LUCI-Ferkul-Presentation-v2-20250010653.pdf",
+          "locator": "PDF pp16,19–22,29,33,36,43",
+          "version": "ASGSR 2025 presentation v2; NTRS 20250010653",
+          "sha256": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79"
+        }
+      ],
+      "action": "/training#pmma",
+      "actionLabel": "Inspect separate references",
+      "relatedTopics": []
+    }
+  ]
+}

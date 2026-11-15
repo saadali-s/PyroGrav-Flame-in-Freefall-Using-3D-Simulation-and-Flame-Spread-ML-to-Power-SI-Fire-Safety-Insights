@@ -1,0 +1,15 @@
+{
+  "comparisons.json": "98811bd79e42ea771cea644d88158d4bf7c9b5c9cadcc39dbc1b269a65634ad0",
+  "environment.json": "4fde3eb18747d7620d2ac6ab2fdfc2382ec90dac00b144135d742b9aaa2b88d0",
+  "fit-log.json": "19dd9e511acb3efdbefcd238aad88a1393af9452e4c2f44c00f5d09f0e7025db",
+  "gpu-monitor.json": "89979653c79dc6b3c9cc291b2036205bc4dcbb8028e98463db1b459e3f4b19ac",
+  "heldout_predictions.csv": "a08937352a624719711fbaa4561f9a24567e9b51edfb4f47ad2e4a2640e1fbf5",
+  "metrics.csv": "d461b3ce459ed49ca180b49264cc580853148e05ae48ad7548a2cedb71aae454",
+  "preserved-hashes.json": "847e1cb1c7e9c2de322793c664457335aa8e4bb06f9c2dbae5e0261221769ac9",
+  "protocol.json": "3bc1b27df249f1ae9fccac8f1e6807083bd44d5d5aafe183d8620454193bfa98",
+  "raw-hashes.json": "002a4857a7ec45dc1b450cd8ac392971516030d78df7e93e8560a6994c3e0f5b",
+  "results.json": "2321c7832b978a4cfbb0565fd2d53c0141cd3cd4e85e5a8871f66ccd36f1220d",
+  "splits.json": "f8477558bad79595456998f49c605bb84446c6c721174d7f5d5346313fbc9e17",
+  "training-script.py": "bee18ec8d069c31f42db9e93cb39494a3e7e767d7f23f41b17e5accb3325958a",
+  "verification.json": "700bbde5a676f513230fca1ac4d95e5156eb7a58d44c1e4570cdf3d17e4d82f5"
+}

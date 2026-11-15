@@ -1,0 +1,86 @@
+{
+  "pmma": {
+    "support": {
+      "earth": {
+        "rows": 35,
+        "nominal_gravity_g": 1,
+        "oxygen_pct": [
+          17.5,
+          20.9
+        ],
+        "diameter_mm": [
+          3.2,
+          6.4,
+          9.5,
+          12.7
+        ],
+        "imposed_flow_cms": [
+          2.0,
+          25.0
+        ]
+      },
+      "microgravity": {
+        "rows": 34,
+        "nominal_gravity_g": 0,
+        "oxygen_pct": [
+          17.0,
+          20.8
+        ],
+        "diameter_mm": [
+          6.4,
+          9.5,
+          12.7
+        ],
+        "imposed_flow_cms": [
+          0.48,
+          0.6,
+          0.82,
+          1.01,
+          1.38,
+          1.43,
+          1.48,
+          1.52,
+          1.54,
+          1.58,
+          1.64,
+          1.73,
+          1.87,
+          1.98,
+          2.0,
+          2.15,
+          2.5,
+          4.0
+        ]
+      }
+    },
+    "support_interpretation": "Marginal ranges/discrete observed values only; not all combinations were observed or validated. Per-row pressure unresolved.",
+    "audited_facts": [
+      "Link 2018 supplement Table S1 p1: left half prints scaled cm/s; right half prints scaled mm/s (Vf x1000 header). The 11 U01-flagged ISS rows are 6.4 mm rods, 17.0–18.9% O2. Their retained conversion is an inference: printed value x0.01 -> mm/s. Example printed 10.00: inferred 0.100 mm/s versus literal right-header 0.010 mm/s. No author-issued correction is established.",
+      "Probable B16/P16 and B19/P19 crosswalks conflict: specialized paper opposed-flow designation versus campaign log concurrent-flow entries. Identity matches remain provisional, not a proven error in either source; eight corresponding B16/B19 segments are withheld from the candidate cohort.",
+      "Moon 0.16g and Mars 0.38g lack matched validation for this opposed leading-edge target. 34% O2 is outside both Earth and ISS observed oxygen ranges. No measured per-row pressure is available for a new 8.2 psi prediction."
+    ],
+    "audit_basis": [
+      {
+        "path": "docs/training-iteration-2026-11-14.md",
+        "sha256": "2ced7e7b02545c0de46098db31d537c20d321e3876b1a5a90e5a15d13142f3cb"
+      },
+      {
+        "path": "docs/round4-research-audit-2026-11-14/README.md",
+        "sha256": "395909f3408598672bad7f4a78a70b1dae37f32cbfee851bca1d29a9d8d5bea6"
+      }
+    ]
+  },
+  "flex": {
+    "audited_facts": [
+      "Rate-unit defect: PSI-69 raw CSV 'Burning rate; mm' must be interpreted as K in mm²/s, according to NASA/TP-2015-216046 p25 and Table IX pp26–34. Separate gas-species defect: 'CO initial ambient composition; mole fraction' denotes CO2, not CO. CO2 is the gas species (carbon dioxide), NOT a unit; its mole fraction is dimensionless. Corrections are in derived data only; originals remain unchanged.",
+      "K is the average slope magnitude of a linear fit to droplet diameter squared versus time shortly after ignition to extinction. It is not linear flame-front velocity, extinction probability or a causal suppressant effect.",
+      "274 raw CSV records were reconciled to Table IX: 258 numeric K, 198 eligible records in 79 condition groups; 76 retained for review. This corpus is FLEX (PSI-69); do not relabel it FLEX-2 without a source."
+    ],
+    "audit_basis": [
+      {
+        "path": "docs/flex-round1-2026-11-14/README.md",
+        "sha256": "0472e48c07308f465eb41474673900dcdb2586f693cf64dc79ce3b0468de4299"
+      }
+    ]
+  }
+}
